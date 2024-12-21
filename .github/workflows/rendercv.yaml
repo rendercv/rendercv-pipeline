@@ -17,7 +17,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
+      - name: Create docs folder
+        run: mkdir -p docs
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
@@ -30,7 +32,7 @@ jobs:
             exit 1
           fi
           cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path docs/index.html --dont-generate-png
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
