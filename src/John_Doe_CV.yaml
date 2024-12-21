@@ -1,14 +1,14 @@
 cv:
-  name: John Doe
-  location: Your Location
-  email: youremail@yourdomain.com
-  phone: tel:+90-541-999-99-99
+  name: Fabio Calefato
+  location: Bari, italy
+  email: fabio.calefato@uniba.it
+  phone: tel:+39-080-571-2213
   website: https://yourwebsite.com/
   social_networks:
     - network: LinkedIn
-      username: yourusername
+      username: fcalefato
     - network: GitHub
-      username: yourusername
+      username: bateman
   sections:
     welcome_to_RenderCV!:
       - '[RenderCV](https://rendercv.com) is a LaTeX-based CV/resume
