@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        RenderCV Pipeline
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <!-- Remove below in src/markdown/Header.j2.md not in README.md -->
+
+        <h1>RenderCV Pipeline</h1>
+        <p>Are you ready to revolutionize the way you manage and craft your CVs and resumes?</p>
+        <p>Picture this:</p>
+        <ol>
+        <li>You simply update your <code>src/John_Doe_CV.yaml</code> input file and push the changes.</li>
+        <li>Then, a pipeline generates a new PDF and Markdown from it and uploads it to the repository.</li>
+        <li>When you are done with your work, you can create a new release on GitHub, tagging your CV with something like <code>v2024.04</code>. The pipeline will automatically add the PDF and its $\LaTeX$ source as assets to the release.</li>
+        <li>You have successfully created your CV pipeline, and all the history is in safe hands and reproducible.</li>
+        </ol>
+        <p><strong>How to start?</strong></p>
+        <ol>
+        <li><a href="https://github.com/new?template_name=rendercv-pipeline&amp;template_owner=sinaatalay">Click here</a> to create your CV repository based on this <code>rendercv-pipeline</code> template repository.</li>
+        <li>
+        <p>Edit either</p>
+        <ul>
+        <li>the <code>src/John_Doe_CV.yaml</code> file, or</li>
+        <li>the contents of <code>src/markdown</code> or <code>src/classic</code> directories</li>
+        </ul>
+        <p>and push. Then, see the magic happen.</p>
+        </li>
+        </ol>
+        <p><strong>Some tips</strong></p>
+        <ul>
+        <li>Learn more about <a href="https://github.com/sinaatalay/rendercv">RenderCV</a> to understand what you can do with this tool.</li>
+        <li>Edit and preview your CV in your browser without installing anything by creating a codespace. Click the &lt;&gt; <strong>Code</strong> button, then click the <strong>Codespaces</strong> tab, and then click <strong>Create codespace on main</strong>. The environment will be ready for RenderCV usage. Update <code>.vscode/launch.json</code> to point to your YAML file and press <code>F5</code> to run RenderCV in the browser.</li>
+        </ul>
+        <!-- Remove above in src/markdown/Header.j2.md not in README.md -->
+        <h1>Fabio Calefato's CV</h1>
+        <ul>
+        <li>Phone: +39 080 571 2213</li>
+        <li>Email: <a href="mailto:fabio.calefato@uniba.it">fabio.calefato@uniba.it</a></li>
+        <li>Location: Bari, Italy</li>
+        <li>Website: <a href="https://yourwebsite.com/">yourwebsite.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/fcalefato">fcalefato</a></li>
+        <li>GitHub: <a href="https://github.com/bateman">bateman</a></li>
+        </ul>
+        <h1>Welcome to RenderCV!</h1>
+        <p><a href="https://rendercv.com">RenderCV</a> is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with <strong>Markdown syntax support</strong> and <strong>complete control over the LaTeX code</strong>.</p>
+        <p>The boilerplate content was inspired by <a href="https://github.com/dnl-blkv/mcdowell-cv">Gayle McDowell</a>.</p>
+        <h1>Quick Guide</h1>
+        <ul>
+        <li>Each section title is arbitrary and each section contains a list of entries.</li>
+        <li>There are 7 unique entry types: <em>BulletEntry</em>, <em>TextEntry</em>, <em>EducationEntry</em>, <em>ExperienceEntry</em>, <em>NormalEntry</em>, <em>PublicationEntry</em>, and <em>OneLineEntry</em>.</li>
+        <li>Select a section title, pick an entry type, and start writing your section!</li>
+        <li><a href="https://docs.rendercv.com/user_guide/">Here</a>, you can find a comprehensive user guide for RenderCV.</li>
+        </ul>
+        <h1>Education</h1>
+        <h2>University of Bari, Italy, MsC in Computer Science</h2>
+        <ul>
+        <li>Sept 1996 – Oct 2002</li>
+        <li>GPA: 3.9/4.0 (<a href="https://example.com">a link to somewhere</a>)</li>
+        <li><strong>Coursework:</strong> Computer Architecture, Comparison of Learning Algorithms, Computational Theory</li>
+        </ul>
+        <h1>Experience</h1>
+        <h2>Apple, Software Engineer</h2>
+        <ul>
+        <li>June 2005 – Aug 2007</li>
+        <li>Cupertino, CA</li>
+        <li>Reduced time to render user buddy lists by 75% by implementing a prediction algorithm</li>
+        <li>Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database</li>
+        <li>Redesigned chat file format and implemented backward compatibility for search</li>
+        </ul>
+        <h2>Microsoft, Software Engineer Intern</h2>
+        <ul>
+        <li>June 2003 – Aug 2003</li>
+        <li>Redmond, WA</li>
+        <li>Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows</li>
+        <li>Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching</li>
+        <li>Built an app to compute the similarity of all methods in a codebase, reducing the time from $$\mathcal{O}(n^2)$$ to $$\mathcal{O}(n \log n)$$</li>
+        <li>Created a test case generation tool that creates random XML docs from XML Schema</li>
+        <li>Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts</li>
+        </ul>
+        <h1>Publications</h1>
+        <h2>3D Finite Element Analysis of No-Insulation Coils (<a href="https://doi.org/10.1109/TASC.2023.3340648">10.1109/TASC.2023.3340648</a>)</h2>
+        <ul>
+        <li>Jan 2004</li>
+        <li>Frodo Baggins, <strong><em>Fabio Calefato</em></strong>, Samwise Gamgee</li>
+        </ul>
+        <h1>Projects</h1>
+        <h2>Multi-User Drawing Tool</h2>
+        <ul>
+        <li><a href="https://github.com/rendercv/rendercv">github.com/name/repo</a></li>
+        <li>Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized</li>
+        <li>Tools Used: C++, MFC</li>
+        </ul>
+        <h2>Synchronized Desktop Calendar</h2>
+        <ul>
+        <li><a href="https://github.com/rendercv/rendercv">github.com/name/repo</a></li>
+        <li>Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users</li>
+        <li>Tools Used: C#, .NET, SQL, XML</li>
+        </ul>
+        <h2>Custom Operating System</h2>
+        <ul>
+        <li>2002</li>
+        <li>Built a UNIX-style OS with a scheduler, file system, text editor, and calculator</li>
+        <li>Tools Used: C</li>
+        </ul>
+        <h1>Technologies</h1>
+        <ul>
+        <li>Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript</li>
+        <li>Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder</li>
+        </ul>
+    </article>
+</body>
+
+</html>
