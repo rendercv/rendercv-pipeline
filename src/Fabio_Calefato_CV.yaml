@@ -28,11 +28,11 @@ cv:
       - bullet: '[Here](https://docs.rendercv.com/user_guide/),
           you can find a comprehensive user guide for RenderCV.'
     education:
-      - institution: University of Pennsylvania
+      - institution: University of Bari, Italy
         area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
+        degree: MsC
+        start_date: 1996-09
+        end_date: 2002-10
         highlights:
           - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
           - '**Coursework:** Computer Architecture, Comparison
@@ -72,7 +72,7 @@ cv:
       - title: 3D Finite Element Analysis of No-Insulation Coils
         authors:
           - Frodo Baggins
-          - '***John Doe***'
+          - '***Fabio Calefato***'
           - Samwise Gamgee
         doi: 10.1109/TASC.2023.3340648
         date: 2004-01
