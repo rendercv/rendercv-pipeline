@@ -3,7 +3,7 @@
 - Phone: +39 080 571 2213
 - Email: [fabio.calefato@uniba.it](mailto:fabio.calefato@uniba.it)
 - Location: Bari, Italy
-- Website: [bateman.github.iorendercv-pipeline](https://bateman.github.io/rendercv-pipeline/)
+- Website: [bateman.github.io/rendercv-pipeline/](https://bateman.github.io/rendercv-pipeline/)
 - LinkedIn: [fcalefato](https://linkedin.com/in/fcalefato)
 - GitHub: [bateman](https://github.com/bateman)
 
