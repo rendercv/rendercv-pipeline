@@ -28,11 +28,11 @@ cv:
       - bullet: '[Here](https://docs.rendercv.com/user_guide/),
           you can find a comprehensive user guide for RenderCV.'
     education:
-      - institution: University of Bari, Italy
+      - institution: University of Pennsylvania
         area: Computer Science
-        degree: MsC
-        start_date: 1996-09
-        end_date: 2002-10
+        degree: BS
+        start_date: 2000-09
+        end_date: 2005-05
         highlights:
           - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
           - '**Coursework:** Computer Architecture, Comparison
@@ -72,7 +72,7 @@ cv:
       - title: 3D Finite Element Analysis of No-Insulation Coils
         authors:
           - Frodo Baggins
-          - '***Fabio Calefato***'
+          - '***John Doe***'
           - Samwise Gamgee
         doi: 10.1109/TASC.2023.3340648
         date: 2004-01
@@ -104,20 +104,20 @@ cv:
         details: .NET, Microsoft SQL Server, XCode, Interface
           Builder
 design:
-  theme: classic
-  font: Source Sans 3
+  theme: engineeringresumes
+  font: Charter
   font_size: 10pt
-  page_size: letterpaper
-  color: '#004f90'
+  page_size: a4paper
+  color: black
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
+  disable_last_updated_date: true
   last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
+  header_font_size: 25 pt
+  text_alignment: left-aligned
+  seperator_between_connections: $|$
+  use_icons_for_connections: false
   margins:
     page:
       top: 2 cm
@@ -128,16 +128,14 @@ design:
       top: 0.3 cm
       bottom: 0.2 cm
     entry_area:
-      left_and_right: 0.2 cm
+      left_and_right: 0 cm
       vertical_between: 0.2 cm
       date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
     highlights_area:
       top: 0.10 cm
-      left: 0.4 cm
+      left: 0 cm
       vertical_between_bullet_points: 0.10 cm
     header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in: []
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
