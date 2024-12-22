@@ -22,9 +22,9 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 - [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Bari, Italy, MsC in Computer Science
+## University of Pennsylvania, BS in Computer Science
 
-- Sept 1996 – Oct 2002
+- Sept 2000 – May 2005
 - GPA: 3.9/4.0 ([a link to somewhere](https://example.com))
 - **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
 
@@ -52,7 +52,7 @@ The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-
 
 ## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
 - Jan 2004
-- Frodo Baggins, ***Fabio Calefato***, Samwise Gamgee
+- Frodo Baggins, ***John Doe***, Samwise Gamgee
 
 # Projects
 
