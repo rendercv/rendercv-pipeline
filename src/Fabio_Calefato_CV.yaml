@@ -3,106 +3,374 @@ cv:
   location: Bari, Italy
   email: fabio.calefato@uniba.it
   phone: tel:+39-080-571-2213
-  website: https://bateman.github.io/rendercv-pipeline/
+  website: https://collab.di.uniba.it/fabio
   social_networks:
-    - network: LinkedIn
-      username: fcalefato
+    - network: ORCID
+      username: 0000-0003-2654-1588
+    - network: Google Scholar
+      username: n_XWRkoAAAAJ
     - network: GitHub
       username: bateman
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a LaTeX-based CV/resume
-        version-control and maintenance app. It allows you to
-        create a high-quality CV or resume as a PDF file from
-        a YAML file, with **Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section
-          contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and
-          start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
+    current_position:
+      - company: University of Bari, Dept. of Computer Science
+        position: Associate Professor
+        location: Bari, Italy
+        start_date: 2022-11
+        highlights:
+          - Holds the national habilitation as Full Professor since Dec 2023
+      - company: PeoplewareAI s.r.l.
+        position: Co-founder and CEO
+        location: Bari, Italy
+        start_date: 2021-02
+        highlights:
+          - "[PeoplewareAI](https://peopleware.ai) is a spin-off company of the University of Bari, founded to transfer the results of research in the field of AI and software engineering to the market"
+
     education:
-      - institution: University of Pennsylvania
-        area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
+      - institution: University of Bari, Italy
+        area: "**Computer Science**"
+        degree: "**PhD**"
+        start_date: 2004-01
+        end_date: 2007-05
         highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
+          - "*Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''*"
+          - "*Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area of Software Engineering*"
+      - institution: University of Bari, Italy
+        area: "**Computer Science**"
+        degree: "**MSc**"
+        start_date: 1996-09
+        end_date: 2002-10
+        highlights:
+          - "*Thesis: ``P2P Conferences in JXTA''*"
+          - "*Graduation grade: 110/110 with honors*"
+
     experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
-        highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
-        highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $$\mathcal{O}(n^2)$$
-            to $$\mathcal{O}(n \log n)$$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
+      - company: University of Bari, Dept. of Computer Science
+        position: Tenure-track Assistant Professor
+        location: Bari, Italy
+        start_date: 2019-11
+        end_date: 2022-11
+      - company: University of Bari, Jonian Dept.
+        position: Untenured Assistant Professor
+        location: Taranto, Italy
+        start_date: 2015-11
+        end_date: 2019-11
+      - company: University of Bari, Dept. of Computer Science
+        position: Postdoctoral Research Fellow
+        location: Bari, Italy
+        start_date: 2013-07
+        end_date: 2015-07
+      - company: University of Bari, Dept. of Computer Science
+        position: Postdoctoral Research Fellow
+        location: Bari, Italy
+        start_date: 2010-04
+        end_date: 2013-03
+      - company: University of Bari, Dept. of Computer Science
+        position: Postdoctoral Research Fellow
+        location: Bari, Italy
+        start_date: 2007-04
+        end_date: 2008-11
+
+    bibliometrics:
+      - label: Google Scholar
+        details: "*h*-index 30, 3,100+ citations"
+      - label: Scopus
+        details: "*h*-index 21, 1,500+ citations"
+
     publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
+      - title: A Multivocal Literature Review on the Benefits and Limitations of Automated Machine Learning Tools
         authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/rendercv/rendercv)'
+          - L. Quaranta
+          - K. Azevedo
+          - "***F. Calefato***"
+          - M. Kalinowski
+        date: 2025-02
+        journal: Information and Software Technology, vol. 178, no. 107608
+        doi: 10.1016/j.infsof.2024.107608
+      - title: "Pynblint: A Quality Assurance Tool to Improve the Quality of Python Jupyter Notebooks"
+        authors:
+          - L. Quaranta
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2024
+        journal: SoftwareX, vol. 28, no. 101959
+        doi: 10.1016/j.softx.2024.101959
+      - title: "A Lot of Talk and a Badge: An Exploratory Analysis of Personal Achievements in GitHub"
+        authors:
+          - "***F. Calefato***"
+          - L. Quaranta
+          - F. Lanubile
+        date: 2024-12
+        journal: Information and Software Technology (IST), vol. 176, no. 107561
+        doi: 10.1016/j.infsof.2024.107561
+      - title: "Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen Manifesto"
+        authors:
+          - D. Russo
+          - et al.
+        date: 2024-10
+        journal: Journal of Systems and Software (JSS), vol. 216, no. 112115
+        doi: 10.1016/j.jss.2024.112115
+
+    events_organization:
+      - name: Program Co-Chair
         highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/rendercv/rendercv)'
+          - "*40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24),
+            Flagstaff, AZ, USA, Oct 2024*"
+          - "*16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23),
+            Melbourne, Australia, May 2023*"
+          - "*8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA, USA, Nov 14, 2016
+            – co-located with FSE'16*"
+          - "*1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio, TX, USA, Feb 24, 2013
+            – co-located with CSCW'13*"
+      - name: General Chair
         highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
+          - "*14th International Conference on Global Software Engineering (ICGSE'19), Montreal, Canada,
+            25-26 May 2018*"
+      - name: Steering Board Member
         highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
-    technologies:
-      - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
+          - "*Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022*"
+      - name: Track Co-Chair
+        highlights:
+          - "*43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering
+            (SCORE) track, Madrid, Spain, May 2021*"
+      - name: Workshops & Tutorials Co-Chair
+        highlights:
+          - "*23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23),
+            Jyväskylä, Finland, 21-23 November 2022*"
+      - name: Workshops Co-Chair
+        highlights:
+          - "*10th Int’l Conf. on Global Software Engineering (ICGSE'15),
+            Ciudad Real, Spain, 13-16 July 2015*"
+      - name: Open-science Co-Chair
+        highlights:
+          - "*15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21),
+            Bari, Italy, 11-15 Oct 2021*"
+          - "*14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20),
+            Bari, Italy, 5-9 Oct 2020*"
+      - name: Publicity & Social Media Chair
+        highlights:
+          - "*21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark,
+            8-12 June 2020*"
+          - "*13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden,
+            28-29 May 2018*"
+          - "*8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy,
+            26-29 Aug 2013*"
+
+    editorial_activities:
+      - name: Associate Editor
+        highlights:
+          - "*Elsevier `Journal of Systems and Software' (JSS), rank: SJR Q1*"
+          - "*Springer `Automated Software Engineering' (ASE)*"
+      - name: Guest Editor
+        highlights:
+          - "*2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
+            Special Issue on ``Software Maintenance and Evolution.''
+            Co-editor: Sarah Nadi (New York University, Abu Dhabi)*"
+          - "*2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
+            Special Issue on [``Cooperative and Human Aspects of Software Engineering''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html).
+            Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and
+            Igor Steinmacher (NAU, USA)*"
+          - "*2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1.
+            Special Issue on [``Global Software Engineering: Challenges and Solutions.''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT)
+            Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India),
+            Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)*"
+      - name: Review Board Member
+        highlights:
+          - "*2023 – present: Replicated Computational Results Distinguished Reviewers Board for
+            ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1*"
+          - "*2020 – 2022: ACM `Transactions on Software Engineering and Methodology’ (TOSEM),
+            rank: SJR Q1*"
+          - "*2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE, SJR Q1),
+            rank: SJR Q1*"
+      - name: Peer Reviews (partial list)
+        location: "**verified record on [Clarivate](https://www.webofscience.com/wos/author/record/H-4177-2014)**"
+        highlights:
+          - "*(23) Springer `Journal of Empirical Software Engineering' (EMSE), rank: SJR Q1*"
+          - "*(19) IEEE `Transactions on Software Engineering' (TSE), rank: SJR Q1*"
+          - "*(16) ACM `Transactions on Software Engineering and Methodology' (TOSEM), rank: SJR Q1*"
+          - "*(12) Elsevier `Journal of System and Software' (JSS), rank: SJR Q1*"
+          - "*(8) Elsevier `Information and Software Technology' (INFSOF), rank: SJR Q1*"
+          - "*(7) Wiley `Journal of Software: Evolution and Process' (JSEP), rank: SJR Q2*"
+          - "*(5) IEEE `Software,' rank: SJR Q2*"
+          - "*(2) IEEE `Transactions on Affective Computing,' rank: SJR Q1*"
+          - "*(1) ACM `Transactions on Internet Technologies' (TOIT), rank: SJR Q1*"
+
+    institutional_services:
+      - name: Rector’s Delegate for the GARR Network
+        highlights:
+          - "*May 2023 - present: The GARR Consortium is the Italian national research and education network,
+            providing high-speed Internet connectivity and advanced services to universities and research
+            institutions.*"
+      - name: CS Dept. Director’s Delegate for Internship Programs
+        highlights:
+          - "*Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs,
+            coordinating with industry partners, mentoring students, ensuring compliance with academic
+            standards, and evaluating the effectiveness of the internship experiences.*"
+
+    Ph.D._students_supervision:
+      - institution: Kelly Azevedo Borges Leal 
+        area: "Dept. of Computer Science"
+        location: "Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil"
+        start_date: 2023-07
+        highlights:
+          - "*Topic: AutoML for Software Engineering*"
+          - "*Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*"
+      - institution: Luigi Quaranta 
+        area: "Dept. of Computer Science, Ph.D. program cycle XXXV"
+        location: "University of Bari, Italy"
+        date: 2022-11-14
+        highlights:
+          - "*Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''*"
+          - "*Co-supervised with prof. Filippo Lanubile*"
+      - institution: Giuseppe Iaffaldano
+        area: "Dept. of Computer Science, Ph.D. program cycle XXXII"
+        location: "University of Bari, Italy"
+        date: 2020-02-14
+        highlights:
+          - "*Thesis: ``Investigating the Dynamics of Online Creative Communities''*"
+          - "*Co-supervised with prof. Filippo Lanubile*"
+
+    membership_in_doctoral_boards:
+      - institution: Ph.D. program in Computer Science and Mathematics (XL cycle)
+        location: University of Bari, Italy
+        area: Dept. of Computer Science
+        start_date: 2024
+        end_date: 2025
+      - institution: Ph.D. program in Computer Science and Mathematics (XXXIX cycle)
+        location: University of Bari, Italy
+        area: Dept. of Computer Science
+        start_date: 2023
+        end_date: 2024
+      - institution: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
+        location: University of Bari, Italy
+        area: Dept. of Computer Science
+        start_date: 2022
+        end_date: 2023
+      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle)
+        location: Polytechnic University of Bari, Italy
+        area: Dept. of Electrical and Information Engineering
+        start_date: 2021
+        end_date: 2022
+      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle)
+        location: Polytechnic University of Bari, Italy
+        area: Dept. of Electrical and Information Engineering
+        start_date: 2020
+        end_date: 2021
+
+    teaching:
+      - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
+        area:  University of Bari, Dept. of Computer Science
+        degree: BSc in Computer Science and Software Production Technologies (ITPS), 2nd year
+        location: Bari, Italy
+        start_date: 2019
+        end_date: 2025
+      - institution: Social Computing [6 ECTS]
+        area:  University of Bari, Dept. of Computer Science
+        degree: MSc in Computer Science, 1st year
+        location: Bari, Italy
+        start_date: 2021
+        end_date: 2024
+      - institution:  Software Solutions for Reproducible Experiments [2 ECTS]
+        area:  University of Bari, Dept. of Computer Science
+        degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
+        location: Bari, Italy
+        start_date: 2022
+        end_date: 2023
+      - institution: Social Computing [5 ECTS]
+        area: ''
+        degree: MSc in Computer Science and Engineering???, University of Oulu
+        location: Oulu, Finland
+        start_date: 2022
+        end_date: 2023
+      - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
+        area: University of Bari, Dept. of Computer Science
+        degree: BSc in Computer Science, 3rd year
+        location: Bari, Italy
+        start_date: 2018
+        end_date: 2019
+      - institution: Mining Socio-technical Repositories [3 ECTS]
+        area: ''
+        degree: Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2017
+        end_date: 2018
+      - institution: "IT Tools Supporting Legal and Economic Research: Blockchain for Tracking Production and Transportation Chains [2 ECTS]"
+        area: ''
+        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXIII cycle), University of Bari, Jonian Dept. (Law and Business School)
+        location: Taranto, Italy
+        start_date: 2017
+        end_date: 2018
+      - institution: Classification Models in Software Engineering [2 ECTS]
+        area: ''
+        degree: Ph.D. program in Computer Science, University of Oulu
+        location: Oulu, Finland
+        start_date: 2016
+        end_date: 2017
+      - institution: Emotion Awareness in Social Computing [2 ECTS]
+        area: ''
+        degree: Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science
+        location: Oulu, Finland
+        start_date: 2016
+        end_date: 2017
+        highlights: 
+          - Co-taught with Prof. Nicole Novielli
+      - institution:  IT Tools Supporting Legal and Economic Research [2 ECTS]
+        area: ''
+        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXII cycle), University of Bari, Jonian Dept. (Law and Business School)
+        location: Taranto, Italy
+        start_date: 2016
+        end_date: 2017
+      - institution: Informatica (Computer Science) [9 ECTS]
+        area: ''
+        degree: BSc in Maritime Sciences and Management (SGAM), 2nd year
+        location: Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science
+        start_date: 2015
+        end_date: 2020
+      - institution: Abilità Informatica (Computer Skills) [4 ECTS]
+        area: ''
+        degree: Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School)
+        location: Taranto, Italy
+        start_date: 2015
+        end_date: 2020
+      - institution: Laboratorio di Informatica (C Programming Lab) [9 ECTS]
+        area: ''
+        degree: BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2014
+        end_date: 2015
+      - institution: Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS]
+        area: ''
+        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
+        location: Brindisi, Italy
+        start_date: 2014
+        end_date: 2015
+      - institution: Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]
+        area: ''
+        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
+        location: Brindis, Italy
+        start_date: 2008
+        end_date: 2013
+
+    invited_seminars:
+      - institution: "Collaboration in Software Engineering: 10 Years in Review"
+        area: ''
+        location: Carnegie Mellon University, USA
+        date: 2017-10-02
+      - institution: "Classification Models in Software Engineering: From Defect to Best-Answer Prediction"
+        area: ''
+        location: University of Victoria, Canada
+        date: 2016-11-24
+
+    software:
+      - name: EMTk (Emotion-Mining Toolkit)
+        date: "[EMTk on GitHub](https://github.com/collab-uniba/EMTk)"
+        highlights:
+          - EmoTxt is the module for training custom emotion classifiers from text. It provides
+            out of the box an emotion classifier specifically tuned for mining emotion from developers'
+            communication channels, such as Stack Overflow.
+          - Senti4SD is the module for emotion-polarity classification (sentiment analysis)
+            specifically trained on technical corpora from developers' communication channels,
+            such as GitHub and StackOveflow.
 design:
   theme: engineeringresumes
   font: Charter
@@ -111,13 +379,13 @@ design:
   color: black
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: true
-  last_updated_date_style: Last updated in TODAY
+  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style:  Updated$:$ TODAY
   header_font_size: 25 pt
   text_alignment: left-aligned
   seperator_between_connections: $|$
-  use_icons_for_connections: false
+  use_icons_for_connections: true
   margins:
     page:
       top: 2 cm
