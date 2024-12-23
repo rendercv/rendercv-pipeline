@@ -57,7 +57,7 @@
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
 \patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Fabio Calefato - Page \thepage{} of \pageref*{LastPage}}
+    \color{gray}\textit{\small Page \thepage{} of \pageref*{LastPage}}
 }{}{} % replace number by desired string
 \makeatother
 \pagestyle{customFooterStyle}
@@ -146,7 +146,7 @@
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in December 2024}\hspace{\widthof{Last updated in December 2024}}
+        \small\color{gray}\textit{Updated$:$ December 2024}\hspace{\widthof{Updated$:$ December 2024}}
     }}}%
   }%
 }%
@@ -166,88 +166,109 @@
     \newsavebox\ANDbox
     \sbox\ANDbox{$|$}
 
+    \placelastupdatedtext
     \begin{header}
         \fontsize{25 pt}{25 pt}\selectfont Fabio Calefato
 
         \vspace{5 pt}
 
         \normalsize
-        \mbox{Bari, Italy}%
+        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Bari, Italy}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{mailto:fabio.calefato@uniba.it}{fabio.calefato@uniba.it}}%
+        \mbox{\hrefWithoutArrow{mailto:fabio.calefato@uniba.it}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}fabio.calefato@uniba.it}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{tel:+39-080-571-2213}{080 571 2213}}%
+        \mbox{\hrefWithoutArrow{tel:+39-080-571-2213}{{\footnotesize\faPhone*}\hspace*{0.13cm}080 571 2213}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://bateman.github.io/rendercv-pipeline/}{bateman.github.io/rendercv-pipeline}}%
+        \mbox{\hrefWithoutArrow{https://collab.di.uniba.it/fabio}{{\footnotesize\faLink}\hspace*{0.13cm}collab.di.uniba.it/fabio}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://linkedin.com/in/fcalefato}{linkedin.com/in/fcalefato}}%
+        \mbox{\hrefWithoutArrow{https://orcid.org/0000-0003-2654-1588}{{\footnotesize\faOrcid}\hspace*{0.13cm}0000-0003-2654-1588}}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://github.com/bateman}{github.com/bateman}}%
+        \mbox{\hrefWithoutArrow{https://scholar.google.com/citations?user=n_XWRkoAAAAJ}{{\footnotesize\faGraduationCap}\hspace*{0.13cm}Google Scholar}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/bateman}{{\footnotesize\faGithub}\hspace*{0.13cm}bateman}}%
     \end{header}
 
     \vspace{5 pt - 0.3 cm}
 
 
-    \section{Welcome to RenderCV!}
+    \section{Current Position}
 
 
 
         
+        \begin{twocolentry}{
+            Nov 2022 – present
+        }
+            \textbf{Associate Professor}, University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+        \vspace{0.10 cm}
         \begin{onecolentry}
-            \href{https://rendercv.com}{RenderCV} is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{Markdown syntax support} and \textbf{complete control over the LaTeX code}.
+            \begin{highlights}
+                \item Holds the national habilitation as Full Professor since Dec 2023
+            \end{highlights}
         \end{onecolentry}
+
 
         \vspace{0.2 cm}
 
+        \begin{twocolentry}{
+            Feb 2021 – present
+        }
+            \textbf{Co-founder and CEO}, PeoplewareAI s.r.l. -- Bari, Italy\end{twocolentry}
+
+        \vspace{0.10 cm}
         \begin{onecolentry}
-            The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
+            \begin{highlights}
+                \item \href{https://peopleware.ai}{PeoplewareAI} is a spin-off company of the University of Bari, founded to transfer the results of research in the field of AI and software engineering to the market
+            \end{highlights}
         \end{onecolentry}
 
 
+
     
-    \section{Quick Guide}
-
-    \begin{onecolentry}
-        \begin{highlightsforbulletentries}
-
-
-        \item Each section title is arbitrary and each section contains a list of entries.
-
-        \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
-
-        \item Select a section title, pick an entry type, and start writing your section!
-
-        \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
-
-
-        \end{highlightsforbulletentries}
-    \end{onecolentry}
-
     \section{Education}
 
 
 
         
         \begin{twocolentry}{
-            Sept 2000 – May 2005
+            Jan 2004 – May 2007
         }
-            \textbf{University of Pennsylvania}, BS in Computer Science\end{twocolentry}
+            \textbf{University of Bari, Italy}, \textbf{PhD} in \textbf{Computer Science}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item GPA: 3.9/4.0 (\href{https://example.com}{a link to somewhere})
-                \item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+                \item \textit{Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''}
+                \item \textit{Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area of Software Engineering}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Sept 1996 – Oct 2002
+        }
+            \textbf{University of Bari, Italy}, \textbf{MSc} in \textbf{Computer Science}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Thesis: ``P2P Conferences in JXTA''}
+                \item \textit{Graduation grade: 110/110 with honors}
             \end{highlights}
         \end{onecolentry}
 
@@ -260,38 +281,64 @@
 
         
         \begin{twocolentry}{
-            June 2005 – Aug 2007
+            Nov 2019 – Nov 2022
         }
-            \textbf{Software Engineer}, Apple -- Cupertino, CA\end{twocolentry}
+            \textbf{Tenure-track Assistant Professor}, University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
 
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
-            \end{highlights}
-        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            June 2003 – Aug 2003
+            Nov 2015 – Nov 2019
         }
-            \textbf{Software Engineer Intern}, Microsoft -- Redmond, WA\end{twocolentry}
+            \textbf{Untenured Assistant Professor}, University of Bari, Jonian Dept. -- Taranto, Italy\end{twocolentry}
 
-        \vspace{0.10 cm}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            July 2013 – July 2015
+        }
+            \textbf{Postdoctoral Research Fellow}, University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Apr 2010 – Mar 2013
+        }
+            \textbf{Postdoctoral Research Fellow}, University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Apr 2007 – Nov 2008
+        }
+            \textbf{Postdoctoral Research Fellow}, University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+
+    
+    \section{Bibliometrics}
+
+
+
+        
         \begin{onecolentry}
-            \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
-            \end{highlights}
+            \textbf{Google Scholar:} \textit{h}-index 30, 3,100+ citations
         \end{onecolentry}
 
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Scopus:} \textit{h}-index 21, 1,500+ citations
+        \end{onecolentry}
 
 
     
@@ -302,91 +349,586 @@
         
         \begin{samepage}
             \begin{twocolentry}{
-                Jan 2004
+                Feb 2025
             }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+                \textbf{A Multivocal Literature Review on the Benefits and Limitations of Automated Machine Learning Tools}
             \end{twocolentry}
 
             \vspace{0.10 cm}
             
             \begin{onecolentry}
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
+                \mbox{L. Quaranta}, \mbox{K. Azevedo}, \mbox{\textbf{\textit{F. Calefato}}}, \mbox{M. Kalinowski}
 
                 \vspace{0.10 cm}
                 
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-        \end{onecolentry}
+        Information and Software Technology, vol. 178, no. 107608, doi: \href{https://doi.org/10.1016/j.infsof.2024.107608}{10.1016/j.infsof.2024.107608}\end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                2024
+            }
+                \textbf{Pynblint: A Quality Assurance Tool to Improve the Quality of Python Jupyter Notebooks}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{L. Quaranta}, \mbox{\textbf{\textit{F. Calefato}}}, \mbox{F. Lanubile}
+
+                \vspace{0.10 cm}
+                
+        SoftwareX, vol. 28, no. 101959, doi: \href{https://doi.org/10.1016/j.softx.2024.101959}{10.1016/j.softx.2024.101959}\end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Dec 2024
+            }
+                \textbf{A Lot of Talk and a Badge: An Exploratory Analysis of Personal Achievements in GitHub}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{\textit{F. Calefato}}}, \mbox{L. Quaranta}, \mbox{F. Lanubile}
+
+                \vspace{0.10 cm}
+                
+        Information and Software Technology (IST), vol. 176, no. 107561, doi: \href{https://doi.org/10.1016/j.infsof.2024.107561}{10.1016/j.infsof.2024.107561}\end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Oct 2024
+            }
+                \textbf{Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen Manifesto}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{D. Russo}, \mbox{et al.}
+
+                \vspace{0.10 cm}
+                
+        Journal of Systems and Software (JSS), vol. 216, no. 112115, doi: \href{https://doi.org/10.1016/j.jss.2024.112115}{10.1016/j.jss.2024.112115}\end{onecolentry}
         \end{samepage}
 
 
     
-    \section{Projects}
+    \section{Events Organization}
 
 
 
         
-        \begin{twocolentry}{
-            \href{https://github.com/rendercv/rendercv}{github.com/name/repo}
-        }
-            \textbf{Multi-User Drawing Tool}\end{twocolentry}
+        \begin{onecolentry}
+            \textbf{Program Co-Chair}\end{onecolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-                \item Tools Used: C++, MFC
+                \item \textit{40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff, AZ, USA, Oct 2024}
+                \item \textit{16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23), Melbourne, Australia, May 2023}
+                \item \textit{8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA, USA, Nov 14, 2016 – co-located with FSE'16}
+                \item \textit{1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio, TX, USA, Feb 24, 2013 – co-located with CSCW'13}
             \end{highlights}
         \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
-        \begin{twocolentry}{
-            \href{https://github.com/rendercv/rendercv}{github.com/name/repo}
-        }
-            \textbf{Synchronized Desktop Calendar}\end{twocolentry}
+        \begin{onecolentry}
+            \textbf{General Chair}\end{onecolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-                \item Tools Used: C\#, .NET, SQL, XML
+                \item \textit{14th International Conference on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018}
             \end{highlights}
         \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
-        \begin{twocolentry}{
-            2002
-        }
-            \textbf{Custom Operating System}\end{twocolentry}
+        \begin{onecolentry}
+            \textbf{Steering Board Member}\end{onecolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-                \item Tools Used: C
+                \item \textit{Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Track Co-Chair}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track, Madrid, Spain, May 2021}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Workshops \& Tutorials Co-Chair}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23), Jyväskylä, Finland, 21-23 November 2022}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Workshops Co-Chair}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{10th Int’l Conf. on Global Software Engineering (ICGSE'15), Ciudad Real, Spain, 13-16 July 2015}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Open-science Co-Chair}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21), Bari, Italy, 11-15 Oct 2021}
+                \item \textit{14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20), Bari, Italy, 5-9 Oct 2020}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Publicity \& Social Media Chair}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark, 8-12 June 2020}
+                \item \textit{13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden, 28-29 May 2018}
+                \item \textit{8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy, 26-29 Aug 2013}
             \end{highlights}
         \end{onecolentry}
 
 
 
     
-    \section{Technologies}
+    \section{Editorial Activities}
 
 
 
         
         \begin{onecolentry}
-            \textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
+            \textbf{Associate Editor}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Elsevier `Journal of Systems and Software' (JSS), rank: SJR Q1}
+                \item \textit{Springer `Automated Software Engineering' (ASE)}
+            \end{highlights}
         \end{onecolentry}
+
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
+            \textbf{Guest Editor}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1. Special Issue on ``Software Maintenance and Evolution.'' Co-editor: Sarah Nadi (New York University, Abu Dhabi)}
+                \item \textit{2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1. Special Issue on \href{https://emsejournal.github.io/special_issues/2023_SI_CHASE.html}{``Cooperative and Human Aspects of Software Engineering''}. Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and Igor Steinmacher (NAU, USA)}
+                \item \textit{2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1. Special Issue on \href{https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT}{``Global Software Engineering: Challenges and Solutions.''} Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India), Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)}
+            \end{highlights}
         \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Review Board Member}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{2023 – present: Replicated Computational Results Distinguished Reviewers Board for ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1}
+                \item \textit{2020 – 2022: ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1}
+                \item \textit{2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE, SJR Q1), rank: SJR Q1}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Peer Reviews (partial list)} -- \textbf{verified record on \href{https://www.webofscience.com/wos/author/record/H-4177-2014}{Clarivate}}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{(23) Springer `Journal of Empirical Software Engineering' (EMSE), rank: SJR Q1}
+                \item \textit{(19) IEEE `Transactions on Software Engineering' (TSE), rank: SJR Q1}
+                \item \textit{(16) ACM `Transactions on Software Engineering and Methodology' (TOSEM), rank: SJR Q1}
+                \item \textit{(12) Elsevier `Journal of System and Software' (JSS), rank: SJR Q1}
+                \item \textit{(8) Elsevier `Information and Software Technology' (INFSOF), rank: SJR Q1}
+                \item \textit{(7) Wiley `Journal of Software: Evolution and Process' (JSEP), rank: SJR Q2}
+                \item \textit{(5) IEEE `Software,' rank: SJR Q2}
+                \item \textit{(2) IEEE `Transactions on Affective Computing,' rank: SJR Q1}
+                \item \textit{(1) ACM `Transactions on Internet Technologies' (TOIT), rank: SJR Q1}
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Institutional Services}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{Rector’s Delegate for the GARR Network}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{May 2023 - present: The GARR Consortium is the Italian national research and education network, providing high-speed Internet connectivity and advanced services to universities and research institutions.}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{CS Dept. Director’s Delegate for Internship Programs}\end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs, coordinating with industry partners, mentoring students, ensuring compliance with academic standards, and evaluating the effectiveness of the internship experiences.}
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Ph.D. Students Supervision}
+
+
+
+        
+        \begin{twocolentry}{
+            July 2023 – present
+        }
+            \textbf{Kelly Azevedo Borges Leal} -- Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Topic: AutoML for Software Engineering}
+                \item \textit{Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Nov 2022
+        }
+            \textbf{Luigi Quaranta} -- University of Bari, Italy\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''}
+                \item \textit{Co-supervised with prof. Filippo Lanubile}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Feb 2020
+        }
+            \textbf{Giuseppe Iaffaldano} -- University of Bari, Italy\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textit{Thesis: ``Investigating the Dynamics of Online Creative Communities''}
+                \item \textit{Co-supervised with prof. Filippo Lanubile}
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Membership in Doctoral Boards}
+
+
+
+        
+        \begin{twocolentry}{
+            2024 – 2025
+        }
+            \textbf{Ph.D. program in Computer Science and Mathematics (XL cycle)} -- University of Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2023 – 2024
+        }
+            \textbf{Ph.D. program in Computer Science and Mathematics (XXXIX cycle)} -- University of Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2022 – 2023
+        }
+            \textbf{Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)} -- University of Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2021 – 2022
+        }
+            \textbf{Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle)} -- Polytechnic University of Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2020 – 2021
+        }
+            \textbf{Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle)} -- Polytechnic University of Bari, Italy\end{twocolentry}
+
+
+
+
+    
+    \section{Teaching}
+
+
+
+        
+        \begin{twocolentry}{
+            2019 – 2025
+        }
+            \textbf{Reti di Calcolatori (Computer Networks) [6 ECTS]}, BSc in Computer Science and Software Production Technologies (ITPS), 2nd year in University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2021 – 2024
+        }
+            \textbf{Social Computing [6 ECTS]}, MSc in Computer Science, 1st year in University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2022 – 2023
+        }
+            \textbf{Software Solutions for Reproducible Experiments [2 ECTS]}, Ph.D. program in Computer Science and Mathematics (XXXVIII cycle) in University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2022 – 2023
+        }
+            \textbf{Social Computing [5 ECTS]}, MSc in Computer Science and Engineering???, University of Oulu -- Oulu, Finland\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2018 – 2019
+        }
+            \textbf{Reti di Calcolatori (Computer Networks) [9 ECTS]}, BSc in Computer Science, 3rd year in University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2017 – 2018
+        }
+            \textbf{Mining Socio-technical Repositories [3 ECTS]}, Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2017 – 2018
+        }
+            \textbf{IT Tools Supporting Legal and Economic Research: Blockchain for Tracking Production and Transportation Chains [2 ECTS]}, Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXIII cycle), University of Bari, Jonian Dept. (Law and Business School) -- Taranto, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2016 – 2017
+        }
+            \textbf{Classification Models in Software Engineering [2 ECTS]}, Ph.D. program in Computer Science, University of Oulu -- Oulu, Finland\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2016 – 2017
+        }
+            \textbf{Emotion Awareness in Social Computing [2 ECTS]}, Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science -- Oulu, Finland\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Co-taught with Prof. Nicole Novielli
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2016 – 2017
+        }
+            \textbf{IT Tools Supporting Legal and Economic Research [2 ECTS]}, Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXII cycle), University of Bari, Jonian Dept. (Law and Business School) -- Taranto, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2015 – 2020
+        }
+            \textbf{Informatica (Computer Science) [9 ECTS]}, BSc in Maritime Sciences and Management (SGAM), 2nd year -- Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2015 – 2020
+        }
+            \textbf{Abilità Informatica (Computer Skills) [4 ECTS]}, Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School) -- Taranto, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2014 – 2015
+        }
+            \textbf{Laboratorio di Informatica (C Programming Lab) [9 ECTS]}, BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science -- Bari, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2014 – 2015
+        }
+            \textbf{Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS]}, BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science -- Brindisi, Italy\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2008 – 2013
+        }
+            \textbf{Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]}, BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science -- Brindis, Italy\end{twocolentry}
+
+
+
+
+    
+    \section{Invited Seminars}
+
+
+
+        
+        \begin{twocolentry}{
+            Oct 2017
+        }
+            \textbf{Collaboration in Software Engineering: 10 Years in Review} -- Carnegie Mellon University, USA\end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Nov 2016
+        }
+            \textbf{Classification Models in Software Engineering: From Defect to Best-Answer Prediction} -- University of Victoria, Canada\end{twocolentry}
+
+
+
+
+    
+    \section{Software}
+
+
+
+        
+        \begin{twocolentry}{
+            \href{https://github.com/collab-uniba/EMTk}{EMTk on GitHub}
+        }
+            \textbf{EMTk (Emotion-Mining Toolkit)}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item EmoTxt is the module for training custom emotion classifiers from text. It provides out of the box an emotion classifier specifically tuned for mining emotion from developers' communication channels, such as Stack Overflow.
+                \item Senti4SD is the module for emotion-polarity classification (sentiment analysis) specifically trained on technical corpora from developers' communication channels, such as GitHub and StackOveflow.
+            \end{highlights}
+        \end{onecolentry}
+
 
 
     
