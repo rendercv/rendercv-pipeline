@@ -9,7 +9,7 @@
 ((* else *))
 \begin{onecolentry}
 ((* endif *))
-    \textbf{<<entry.institution>>}, ((* if entry.degree *))<<entry.degree>> in ((* endif *))<<entry.area>>((* if entry.location *)) -- <<entry.location>>((* endif *))
+    \textbf{<<entry.institution>>}((* if entry.degree *)), <<entry.degree>>((* if entry.area *)) in <<entry.area>>((* endif *))((* endif *))((* if entry.location *)) -- <<entry.location>>((* endif *))
 ((* if entry.date_string *))
 \end{twocolentry}
 ((* else *))
