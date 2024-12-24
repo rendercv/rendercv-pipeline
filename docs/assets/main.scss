@@ -1,11 +1,10 @@
---- 
 ---
-// Import the minima theme components
-@import "minima/base";
-@import "minima/layout";
-@import "minima/syntax-highlighting";
+---
+@import 
+  "minima/skins/classic",
+  "minima/initialize";
 
-// Override variables (these should come before the imports if you want to override theme defaults)
+// Your custom variables
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
