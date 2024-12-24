@@ -118,7 +118,7 @@
 ## QualAI: Continuous Quality Improvement of AI-based Systems 
 - 2024
 - N. Novielli, R. Oliveto, F. Palomba, ***F. Calefato***, G. Colavito, V. Martino, A. Porta, G. Giordano, E. Guglielmi, F. Lanubile, L. Quaranta, G. Recupito, S. Scalabrino, A. Spina, A. Vitale
-- Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimaraes, Portugal, May 14-17, 2024, vol. 3674
+- Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimarães, Portugal, May 14-17, 2024, vol. 3674
 
 ## Assessing the Use of AutoML for Data-Driven Software Engineering ([10.1109/ESEM56168.2023.10304796](https://doi.org/10.1109/ESEM56168.2023.10304796))
 - 2023
@@ -189,14 +189,6 @@
 - 2021
 - L. Quaranta, ***F. Calefato***, F. Lanubile
 - 18th IEEE/ACM International Conference on Mining Software Repositories, MSR 2021, Madrid, Spain, May 17-19, 2021
-
-## collab-uniba/KGTorrent: First release (v. 1.0.0) of KGTorrent (Version v1.0.0) ([10.5281/ZENODO.4472990](https://doi.org/10.5281/ZENODO.4472990))
-- 2021
-- L. Quaranta, ***F. Calefato***, F. Lanubile
-
-## KGTorrent: A Dataset of Python Jupyter Notebooks from Kaggle (Version 1.0.0) ([10.5281/ZENODO.4468523](https://doi.org/10.5281/ZENODO.4468523))
-- 2021
-- L. Quaranta, ***F. Calefato***, F. Lanubile
 
 ## Love, Joy, Anger, Sadness, Fear, and Surprise: SE Needs Special Kinds of AI: A Case Study on Text Mining and SE ([10.1109/MS.2020.2968557](https://doi.org/10.1109/MS.2020.2968557))
 - 2020
@@ -327,16 +319,6 @@
 - 2017
 - ***F. Calefato***, G. Iaffaldano, F. Lanubile, A. Lategano, N. Novielli
 - Current Trends in Web Engineering - ICWE 2017 International Workshops, Liquid Multi-Device Software and EnWoT, practi-O-web, NLPIT, SoWeMine, Rome, Italy, June 5-8, 2017, Revised Selected Papers, vol. 10544
-
-## A Preliminary Analysis on the Effects of Propensity to Trust in Distributed Software Development 
-- 2017
-- ***F. Calefato***, F. Lanubile, N. Novielli
-- CoRR, vol. abs/1702.04958
-
-## Mining Communication Data in a Music Community: A Preliminary Analysis 
-- 2017
-- ***F. Calefato***, G. Iaffaldano, F. Lanubile, A. Lategano, N. Novielli
-- CoRR, vol. abs/1705.04485
 
 ## Assessing the impact of real-time machine translation on multilingual meetings in global software projects ([10.1007/S10664-015-9372-X](https://doi.org/10.1007/S10664-015-9372-X))
 - 2016
@@ -562,6 +544,26 @@
 - 2003
 - F. Lanubile, T. Mallardo, ***F. Calefato***
 - Softw. Process. Improv. Pract., vol. 8, no. 4
+
+## Success factors for effective knowledge sharing in community-based question-answering 
+- 2015
+- ***F. Calefato***, F. Lanubile, M. Merolla, N. Novielli
+- Proc. of the International Forum on Knowledge Asset Dynamics (IFKAD 2015), Bari, Italy, Jun. 10-12, 2015
+
+## Real-time machine translation for software development teams 
+- 2013
+- R. Prikladnicki, T. Duarte, T. Conte, ***F. Calefato***, F. Lanubile, others
+- Workshop on Software Engineering Innovation Foundation (SEIF'13), Rio de Janeiro, Brazil, Nov. 25–26, 2013
+
+## Social media and trust building in virtual teams: The design of a replicated experiment 
+- 2013
+- ***F. Calefato***, F. Lanubile, N. Novielli, others
+- 1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools@CSCW, San Antonio, TX, 23 Feb. 2013
+
+## Practice: Collaborative Development Environments (Chapter 15) 
+- 2011
+- ***F. Calefato***, F. Lanubile
+- Global Software and IT: A Guide to Distributed Development, Projects, and Outsourcing (C. Ebert, Ed.)
 
 # Events Organization
 
