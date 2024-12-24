@@ -49,6 +49,7 @@ jobs:
             cv:
               - '*_CV.tex'
               - 'README.md'
+              - 'docs/*.html'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |
