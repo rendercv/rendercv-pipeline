@@ -32,10 +32,10 @@ jobs:
             exit 1
           fi
           cd ..
-          python parsebib.py
-          python pubmerger.py
+          python src/parsebib.py
+          python src/pubmerger.py
           rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path docs/index.html --dont-generate-png
-          python fixhtml.py
+          python src/fixhtml.py
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
