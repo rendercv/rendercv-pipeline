@@ -79,6 +79,10 @@ def parse_bib(bib_file):
     
     publications = []
     for _, entry in bib_data.entries.items():
+        # filter out entries where publisher = {Zenodo} or journal = {CoRR}
+        if 'zenodo' in entry.fields.get('publisher', '').lower()  or 'corr' in entry.fields.get('journal', '').lower():
+            continue
+
         if entry.type == 'proceedings':
             authors = [format_author(editor) for editor in entry.persons.get('editor', [])]
             venue = entry.fields.get('publisher', '')
