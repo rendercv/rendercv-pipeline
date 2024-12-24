@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 
 
-def clean_latex_chars(text):
+def convert_latex_diacritics(text):
     replacements = [
         ('{\\&}', '&'),
         ('{\\"{a}}', 'ä'),
@@ -51,13 +51,13 @@ def get_initial_block(name: str) -> str:
 def format_author(author):
     # Take only the first element in author.first_names, if any
     if author.first_names:
-        main_first = clean_latex_chars(author.first_names[0])
+        main_first = convert_latex_diacritics(author.first_names[0])
         initial_block = get_initial_block(main_first)
     else:
         initial_block = ""
 
     # Join all last names into one string
-    last_block = ' '.join(clean_latex_chars(ln) for ln in author.last_names)
+    last_block = ' '.join(convert_latex_diacritics(ln) for ln in author.last_names)
 
     full_name = f"{initial_block} {last_block}".strip()
 
@@ -67,7 +67,7 @@ def format_author(author):
     return full_name
 
 
-def clean(text):
+def clean_latex_markup(text):
     return text.replace('{', '').replace('}', '').replace('\\&', '&')
 
 
@@ -87,20 +87,20 @@ def parse_bib(bib_file):
         if entry.type == 'proceedings':
             authors = [format_author(editor) for editor in entry.persons.get('editor', [])]
             venue = entry.fields.get('publisher', '')
-            title = clean(entry.fields.get('title', ''))
+            title = clean_latex_markup(entry.fields.get('title', ''))
         elif entry.type == 'inbook':
             authors = [format_author(author) for author in entry.persons.get('author', [])]
             venue = entry.fields.get('title', '')
-            title = clean(entry.fields.get('chapter', ''))
+            title = clean_latex_markup(entry.fields.get('chapter', ''))
         else:
             authors = [format_author(author) for author in entry.persons.get('author', [])]
             venue = entry.fields.get('journal', '') or entry.fields.get('booktitle', '')
-            title = clean(entry.fields.get('title', ''))
+            title = clean_latex_markup(entry.fields.get('title', ''))
 
         pub = {
             'title': title,
             'authors': authors,
-            'journal': clean(venue),
+            'journal': clean_latex_markup(convert_latex_diacritics(venue)),
             'doi': entry.fields.get('doi', '').replace('\\_', '_'),
         }
         
