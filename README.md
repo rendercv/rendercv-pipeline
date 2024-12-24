@@ -560,10 +560,70 @@
 - ***F. Calefato***, F. Lanubile, N. Novielli, others
 - 1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools@CSCW, San Antonio, TX, 23 Feb. 2013
 
+## A Social Aggregator for SMEs 
+- 2012
+- ***F. Calefato***, F. Lanubile, N. Novielli
+- Intersocial Workshop on Online Social Networks: Challenges and Perspectives (IWOSN'12), Patras, Greece, Jun. 15, 2012
+
+## Social Awareness as a Trust Building Mechanism in Global Software Teams 
+- 2012
+- ***F. Calefato***, F. Lanubile
+- CSCW'12 Workshop on The Future of Collaborative Software Development, Seattle, USA, Feb. 12 2012
+
 ## Practice: Collaborative Development Environments (Chapter 15) 
 - 2011
 - ***F. Calefato***, F. Lanubile
 - Global Software and IT: A Guide to Distributed Development, Projects, and Outsourcing (C. Ebert, Ed.)
+
+## A planning poker tool for supporting collaborative estimation in distributed agile development 
+- 2011
+- ***F. Calefato***, F. Lanubile, others
+- Proc. 6th Int. Conf. Softw. Eng. Adv.(ICSEA), Barcelona, Spain, 23-28 Oct. 2011
+
+## Augmenting social awareness in a collaborative development environment ([10.1145/2024645.2024656](https://doi.org/10.1145/2024645.2024656))
+- 2011
+- ***F. Calefato***, F. Lanubile, N. Sanitate, G. Santoro
+- Proc. of the 4th Int'l Workshop on Social Software Engineering (SSE '11), Szeged, Hungary, 5 Sept 2011
+
+## Virtual Worlds, do we really need the third dimension to support collaborative learning 
+- 2009
+- F. Abbattista, ***F. Calefato***, A. De Lucia, R. Francese, F. Lanubile, I. Passero, G. Tortora, others
+- Virtual Worlds for academic, organizational, and life-long learning-ViWo 2009 Workshop-ICWL, Aachen, Germany, 19-21 Aug. 2009
+
+## Augmenting a content-based recommender system with tags for cultural heritage personalization 
+- 2008
+- P. Basile, ***F. Calefato***, M. Gemmis, P. Lops, G. Semeraro, M. Bux, C. Musto, F. Narducci, others
+- Personalized Access to Cultural Heritage (PATCH'08), Hannover, Germany, 29 Jul.–1 Aug. 2008
+
+## Towards Social Semantic Suggestive Tagging in a Digital Repository of Bookmarks 
+- 2007
+- ***F. Calefato***, D. Gendarmi, F. Lanubile, G. Semeraro, others
+- 2nd DELOS Conference on Digital Libraries, Tirrenia, Italy, 5-7 Dec. 2007
+
+## The Evolution of the eConference Project 
+- 2007
+- ***F. Calefato***, F. Lanubile, M. Scalas, others
+- Proc. Int'l Conf. on Eclipse Technologies (Eclipse-IT 2007), Naples, Italy, 4-5 Oct. 2007
+
+## The effects of communication mode on distributed requirements negotiations 
+- 2007
+- T. Mallardo, ***F. Calefato***, F. Lanubile, D. Damian
+- Proceedings of the ICGSE Workshop on Global Requirements Engineering (GREW'07), Munich, Germany, 27-30 Aug. 2007
+
+## Using the Econference tool for synchronous distributed requirements workshops 
+- 2005
+- ***F. Calefato***, F. Lanubile
+- Proc. of the 1st Int’l Workshop on Distributed Software Development (DiSD'05), Paris, France, 29 Aug. 2005
+
+## A decentralized conferencing tool for ad hoc distributed workgroups 
+- 2004
+- ***F. Calefato***, F. Lanubile
+- Proc. ASE Workshop on Cooperative Support for Distributed Software Engineering Processes (CSSE'04), Linz, Austria, 21 Sept. 2004
+
+##  ([10.1049/ic:20040310](https://doi.org/10.1049/ic:20040310))
+- 2004
+- ***F. Calefato***, F. Lanubile, T. Mallardo
+- Peer-to-peer remote conferencing
 
 # Events Organization
 
