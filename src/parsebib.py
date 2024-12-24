@@ -1,6 +1,7 @@
 from pybtex.database.input import bibtex
 import os
 from pathlib import Path
+import requests
 
 
 def clean_latex_chars(text):
@@ -86,14 +87,20 @@ def parse_bib(bib_file):
         if entry.type == 'proceedings':
             authors = [format_author(editor) for editor in entry.persons.get('editor', [])]
             venue = entry.fields.get('publisher', '')
+            title = clean(entry.fields.get('title', ''))
+        elif entry.type == 'inbook':
+            authors = [format_author(author) for author in entry.persons.get('author', [])]
+            venue = entry.fields.get('title', '')
+            title = clean(entry.fields.get('chapter', ''))
         else:
             authors = [format_author(author) for author in entry.persons.get('author', [])]
             venue = entry.fields.get('journal', '') or entry.fields.get('booktitle', '')
+            title = clean(entry.fields.get('title', ''))
 
         pub = {
-            'title': clean(entry.fields.get('title', '')), # clean_latex_chars
+            'title': title,
             'authors': authors,
-            'journal': clean(venue), # clean_latex_chars
+            'journal': clean(venue),
             'doi': entry.fields.get('doi', '').replace('\\_', '_'),
         }
         
@@ -124,15 +131,40 @@ def format_yaml_content(data):
     return output
 
 
+def download_bib_from_dblp(file, url):
+    # Write to file in bibliography directory
+    with open(os.path.join(file), 'wb') as f:
+        r = requests.get(url)
+        f.write(r.content)
+
+
+def merge_bib_files(dblp_file, additional_file, output_file):
+    with open(dblp_file, 'r') as f:
+        dblp_content = f.read()
+    with open(additional_file, 'r') as f:
+        additional_content = f.read()
+
+    with open(output_file, 'w') as f:
+        f.write(dblp_content)
+        f.write('\n\n')
+        f.write(additional_content)
+
+
 if __name__ == '__main__':
+    # author's DBLP URL
+    dblp_url = 'https://dblp.org/pid/48/5662.bib?param=1'
+
     script_dir = Path(__file__).parent
+    dblp_file = os.path.join(str(script_dir), 'bibliography', 'dblp.bib')
+    additional_entries = os.path.join(str(script_dir), 'bibliography', 'additional.bib')
     bib_file = os.path.join(str(script_dir), 'bibliography', 'publications.bib')
     yaml_file = os.path.join(str(script_dir), 'bibliography', 'publications.yaml')
     
     try:
+        download_bib_from_dblp(dblp_file, dblp_url)
+        merge_bib_files(dblp_file, additional_entries, bib_file)
         publications = parse_bib(bib_file)
         with open(yaml_file, 'w') as f:
             f.write(format_yaml_content(publications))
-        print(f"Successfully converted {bib_file} to {yaml_file}")
     except FileNotFoundError as e:
         print(f"Error: {e}")

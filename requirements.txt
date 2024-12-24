@@ -1,3 +1,4 @@
 rendercv==1.16
 pybtex>=0.24.0
 setuptools>=68.0.0
+requests>=2.32.3
