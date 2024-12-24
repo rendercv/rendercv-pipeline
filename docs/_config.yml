@@ -1,3 +1,11 @@
 theme: minima
+remote_theme: jekyll/minima
 source: docs
 destination: _site
+sass:
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - /usr/local/bundle/gems/minima-2.5.1/_sass
+plugins:
+  - jekyll-remote-theme
