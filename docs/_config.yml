@@ -1,4 +1,8 @@
-theme: minima
 remote_theme: jekyll/minima
 source: docs
 destination: _site
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
