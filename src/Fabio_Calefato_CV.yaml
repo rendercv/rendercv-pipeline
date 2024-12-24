@@ -5,372 +5,1402 @@ cv:
   phone: tel:+39-080-571-2213
   website: https://collab.di.uniba.it/fabio
   social_networks:
-    - network: ORCID
-      username: 0000-0003-2654-1588
-    - network: Google Scholar
-      username: n_XWRkoAAAAJ
-    - network: GitHub
-      username: bateman
+  - network: ORCID
+    username: 0000-0003-2654-1588
+  - network: Google Scholar
+    username: n_XWRkoAAAAJ
+  - network: GitHub
+    username: bateman
   sections:
     current_position:
-      - company: University of Bari, Dept. of Computer Science
-        position: Associate Professor
-        location: Bari, Italy
-        start_date: 2022-11
-        highlights:
-          - Holds the national habilitation as Full Professor since Dec 2023
-      - company: PeoplewareAI s.r.l.
-        position: Co-founder and CEO
-        location: Bari, Italy
-        start_date: 2021-02
-        highlights:
-          - "[PeoplewareAI](https://peopleware.ai) is a spin-off company of the University of Bari, founded to transfer the results of research in the field of AI and software engineering to the market"
-
+    - company: University of Bari, Dept. of Computer Science
+      position: Associate Professor
+      location: Bari, Italy
+      start_date: 2022-11
+      highlights:
+      - Holds the national habilitation as Full Professor since Dec 2023
+    - company: PeoplewareAI s.r.l.
+      position: Co-founder and CEO
+      location: Bari, Italy
+      start_date: 2021-02
+      highlights:
+      - '[PeoplewareAI](https://peopleware.ai) is a spin-off company of the University
+        of Bari, founded to transfer the results of research in the field of AI and
+        software engineering to the market'
     education:
-      - institution: University of Bari, Italy
-        area: "**Computer Science**"
-        degree: "**PhD**"
-        start_date: 2004-01
-        end_date: 2007-05
-        highlights:
-          - "*Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''*"
-          - "*Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area of Software Engineering*"
-      - institution: University of Bari, Italy
-        area: "**Computer Science**"
-        degree: "**MSc**"
-        start_date: 1996-09
-        end_date: 2002-10
-        highlights:
-          - "*Thesis: ``P2P Conferences in JXTA''*"
-          - "*Graduation grade: 110/110 with honors*"
-
+    - institution: University of Bari, Italy
+      area: '**Computer Science**'
+      degree: '**PhD**'
+      start_date: 2004-01
+      end_date: 2007-05
+      highlights:
+      - '*Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''''*'
+      - '*Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area
+        of Software Engineering*'
+    - institution: University of Bari, Italy
+      area: '**Computer Science**'
+      degree: '**MSc**'
+      start_date: 1996-09
+      end_date: 2002-10
+      highlights:
+      - '*Thesis: ``P2P Conferences in JXTA''''*'
+      - '*Graduation grade: 110/110 with honors*'
     experience:
-      - company: University of Bari, Dept. of Computer Science
-        position: Tenure-track Assistant Professor
-        location: Bari, Italy
-        start_date: 2019-11
-        end_date: 2022-11
-      - company: University of Bari, Jonian Dept.
-        position: Untenured Assistant Professor
-        location: Taranto, Italy
-        start_date: 2015-11
-        end_date: 2019-11
-      - company: University of Bari, Dept. of Computer Science
-        position: Postdoctoral Research Fellow
-        location: Bari, Italy
-        start_date: 2013-07
-        end_date: 2015-07
-      - company: University of Bari, Dept. of Computer Science
-        position: Postdoctoral Research Fellow
-        location: Bari, Italy
-        start_date: 2010-04
-        end_date: 2013-03
-      - company: University of Bari, Dept. of Computer Science
-        position: Postdoctoral Research Fellow
-        location: Bari, Italy
-        start_date: 2007-04
-        end_date: 2008-11
-
+    - company: University of Bari, Dept. of Computer Science
+      position: Tenure-track Assistant Professor
+      location: Bari, Italy
+      start_date: 2019-11
+      end_date: 2022-11
+    - company: University of Bari, Jonian Dept.
+      position: Untenured Assistant Professor
+      location: Taranto, Italy
+      start_date: 2015-11
+      end_date: 2019-11
+    - company: University of Bari, Dept. of Computer Science
+      position: Postdoctoral Research Fellow
+      location: Bari, Italy
+      start_date: 2013-07
+      end_date: 2015-07
+    - company: University of Bari, Dept. of Computer Science
+      position: Postdoctoral Research Fellow
+      location: Bari, Italy
+      start_date: 2010-04
+      end_date: 2013-03
+    - company: University of Bari, Dept. of Computer Science
+      position: Postdoctoral Research Fellow
+      location: Bari, Italy
+      start_date: 2007-04
+      end_date: 2008-11
     bibliometrics:
-      - label: Google Scholar
-        details: "*h*-index 30, 3,100+ citations"
-      - label: Scopus
-        details: "*h*-index 21, 1,500+ citations"
-
+    - label: Google Scholar
+      details: '*h*-index 30, 3,100+ citations'
+    - label: Scopus
+      details: '*h*-index 21, 1,500+ citations'
     publications:
-      - title: A Multivocal Literature Review on the Benefits and Limitations of Automated Machine Learning Tools
-        authors:
-          - L. Quaranta
-          - K. Azevedo
-          - "***F. Calefato***"
-          - M. Kalinowski
-        date: 2025-02
-        journal: Information and Software Technology, vol. 178, no. 107608
-        doi: 10.1016/j.infsof.2024.107608
-      - title: "Pynblint: A Quality Assurance Tool to Improve the Quality of Python Jupyter Notebooks"
-        authors:
-          - L. Quaranta
-          - "***F. Calefato***"
-          - F. Lanubile
-        date: 2024
-        journal: SoftwareX, vol. 28, no. 101959
-        doi: 10.1016/j.softx.2024.101959
-      - title: "A Lot of Talk and a Badge: An Exploratory Analysis of Personal Achievements in GitHub"
-        authors:
-          - "***F. Calefato***"
-          - L. Quaranta
-          - F. Lanubile
-        date: 2024-12
-        journal: Information and Software Technology (IST), vol. 176, no. 107561
-        doi: 10.1016/j.infsof.2024.107561
-      - title: "Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen Manifesto"
-        authors:
-          - D. Russo
-          - et al.
-        date: 2024-10
-        journal: Journal of Systems and Software (JSS), vol. 216, no. 112115
-        doi: 10.1016/j.jss.2024.112115
-
+    - title: A multivocal literature review on the benefits and limitations of industry-leading
+        AutoML tools
+      authors:
+      - L. Quaranta
+      - K. Azevedo
+      - '***F. Calefato***'
+      - M. Kalinowski
+      date: 2025
+      journal: Inf. Softw. Technol., vol. 178
+      doi: 10.1016/J.INFSOF.2024.107608
+    - title: 'A lot of talk and a badge: An exploratory analysis of personal achievements
+        in GitHub'
+      authors:
+      - '***F. Calefato***'
+      - L. Quaranta
+      - F. Lanubile
+      date: 2024
+      journal: Inf. Softw. Technol., vol. 176
+      doi: 10.1016/J.INFSOF.2024.107561
+    - title: 'Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen
+        Manifesto'
+      authors:
+      - D. Russo
+      - S. Baltes
+      - N. Berkel
+      - P. Avgeriou
+      - '***F. Calefato***'
+      - B. Cabrero-Daniel
+      - G. Catolino
+      - J. Cito
+      - N. Ernst
+      - T. Fritz
+      - H. Hata
+      - R. Holmes
+      - M. Izadi
+      - F. Khomh
+      - M. Kjærgaard
+      - G. Liebel
+      - A. Lluch-Lafuente
+      - S. Lambiase
+      - W. Maalej
+      - G. Murphy
+      - N. Moe
+      - G. O'Brien
+      - E. Paja
+      - M. Pezzè
+      - J. Persson
+      - R. Prikladnicki
+      - P. Ralph
+      - M. Robillard
+      - T. Silva
+      - K.J. Stol
+      - M.A. Storey
+      - V. Stray
+      - P. Tell
+      - C. Treude
+      - B. Vasilescu
+      date: 2024
+      journal: J. Syst. Softw., vol. 216
+      doi: 10.1016/J.JSS.2024.112115
+    - title: 'Pynblint: A quality assurance tool to improve the quality of Python
+        Jupyter notebooks'
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2024
+      journal: SoftwareX, vol. 28
+      doi: 10.1016/J.SOFTX.2024.101959
+    - title: 'Continuous Quality Improvement of AI-based Systems: the QualAI Project'
+      authors:
+      - N. Novielli
+      - R. Oliveto
+      - F. Palomba
+      - '***F. Calefato***'
+      - G. Colavito
+      - V. Martino
+      - A. Porta
+      - G. Giordano
+      - E. Guglielmi
+      - F. Lanubile
+      - L. Quaranta
+      - G. Recupito
+      - S. Scalabrino
+      - A. Spina
+      - A. Vitale
+      date: 2024
+      journal: Proceedings of the 18th ACM/IEEE International Symposium on Empirical
+        Software Engineering and Measurement, ESEM 2024, Barcelona, Spain, October
+        24-25, 2024
+      doi: 10.1145/3674805.3695393
+    - title: Professional Insights into Benefits and Limitations of Implementing MLOps
+        Principles
+      authors:
+      - G. Araujo
+      - M. Kalinowski
+      - M. Endler
+      - '***F. Calefato***'
+      date: 2024
+      journal: Proceedings of the 26th International Conference on Enterprise Information
+        Systems, ICEIS 2024, Angers, France, April 28-30, 2024, Volume 2
+      doi: 10.5220/0012741100003690
+    - title: Toward Collaboration Optimization in Microservice Projects Based on Developer
+        Personalities
+      authors:
+      - X. Li
+      - '***F. Calefato***'
+      - V. Lenarduzzi
+      - D. Taibi
+      date: 2024
+      journal: 21st IEEE International Conference on Software Architecture, ICSA 2024
+        - Companion, Hyderabad, India, June 4-8, 2024
+      doi: 10.1109/ICSA-C63560.2024.00024
+    - title: An MLOps Solution Framework for Transitioning Machine Learning Models
+        into eHealth Systems
+      authors:
+      - A. Basile
+      - '***F. Calefato***'
+      - F. Lanubile
+      - G. Mallardi
+      - L. Quaranta
+      date: 2024
+      journal: Proceedings of the Ital-IA Intelligenza Artificiale - Thematic Workshops
+        co-located with the 4th CINI National Lab AIIS Conference on Artificial Intelligence
+        (Ital-IA 2024), Naples, Italy, May 29-30, 2024, vol. 3762
+    - title: 'Security Risks and Best Practices of MLOps: A Multivocal Literature
+        Review'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - L. Quaranta
+      date: 2024
+      journal: Proceedings of the 8th Italian Conference on Cyber Security (ITASEC
+        2024), Salerno, Italy, April 8-12, 2024, vol. 3731
+    - title: 'QualAI: Continuous Quality Improvement of AI-based Systems'
+      authors:
+      - N. Novielli
+      - R. Oliveto
+      - F. Palomba
+      - '***F. Calefato***'
+      - G. Colavito
+      - V. Martino
+      - A. Porta
+      - G. Giordano
+      - E. Guglielmi
+      - F. Lanubile
+      - L. Quaranta
+      - G. Recupito
+      - S. Scalabrino
+      - A. Spina
+      - A. Vitale
+      date: 2024
+      journal: Joint Proceedings of RCIS 2024 Workshops and Research Projects Track
+        co-located with the 18th International Conferecence on Research Challenges
+        in Information Science (RCIS 2024), Guimaraes, Portugal, May 14-17, 2024,
+        vol. 3674
+    - title: Assessing the Use of AutoML for Data-Driven Software Engineering
+      authors:
+      - '***F. Calefato***'
+      - L. Quaranta
+      - F. Lanubile
+      - M. Kalinowski
+      date: 2023
+      journal: ACM/IEEE International Symposium on Empirical Software Engineering
+        and Measurement, ESEM 2023, New Orleans, LA, USA, October 26-27, 2023
+      doi: 10.1109/ESEM56168.2023.10304796
+    - title: Will you come back to contribute? Investigating the inactivity of OSS
+        core developers in GitHub
+      authors:
+      - '***F. Calefato***'
+      - M. Gerosa
+      - G. Iaffaldano
+      - F. Lanubile
+      - I. Steinmacher
+      date: 2022
+      journal: Empir. Softw. Eng., vol. 27, no. 3
+      doi: 10.1007/S10664-021-10012-6
+    - title: Eliciting Best Practices for Collaboration with Computational Notebooks
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2022
+      journal: Proc. ACM Hum. Comput. Interact., vol. 6, no. {CSCW1}
+      doi: 10.1145/3512934
+    - title: 'Using Personality Detection Tools for Software Engineering Research:
+        How Far Can We Go?'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2022
+      journal: ACM Trans. Softw. Eng. Methodol., vol. 31, no. 3
+      doi: 10.1145/3491039
+    - title: What Makes Agile Software Development Agile?
+      authors:
+      - M. Kuhrmann
+      - P. Tell
+      - R. Hebig
+      - J. Klünder
+      - J. Münch
+      - O. Linssen
+      - D. Pfahl
+      - M. Felderer
+      - C. Prause
+      - S. MacDonell
+      - J. Nakatumba-Nabende
+      - D. Raffo
+      - S. Beecham
+      - E. Tüzün
+      - G. López
+      - N. Paez
+      - D. Fontdevila
+      - S. Licorish
+      - S. Küpper
+      - G. Ruhe
+      - E. Knauss
+      - Ö. Özcan-Top
+      - P. Clarke
+      - F. McCaffery
+      - M. Genero
+      - A. Vizcaíno
+      - M. Piattini
+      - M. Kalinowski
+      - T. Conte
+      - R. Prikladnicki
+      - S. Krusche
+      - A. Coskunçay
+      - E. Scott
+      - '***F. Calefato***'
+      - S. Pimonova
+      - R.H. Pfeiffer
+      - U. Schultz
+      - R. Heldal
+      - M. Fazal-Baqaie
+      - C. Anslow
+      - M. Nayebi
+      - K. Schneider
+      - S. Sauer
+      - D. Winkler
+      - S. Biffl
+      - M. Bastarrica
+      - I. Richardson
+      date: 2022
+      journal: IEEE Trans. Software Eng., vol. 48, no. 9
+      doi: 10.1109/TSE.2021.3099532
+    - title: 'Pynblint: a static analyzer for Python Jupyter notebooks'
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2022
+      journal: 'Proceedings of the 1st International Conference on AI Engineering:
+        Software Engineering for AI, CAIN 2022, Pittsburgh, Pennsylvania, May 16-17,
+        2022'
+      doi: 10.1145/3522664.3528612
+    - title: A Preliminary Investigation of MLOps Practices in GitHub
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - L. Quaranta
+      date: 2022
+      journal: 'ESEM ''22: ACM / IEEE International Symposium on Empirical Software
+        Engineering and Measurement, Helsinki, Finland, September 19 - 23, 2022'
+      doi: 10.1145/3544902.3546636
+    - title: 'Assessment of off-the-shelf SE-specific sentiment analysis tools: An
+        extended replication study'
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Lanubile
+      - A. Serebrenik
+      date: 2021
+      journal: Empir. Softw. Eng., vol. 26, no. 4
+      doi: 10.1007/S10664-021-09960-W
+    - title: 'Global Software Engineering: Challenges and solutions'
+      authors:
+      - '***F. Calefato***'
+      - A. Dubey
+      - C. Ebert
+      - P. Tell
+      date: 2021
+      journal: J. Syst. Softw., vol. 174
+      doi: 10.1016/J.JSS.2020.110887
+    - title: An In-Depth Analysis of Occasional and Recurring Collaborations in Online
+        Music Co-creation
+      authors:
+      - '***F. Calefato***'
+      - G. Iaffaldano
+      - L. Trisolini
+      - F. Lanubile
+      date: 2021
+      journal: ACM Trans. Soc. Comput., vol. 4, no. 4
+      doi: 10.1145/3493800
+    - title: A Taxonomy of Tools for Reproducible Machine Learning Experiments
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2021
+      journal: AIxIA 2021 Discussion Papers co-located with the the 20th International
+        Conference of the Italian Association for Artificial Intelligence (AIxIA2021),
+        Virtual Event, December 1st-3rd, 2021, vol. 3078
+    - title: A Virtual Mentor to Support Question-Writing on Stack Overflow
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Laurentiis
+      - L. Minervini
+      - F. Lanubile
+      date: 2021
+      journal: 14th IEEE/ACM International Workshop on Cooperative and Human Aspects
+        of Software Engineering, CHASE@ICSE 2021, Madrid, Spain, May 20-21, 2021
+      doi: 10.1109/CHASE52884.2021.00027
+    - title: 'Towards Productizing AI/ML Models: An Industry Perspective from Data
+        Scientists'
+      authors:
+      - F. Lanubile
+      - '***F. Calefato***'
+      - L. Quaranta
+      - M. Amoruso
+      - F. Fumarola
+      - M. Filannino
+      date: 2021
+      journal: 1st IEEE/ACM Workshop on AI Engineering - Software Engineering for
+        AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021
+      doi: 10.1109/WAIN52551.2021.00027
+    - title: 'KGTorrent: A Dataset of Python Jupyter Notebooks from Kaggle'
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2021
+      journal: 18th IEEE/ACM International Conference on Mining Software Repositories,
+        MSR 2021, Madrid, Spain, May 17-19, 2021
+      doi: 10.1109/MSR52588.2021.00072
+    - title: 'collab-uniba/KGTorrent: First release (v. 1.0.0) of KGTorrent (Version
+        v1.0.0)'
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2021
+      journal: ''
+      doi: 10.5281/ZENODO.4472990
+    - title: 'KGTorrent: A Dataset of Python Jupyter Notebooks from Kaggle (Version
+        1.0.0)'
+      authors:
+      - L. Quaranta
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2021
+      journal: ''
+      doi: 10.5281/ZENODO.4468523
+    - title: 'Love, Joy, Anger, Sadness, Fear, and Surprise: SE Needs Special Kinds
+        of AI: A Case Study on Text Mining and SE'
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2020
+      journal: IEEE Softw., vol. 37, no. 3
+      doi: 10.1109/MS.2020.2968557
+    - title: A case study on tool support for collaboration in agile development
+      authors:
+      - '***F. Calefato***'
+      - A. Giove
+      - F. Lanubile
+      - M. Losavio
+      date: 2020
+      journal: 'ICGSE ''20: 15th IEEE/ACM International Conference on Global Software
+        Engineering, Seoul, Republic of Korea, June 26-28, 2020'
+      doi: 10.1145/3372787.3390436
+    - title: Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - D. Dongiovanni
+      - D. Girardi
+      - F. Lanubile
+      date: 2020
+      journal: 'MSR ''20: 17th International Conference on Mining Software Repositories,
+        Seoul, Republic of Korea, 29-30 June, 2020'
+      doi: 10.1145/3379597.3387446
+    - title: 'The Impact of Dynamics of Collaborative Software Engineering on Introverts:
+        A Study Protocol'
+      authors:
+      - I. Nunes
+      - C. Treude
+      - '***F. Calefato***'
+      date: 2020
+      journal: 'MSR ''20: 17th International Conference on Mining Software Repositories,
+        Seoul, Republic of Korea, 29-30 June, 2020'
+      doi: 10.1145/3379597.3387505
+    - title: An empirical assessment of best-answer prediction models in technical
+        Q&A sites
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2019
+      journal: Empir. Softw. Eng., vol. 24, no. 2
+      doi: 10.1007/S10664-018-9642-5
+    - title: A large-scale, in-depth analysis of developers' personalities in the
+        Apache ecosystem
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - B. Vasilescu
+      date: 2019
+      journal: Inf. Softw. Technol., vol. 114
+      doi: 10.1016/J.INFSOF.2019.05.012
+    - title: 'RECODE: revision control for digital images'
+      authors:
+      - '***F. Calefato***'
+      - G. Castellano
+      - V. Rossano
+      date: 2019
+      journal: Multim. Tools Appl., vol. 78, no. 23
+      doi: 10.1007/S11042-019-7735-9
+    - title: 'Correction to: RECODE: revision control for digital images'
+      authors:
+      - '***F. Calefato***'
+      - G. Castellano
+      - V. Rossano
+      date: 2019
+      journal: Multim. Tools Appl., vol. 78, no. 23
+      doi: 10.1007/S11042-019-08458-4
+    - title: Summary of the 14th International Conference on Global Software Engineering
+        (ICGSE)
+      authors:
+      - '***F. Calefato***'
+      - P. Tell
+      - A. Dubey
+      date: 2019
+      journal: ACM SIGSOFT Softw. Eng. Notes, vol. 44, no. 3
+      doi: 10.1145/3356773.3356802
+    - title: Agile Collaboration for Distributed Teams [Software Technology]
+      authors:
+      - '***F. Calefato***'
+      - C. Ebert
+      date: 2019
+      journal: IEEE Softw., vol. 36, no. 1
+      doi: 10.1109/MS.2018.2874668
+    - title: 'Why do developers take breaks from contributing to OSS projects?: a
+        preliminary analysis'
+      authors:
+      - G. Iaffaldano
+      - I. Steinmacher
+      - '***F. Calefato***'
+      - M. Gerosa
+      - F. Lanubile
+      date: 2019
+      journal: Proceedings of the 2nd International Workshop on Software Health, SoHeal@ICSE
+        2019, Montreal, QC, Canada, May 28, 2019
+    - title: 'EMTk: the emotion mining toolkit'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      - L. Quaranta
+      date: 2019
+      journal: Proceedings of the 4th International Workshop on Emotion Awareness
+        in Software Engineering, SEmotion@ICSE 2019, Montreal, QC, Canada, May 28,
+        2019
+      doi: 10.1109/SEMOTION.2019.00014
+    - title: Proceedings of the 14th International Conference on Global Software Engineering,
+        ICGSE 2019, Montreal, QC, Canada, May 25-31, 2019
+      authors:
+      - '***F. Calefato***'
+      - P. Tell
+      - A. Dubey
+      date: 2019
+      journal: IEEE / ACM
+    - title: Sentiment Polarity Detection for Software Development
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - F. Maiorano
+      - N. Novielli
+      date: 2018
+      journal: Empir. Softw. Eng., vol. 23, no. 3
+      doi: 10.1007/S10664-017-9546-9
+    - title: How to ask for technical help? Evidence-based guidelines for writing
+        questions on Stack Overflow
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2018
+      journal: Inf. Softw. Technol., vol. 94
+      doi: 10.1016/J.INFSOF.2017.10.009
+    - title: Establishing personal trust-based connections in distributed teams
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2018
+      journal: Internet Technol. Lett., vol. 1, no. 4
+      doi: 10.1002/ITL2.6
+    - title: Investigating Crowd Creativity in Online Music Communities
+      authors:
+      - '***F. Calefato***'
+      - G. Iaffaldano
+      - F. Lanubile
+      - F. Maiorano
+      date: 2018
+      journal: Proc. ACM Hum. Comput. Interact., vol. 2, no. {CSCW}
+      doi: 10.1145/3274296
+    - title: Collaboration Success Factors in an Online Music Community
+      authors:
+      - '***F. Calefato***'
+      - G. Iaffaldano
+      - F. Lanubile
+      date: 2018
+      journal: Proceedings of the 2018 ACM Conference on Supporting Groupwork, GROUP
+        2018, Sanibel Island, FL, USA, January 07 - 10, 2018
+      doi: 10.1145/3148330.3148346
+    - title: 'On developers'' personality in large-scale distributed projects: the
+        case of the apache ecosystem'
+      authors:
+      - '***F. Calefato***'
+      - G. Iaffaldano
+      - F. Lanubile
+      - B. Vasilescu
+      date: 2018
+      journal: Proceedings of the 13th Conference on Global Software Engineering,
+        ICGSE 2018, Gothenburg, Sweden, May 27 - 29, 2018
+      doi: 10.1145/3196369.3196372
+    - title: Sentiment polarity detection for software development
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - F. Maiorano
+      - N. Novielli
+      date: 2018
+      journal: Proceedings of the 40th International Conference on Software Engineering,
+        ICSE 2018, Gothenburg, Sweden, May 27 - June 03, 2018
+      doi: 10.1145/3180155.3182519
+    - title: A Revision Control System for Image Editing in Collaborative Multimedia
+        Design
+      authors:
+      - '***F. Calefato***'
+      - G. Castellano
+      - V. Rossano
+      date: 2018
+      journal: 22nd International Conference Information Visualisation, IV 2018, Fisciano,
+        Italy, July 10-13, 2018
+      doi: 10.1109/IV.2018.00095
+    - title: A gold standard for emotion annotation in stack overflow
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2018
+      journal: Proceedings of the 15th International Conference on Mining Software
+        Repositories, MSR 2018, Gothenburg, Sweden, May 28-29, 2018
+      doi: 10.1145/3196398.3196453
+    - title: 'Natural language or not (NLON): a package for software engineering text
+        analysis pipeline'
+      authors:
+      - M. Mäntylä
+      - '***F. Calefato***'
+      - M. Claes
+      date: 2018
+      journal: Proceedings of the 15th International Conference on Mining Software
+        Repositories, MSR 2018, Gothenburg, Sweden, May 28-29, 2018
+      doi: 10.1145/3196398.3196444
+    - title: 'EmoTxt: A toolkit for emotion recognition from text'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2017
+      journal: Seventh International Conference on Affective Computing and Intelligent
+        Interaction Workshops and Demos, ACII Workshops 2017, San Antonio, TX, USA,
+        October 23-26, 2017
+      doi: 10.1109/ACIIW.2017.8272591
+    - title: A Preliminary Analysis on the Effects of Propensity to Trust in Distributed
+        Software Development
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2017
+      journal: 12th IEEE International Conference on Global Software Engineering,
+        ICGSE 2017, Buenos Aires, Argentina, May 22-23, 2017
+      doi: 10.1109/ICGSE.2017.1
+    - title: 'Mining Communication Data in a Music Community: A Preliminary Analysis'
+      authors:
+      - '***F. Calefato***'
+      - G. Iaffaldano
+      - F. Lanubile
+      - A. Lategano
+      - N. Novielli
+      date: 2017
+      journal: Current Trends in Web Engineering - ICWE 2017 International Workshops,
+        Liquid Multi-Device Software and EnWoT, practi-O-web, NLPIT, SoWeMine, Rome,
+        Italy, June 5-8, 2017, Revised Selected Papers, vol. 10544
+      doi: 10.1007/978-3-319-74433-9_22
+    - title: A Preliminary Analysis on the Effects of Propensity to Trust in Distributed
+        Software Development
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2017
+      journal: CoRR, vol. abs/1702.04958
+    - title: 'Mining Communication Data in a Music Community: A Preliminary Analysis'
+      authors:
+      - '***F. Calefato***'
+      - G. Iaffaldano
+      - F. Lanubile
+      - A. Lategano
+      - N. Novielli
+      date: 2017
+      journal: CoRR, vol. abs/1705.04485
+    - title: Assessing the impact of real-time machine translation on multilingual
+        meetings in global software projects
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - T. Conte
+      - R. Prikladnicki
+      date: 2016
+      journal: Empir. Softw. Eng., vol. 21, no. 3
+      doi: 10.1007/S10664-015-9372-X
+    - title: A University-NGO partnership to sustain assistive technology projects
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - R. Nicolo
+      - F. Lippolis
+      date: 2016
+      journal: Interactions, vol. 23, no. 2
+      doi: 10.1145/2883619
+    - title: 'The EmoQuest Project: Emotions in Q&A Sites'
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Lanubile
+      - G. Mininni
+      - A. Taronna
+      date: 2016
+      journal: Proceedings of the International Working Conference on Advanced Visual
+        Interfaces, AVI 2016, Bari, Italy, June 7-10, 2016
+      doi: 10.1145/2909132.2926062
+    - title: 'Moving to Stack Overflow: Best-Answer Prediction in Legacy Developer
+        Forums'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2016
+      journal: Proceedings of the 10th ACM/IEEE International Symposium on Empirical
+        Software Engineering and Measurement, ESEM 2016, Ciudad Real, Spain, September
+        8-9, 2016
+      doi: 10.1145/2961111.2962585
+    - title: A Hub-and-Spoke Model for Tool Integration in Distributed Development
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2016
+      journal: 11th IEEE International Conference on Global Software Engineering,
+        ICGSE 2016, Orange County, CA, USA, August 2-5, 2016
+      doi: 10.1109/ICGSE.2016.12
+    - title: Affective trust as a predictor of successful collaboration in distributed
+        software projects
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2016
+      journal: Proceedings of the 1st International Workshop on Emotion Awareness
+        in Software Engineering, SEmotion@ICSE 2016, Austin, Texas, USA, May 14-22,
+        2016
+      doi: 10.1145/2897000.2897001
+    - title: Proceedings of the 8th International Workshop on Social Software Engineering,
+        SSE 2016, Seattle, WA, USA, November 14, 2016
+      authors:
+      - A. Begel
+      - '***F. Calefato***'
+      - C. Treude
+      date: 2016
+      journal: ACM
+      doi: 10.1145/2993283
+    - title: The role of social media in affective trust building in customer-supplier
+        relationships
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2015
+      journal: Electron. Commer. Res., vol. 15, no. 4
+      doi: 10.1007/S10660-015-9194-3
+    - title: 'Cost Savings in Global Software Engineering: Where''s the Evidence?'
+      authors:
+      - D. Smite
+      - '***F. Calefato***'
+      - C. Wohlin
+      date: 2015
+      journal: IEEE Softw., vol. 32, no. 4
+      doi: 10.1109/MS.2015.102
+    - title: Product Line Engineering for NGO Projects
+      authors:
+      - '***F. Calefato***'
+      - R. Nicolo
+      - F. Lanubile
+      - F. Lippolis
+      date: 2015
+      journal: 5th IEEE/ACM International Workshop on Product Line Approaches in Software
+        Engineering, PLEASE 2015, Florence, Italy, May 19, 2015
+      doi: 10.1109/PLEASE.2015.9
+    - title: Mining Successful Answers in Stack Overflow
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - M. Marasciulo
+      - N. Novielli
+      date: 2015
+      journal: 12th IEEE/ACM Working Conference on Mining Software Repositories, MSR
+        2015, Florence, Italy, May 16-17, 2015
+      doi: 10.1109/MSR.2015.56
+    - title: The challenges of sentiment detection in the social programmer ecosystem
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2015
+      journal: Proceedings of the 7th International Workshop on Social Software Engineering,
+        SSE 2015, Bergamo, Italy, September 1, 2015
+      doi: 10.1145/2804381.2804387
+    - title: Speech Recognition for Voice-Based Machine Translation
+      authors:
+      - T. Duarte
+      - R. Prikladnicki
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2014
+      journal: IEEE Softw., vol. 31, no. 1
+      doi: 10.1109/MS.2014.14
+    - title: An empirical simulation-based study of real-time speech translation for
+        multilingual global project teams
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - R. Prikladnicki
+      - J. Pinto
+      date: 2014
+      journal: 2014 ACM-IEEE International Symposium on Empirical Software Engineering
+        and Measurement, ESEM '14, Torino, Italy, September 18-19, 2014
+      doi: 10.1145/2652524.2652537
+    - title: Investigating the Effect of Social Media on Trust Building in Customer-supplier
+        Relationships
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2014
+      journal: ICEIS 2014 - Proceedings of the 16th International Conference on Enterprise
+        Information Systems, Volume 2, Lisbon, Portugal, 27-30 April, 2014
+      doi: 10.5220/0004905606350642
+    - title: 'Mobile Speech Translation for Multilingual Requirements Meetings: A
+        Preliminary Study'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - D. Romita
+      - R. Prikladnicki
+      - J. Pinto
+      date: 2014
+      journal: IEEE 9th International Conference on Global Software Engineering, ICGSE
+        2014, Shanghai, China, 18-21 August, 2014
+      doi: 10.1109/ICGSE.2014.10
+    - title: Towards discovering the role of emotions in stack overflow
+      authors:
+      - N. Novielli
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2014
+      journal: Proceedings of the 6th International Workshop on Social Software Engineering,
+        SSE 2014, Hong Kong, China, November 17, 2014
+      doi: 10.1145/2661685.2661689
+    - title: Group Awareness in Global Software Engineering
+      authors:
+      - F. Lanubile
+      - '***F. Calefato***'
+      - C. Ebert
+      date: 2013
+      journal: IEEE Softw., vol. 30, no. 2
+      doi: 10.1109/MS.2013.30
+    - title: A Preliminary Investigation of the Effect of Social Media on Affective
+        Trust in Customer-Supplier Relationships
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - N. Novielli
+      date: 2013
+      journal: 2013 Humaine Association Conference on Affective Computing and Intelligent
+        Interaction, ACII 2013, Geneva, Switzerland, September 2-5, 2013
+      doi: 10.1109/ACII.2013.11
+    - title: 'Trust in virtual teams: theory and tools'
+      authors:
+      - B. Al-Ani
+      - D. Redmiles
+      - C. Souza
+      - R. Prikladnicki
+      - S. Marczak
+      - F. Lanubile
+      - '***F. Calefato***'
+      date: 2013
+      journal: Computer Supported Cooperative Work, CSCW 2013, San Antonio, TX, USA,
+        February 23-27, 2013, Companion Volume
+      doi: 10.1145/2441955.2442029
+    - title: Can social awareness foster trust building in global software teams?
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - F. Sportelli
+      date: 2013
+      journal: Proceedings of the 2013 International Workshop on Social Software Engineering,
+        SSE 2013, Saint Petersburg, Russia, August 18, 2013
+      doi: 10.1145/2501535.2501538
+    - title: 'SocialCDE: a social awareness tool for global software teams'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2013
+      journal: Joint Meeting of the European Software Engineering Conference and the
+        ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE'13,
+        Saint Petersburg, Russian Federation, August 18-26, 2013
+      doi: 10.1145/2491411.2494592
+    - title: Computer-mediated communication to support distributed requirements elicitations
+        and negotiations tasks
+      authors:
+      - '***F. Calefato***'
+      - D. Damian
+      - F. Lanubile
+      date: 2012
+      journal: Empir. Softw. Eng., vol. 17, no. 6
+      doi: 10.1007/S10664-011-9179-3
+    - title: 'Assessing the impact of real-time machine translation on requirements
+        meetings: a replicated experiment'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - T. Conte
+      - R. Prikladnicki
+      date: 2012
+      journal: 2012 ACM-IEEE International Symposium on Empirical Software Engineering
+        and Measurement, ESEM '12, Lund, Sweden - September 19 - 20, 2012
+      doi: 10.1145/2372251.2372299
+    - title: Social Awareness for Global Software Teams
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2012
+      journal: 2012 IEEE Seventh International Conference on Global Software Engineering,
+        Porto Alegre, Rio Grande do Sul, Brazil, August 27-30, 2012
+      doi: 10.1109/ICGSE.2012.31
+    - title: Augmenting social awareness in a collaborative development environment
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2012
+      journal: 5th International Workshop on Co-operative and Human Aspects of Software
+        Engineering, CHASE 2012, Zurich, Switzerland, June 2, 2012
+      doi: 10.1109/CHASE.2012.6223009
+    - title: A Controlled Experiment on the Effects of Machine Translation in Multilingual
+        Requirements Meetings
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - R. Prikladnicki
+      date: 2011
+      journal: 6th IEEE International Conference on Global Software Engineering, ICGSE
+        2011, Helsinki, Finland, August 15-18, 2011
+      doi: 10.1109/ICGSE.2011.14
+    - title: Communication Media Selection for Remote Interaction of Ad Hoc Groups
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2010
+      journal: Adv. Comput., vol. 78
+      doi: 10.1016/S0065-2458(10)78006-2
+    - title: 'Investigating the use of tags in collaborative development environments:
+        a replicated study'
+      authors:
+      - '***F. Calefato***'
+      - D. Gendarmi
+      - F. Lanubile
+      date: 2010
+      journal: Proceedings of the International Symposium on Empirical Software Engineering
+        and Measurement, ESEM 2010, 16-17 September 2010, Bolzano/Bozen, Italy
+      doi: 10.1145/1852786.1852818
+    - title: Can Real-Time Machine Translation Overcome Language Barriers in Distributed
+        Requirements Engineering?
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - P. Minervini
+      date: 2010
+      journal: 5th IEEE International Conference on Global Software Engineering, ICGSE
+        2010, Princeton, NJ, USA, 23-26 August, 2010
+      doi: 10.1109/ICGSE.2010.37
+    - title: 'Using frameworks to develop a distributed conferencing system: an experience
+        report'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2009
+      journal: Softw. Pract. Exp., vol. 39, no. 15
+      doi: 10.1002/SPE.937
+    - title: Embedding social networking information into jazz to foster group awareness
+        within distributed teams
+      authors:
+      - '***F. Calefato***'
+      - D. Gendarmi
+      - F. Lanubile
+      date: 2009
+      journal: Proceedings of the 2nd International Workshop on Social Software Engineering
+        and Applications, SoSEA '09, Amsterdam, The Netherlands, August 24, 2009
+      doi: 10.1145/1595836.1595842
+    - title: 'Adopting the Eclipse Communication Framework: The Case of eConference'
+      authors:
+      - '***F. Calefato***'
+      - M. Scalas
+      date: 2008
+      journal: Proceedings of the 3rd Italian Workshop on Eclipse Technologies, Eclipse-IT
+        2008, Bari, Italy, November 17-18, 2008, vol. 436
+    - title: Incorporating social software into distributed agile development environments
+      authors:
+      - F. Abbattista
+      - '***F. Calefato***'
+      - D. Gendarmi
+      - F. Lanubile
+      date: 2008
+      journal: 23rd IEEE/ACM International Conference on Automated Software Engineering
+        - Workshop Proceedings (ASE Workshops 2008), 15-16 September 2008, L'Aquila,
+        Italy
+      doi: 10.1109/ASEW.2008.4686310
+    - title: 'Evolving a text-based conferencing system: An experience report'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - M. Scalas
+      date: 2007
+      journal: 'Proceedings of the 3rd International Conference on Collaborative Computing:
+        Networking, Applications and Worksharing, White Plains, New York, USA, November
+        12-15, 2007'
+      doi: 10.1109/COLCOM.2007.4553869
+    - title: Porting a distributed meeting system to the Eclipse communication framework
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - M. Scalas
+      date: 2007
+      journal: Proceedings of the 2007 OOPSLA workshop on Eclipse Technology eXchange,
+        ETX 2007, Montreal, Quebec, Canada, October 21, 2007
+      doi: 10.1145/1328279.1328289
+    - title: A Controlled Experiment on the Effects of Synchronicity in Remote Inspection
+        Meetings
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - T. Mallardo
+      date: 2007
+      journal: Proceedings of the First International Symposium on Empirical Software
+        Engineering and Measurement, ESEM 2007, September 20-21, 2007, Madrid, Spain
+      doi: 10.1109/ESEM.2007.61
+    - title: An Empirical Investigation on Text-Based Communication in Distributed
+        Requirements Workshops
+      authors:
+      - '***F. Calefato***'
+      - D. Damian
+      - F. Lanubile
+      date: 2007
+      journal: 2nd IEEE International Conference on Global Software Engineering, ICGSE
+        2007, Munich, Germany, 27-30 August, 2007
+      doi: 10.1109/ICGSE.2007.9
+    - title: Shaping Personal Information Spaces from Collaborative Tagging Systems
+      authors:
+      - F. Abbattista
+      - '***F. Calefato***'
+      - D. Gendarmi
+      - F. Lanubile
+      date: 2007
+      journal: Knowledge-Based Intelligent Information and Engineering Systems, 11th
+        International Conference, KES 2007, XVII Italian Workshop on Neural Networks,
+        Vietri sul Mare, Italy, September 12-14, 2007, Proceedings, Part III, vol.
+        4694
+      doi: 10.1007/978-3-540-74829-8_89
+    - title: Towards Social Semantic Suggestive Tagging
+      authors:
+      - '***F. Calefato***'
+      - D. Gendarmi
+      - F. Lanubile
+      date: 2007
+      journal: Proceedings of the 4th Italian Semantic Web Workshop, Dipartimento
+        di Informatica - Universita' degli Studi di Bari - Italy, 18-20 December,
+        2007, vol. 314
+    - title: Plugging Presence Awareness into Mozilla Thunderbird
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      date: 2006
+      journal: Proceedings of the IASTED International Conference on Internet and
+        Multimedia Systems and Applications, as part of the 24th IASTED International
+        Multi-Conference on Applied Informatics, February 13-15, 2006, Innsbruck,
+        Austria
+    - title: 'An Information Broker for Integrating Heterogeneous Hydrologic Data
+        Sources: A Web Services Approach'
+      authors:
+      - '***F. Calefato***'
+      - A. Colagrossi
+      - D. Gendarmi
+      - F. Lanubile
+      - G. Semeraro
+      date: 2006
+      journal: Research and Practical Issues of Enterprise Information Systems - IFIP
+        TC 8 International Conference on Research and Practical Issues of Enterprise
+        Information Systems (CONFENIS 2006) April 24-26, 2006, Vienna, Austria, vol.
+        205
+      doi: 10.1007/0-387-34456-X_5
+    - title: 'Function Clone Detection in Web Applications: A Semiautomated Approach'
+      authors:
+      - '***F. Calefato***'
+      - F. Lanubile
+      - T. Mallardo
+      date: 2004
+      journal: J. Web Eng., vol. 3, no. 1
+    - title: 'Assessing the Impact of Active Guidance for Defect Detection: A Replicated
+        Experiment'
+      authors:
+      - F. Lanubile
+      - T. Mallardo
+      - '***F. Calefato***'
+      - C. Denger
+      - M. Ciolkowski
+      date: 2004
+      journal: 10th IEEE International Software Metrics Symposium (METRICS 2004),
+        11-17 September 2004, Chicago, IL, USA
+      doi: 10.1109/METRIC.2004.1357909
+    - title: Tool support for geographically dispersed inspection teams
+      authors:
+      - F. Lanubile
+      - T. Mallardo
+      - '***F. Calefato***'
+      date: 2003
+      journal: Softw. Process. Improv. Pract., vol. 8, no. 4
+      doi: 10.1002/SPIP.184
     events_organization:
-      - name: Program Co-Chair
-        highlights:
-          - "*40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24),
-            Flagstaff, AZ, USA, Oct 2024*"
-          - "*16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23),
-            Melbourne, Australia, May 2023*"
-          - "*8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA, USA, Nov 14, 2016
-            – co-located with FSE'16*"
-          - "*1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio, TX, USA, Feb 24, 2013
-            – co-located with CSCW'13*"
-      - name: General Chair
-        highlights:
-          - "*14th International Conference on Global Software Engineering (ICGSE'19), Montreal, Canada,
-            25-26 May 2018*"
-      - name: Steering Board Member
-        highlights:
-          - "*Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022*"
-      - name: Track Co-Chair
-        highlights:
-          - "*43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering
-            (SCORE) track, Madrid, Spain, May 2021*"
-      - name: Workshops & Tutorials Co-Chair
-        highlights:
-          - "*23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23),
-            Jyväskylä, Finland, 21-23 November 2022*"
-      - name: Workshops Co-Chair
-        highlights:
-          - "*10th Int’l Conf. on Global Software Engineering (ICGSE'15),
-            Ciudad Real, Spain, 13-16 July 2015*"
-      - name: Open-science Co-Chair
-        highlights:
-          - "*15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21),
-            Bari, Italy, 11-15 Oct 2021*"
-          - "*14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20),
-            Bari, Italy, 5-9 Oct 2020*"
-      - name: Publicity & Social Media Chair
-        highlights:
-          - "*21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark,
-            8-12 June 2020*"
-          - "*13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden,
-            28-29 May 2018*"
-          - "*8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy,
-            26-29 Aug 2013*"
-
+    - name: Program Co-Chair
+      highlights:
+      - '*40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff,
+        AZ, USA, Oct 2024*'
+      - '*16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering
+        (CHASE’23), Melbourne, Australia, May 2023*'
+      - '*8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA,
+        USA, Nov 14, 2016 – co-located with FSE''16*'
+      - '*1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio,
+        TX, USA, Feb 24, 2013 – co-located with CSCW''13*'
+    - name: General Chair
+      highlights:
+      - '*14th International Conference on Global Software Engineering (ICGSE''19),
+        Montreal, Canada, 25-26 May 2018*'
+    - name: Steering Board Member
+      highlights:
+      - '*Int''l Conf. on Global Software Engineering (ICGSE), 2019-2022*'
+    - name: Track Co-Chair
+      highlights:
+      - '*43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software
+        Engineering (SCORE) track, Madrid, Spain, May 2021*'
+    - name: Workshops & Tutorials Co-Chair
+      highlights:
+      - '*23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23),
+        Jyväskylä, Finland, 21-23 November 2022*'
+    - name: Workshops Co-Chair
+      highlights:
+      - '*10th Int’l Conf. on Global Software Engineering (ICGSE''15), Ciudad Real,
+        Spain, 13-16 July 2015*'
+    - name: Open-science Co-Chair
+      highlights:
+      - '*15th Int''l Symposium on Empirical Software Engineering and Measurement
+        (ESEM’21), Bari, Italy, 11-15 Oct 2021*'
+      - '*14th Int''l Symposium on Empirical Software Engineering and Measurement
+        (ESEM’20), Bari, Italy, 5-9 Oct 2020*'
+    - name: Publicity & Social Media Chair
+      highlights:
+      - '*21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark,
+        8-12 June 2020*'
+      - '*13th Int’l Conf. on Global Software Engineering (ICGSE''18), Gothenburg,
+        Sweden, 28-29 May 2018*'
+      - '*8th Int’l Conf. on Global Software Engineering (ICGSE''13), Bari, Italy,
+        26-29 Aug 2013*'
     editorial_activities:
-      - name: Associate Editor
-        highlights:
-          - "*Elsevier `Journal of Systems and Software' (JSS), rank: SJR Q1*"
-          - "*Springer `Automated Software Engineering' (ASE)*"
-      - name: Guest Editor
-        highlights:
-          - "*2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
-            Special Issue on ``Software Maintenance and Evolution.''
-            Co-editor: Sarah Nadi (New York University, Abu Dhabi)*"
-          - "*2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
-            Special Issue on [``Cooperative and Human Aspects of Software Engineering''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html).
-            Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and
-            Igor Steinmacher (NAU, USA)*"
-          - "*2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1.
-            Special Issue on [``Global Software Engineering: Challenges and Solutions.''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT)
-            Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India),
-            Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)*"
-      - name: Review Board Member
-        highlights:
-          - "*2023 – present: Replicated Computational Results Distinguished Reviewers Board for
-            ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1*"
-          - "*2020 – 2022: ACM `Transactions on Software Engineering and Methodology’ (TOSEM),
-            rank: SJR Q1*"
-          - "*2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE, SJR Q1),
-            rank: SJR Q1*"
-      - name: Peer Reviews (partial list)
-        location: "**verified record on [Clarivate](https://www.webofscience.com/wos/author/record/H-4177-2014)**"
-        highlights:
-          - "*(23) Springer `Journal of Empirical Software Engineering' (EMSE), rank: SJR Q1*"
-          - "*(19) IEEE `Transactions on Software Engineering' (TSE), rank: SJR Q1*"
-          - "*(16) ACM `Transactions on Software Engineering and Methodology' (TOSEM), rank: SJR Q1*"
-          - "*(12) Elsevier `Journal of System and Software' (JSS), rank: SJR Q1*"
-          - "*(8) Elsevier `Information and Software Technology' (INFSOF), rank: SJR Q1*"
-          - "*(7) Wiley `Journal of Software: Evolution and Process' (JSEP), rank: SJR Q2*"
-          - "*(5) IEEE `Software,' rank: SJR Q2*"
-          - "*(2) IEEE `Transactions on Affective Computing,' rank: SJR Q1*"
-          - "*(1) ACM `Transactions on Internet Technologies' (TOIT), rank: SJR Q1*"
-
+    - name: Associate Editor
+      highlights:
+      - '*Elsevier `Journal of Systems and Software'' (JSS), rank: SJR Q1*'
+      - '*Springer `Automated Software Engineering'' (ASE)*'
+    - name: Guest Editor
+      highlights:
+      - '*2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1. Special
+        Issue on ``Software Maintenance and Evolution.'''' Co-editor: Sarah Nadi (New
+        York University, Abu Dhabi)*'
+      - '*2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1. Special
+        Issue on [``Cooperative and Human Aspects of Software Engineering''''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html).
+        Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and Igor Steinmacher
+        (NAU, USA)*'
+      - '*2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1. Special
+        Issue on [``Global Software Engineering: Challenges and Solutions.''''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT)
+        Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India), Christof
+        Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen,
+        Denmark)*'
+    - name: Review Board Member
+      highlights:
+      - '*2023 – present: Replicated Computational Results Distinguished Reviewers
+        Board for ACM `Transactions on Software Engineering and Methodology’ (TOSEM),
+        rank: SJR Q1*'
+      - '*2020 – 2022: ACM `Transactions on Software Engineering and Methodology’
+        (TOSEM), rank: SJR Q1*'
+      - '*2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE,
+        SJR Q1), rank: SJR Q1*'
+    - name: Peer Reviews (partial list)
+      location: '**verified record on [Clarivate](https://www.webofscience.com/wos/author/record/H-4177-2014)**'
+      highlights:
+      - '*(23) Springer `Journal of Empirical Software Engineering'' (EMSE), rank:
+        SJR Q1*'
+      - '*(19) IEEE `Transactions on Software Engineering'' (TSE), rank: SJR Q1*'
+      - '*(16) ACM `Transactions on Software Engineering and Methodology'' (TOSEM),
+        rank: SJR Q1*'
+      - '*(12) Elsevier `Journal of System and Software'' (JSS), rank: SJR Q1*'
+      - '*(8) Elsevier `Information and Software Technology'' (INFSOF), rank: SJR
+        Q1*'
+      - '*(7) Wiley `Journal of Software: Evolution and Process'' (JSEP), rank: SJR
+        Q2*'
+      - '*(5) IEEE `Software,'' rank: SJR Q2*'
+      - '*(2) IEEE `Transactions on Affective Computing,'' rank: SJR Q1*'
+      - '*(1) ACM `Transactions on Internet Technologies'' (TOIT), rank: SJR Q1*'
     institutional_services:
-      - name: Rector’s Delegate for the GARR Network
-        highlights:
-          - "*May 2023 - present: The GARR Consortium is the Italian national research and education network,
-            providing high-speed Internet connectivity and advanced services to universities and research
-            institutions.*"
-      - name: CS Dept. Director’s Delegate for Internship Programs
-        highlights:
-          - "*Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs,
-            coordinating with industry partners, mentoring students, ensuring compliance with academic
-            standards, and evaluating the effectiveness of the internship experiences.*"
-
+    - name: Rector’s Delegate for the GARR Network
+      highlights:
+      - '*May 2023 - present: The GARR Consortium is the Italian national research
+        and education network, providing high-speed Internet connectivity and advanced
+        services to universities and research institutions.*'
+    - name: CS Dept. Director’s Delegate for Internship Programs
+      highlights:
+      - '*Mar 2023 - present: Responsibilities include overseeing the development
+        and implementation of internship programs, coordinating with industry partners,
+        mentoring students, ensuring compliance with academic standards, and evaluating
+        the effectiveness of the internship experiences.*'
     Ph.D._students_supervision:
-      - institution: Kelly Azevedo Borges Leal 
-        area: "Dept. of Computer Science"
-        location: "Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil"
-        start_date: 2023-07
-        highlights:
-          - "*Topic: AutoML for Software Engineering*"
-          - "*Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*"
-      - institution: Luigi Quaranta 
-        area: "Dept. of Computer Science, Ph.D. program cycle XXXV"
-        location: "University of Bari, Italy"
-        date: 2022-11-14
-        highlights:
-          - "*Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''*"
-          - "*Co-supervised with prof. Filippo Lanubile*"
-      - institution: Giuseppe Iaffaldano
-        area: "Dept. of Computer Science, Ph.D. program cycle XXXII"
-        location: "University of Bari, Italy"
-        date: 2020-02-14
-        highlights:
-          - "*Thesis: ``Investigating the Dynamics of Online Creative Communities''*"
-          - "*Co-supervised with prof. Filippo Lanubile*"
-
+    - institution: Kelly Azevedo Borges Leal
+      area: Dept. of Computer Science
+      location: Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil
+      start_date: 2023-07
+      highlights:
+      - '*Topic: AutoML for Software Engineering*'
+      - '*Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*'
+    - institution: Luigi Quaranta
+      area: Dept. of Computer Science, Ph.D. program cycle XXXV
+      location: University of Bari, Italy
+      date: 2022-11-14
+      highlights:
+      - '*Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled
+        Systems''''*'
+      - '*Co-supervised with prof. Filippo Lanubile*'
+    - institution: Giuseppe Iaffaldano
+      area: Dept. of Computer Science, Ph.D. program cycle XXXII
+      location: University of Bari, Italy
+      date: 2020-02-14
+      highlights:
+      - '*Thesis: ``Investigating the Dynamics of Online Creative Communities''''*'
+      - '*Co-supervised with prof. Filippo Lanubile*'
     membership_in_doctoral_boards:
-      - institution: Ph.D. program in Computer Science and Mathematics (XL cycle)
-        location: University of Bari, Italy
-        area: Dept. of Computer Science
-        start_date: 2024
-        end_date: 2025
-      - institution: Ph.D. program in Computer Science and Mathematics (XXXIX cycle)
-        location: University of Bari, Italy
-        area: Dept. of Computer Science
-        start_date: 2023
-        end_date: 2024
-      - institution: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
-        location: University of Bari, Italy
-        area: Dept. of Computer Science
-        start_date: 2022
-        end_date: 2023
-      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle)
-        location: Polytechnic University of Bari, Italy
-        area: Dept. of Electrical and Information Engineering
-        start_date: 2021
-        end_date: 2022
-      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle)
-        location: Polytechnic University of Bari, Italy
-        area: Dept. of Electrical and Information Engineering
-        start_date: 2020
-        end_date: 2021
-
+    - institution: Ph.D. program in Computer Science and Mathematics (XL cycle)
+      location: University of Bari, Italy
+      area: Dept. of Computer Science
+      start_date: 2024
+      end_date: 2025
+    - institution: Ph.D. program in Computer Science and Mathematics (XXXIX cycle)
+      location: University of Bari, Italy
+      area: Dept. of Computer Science
+      start_date: 2023
+      end_date: 2024
+    - institution: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
+      location: University of Bari, Italy
+      area: Dept. of Computer Science
+      start_date: 2022
+      end_date: 2023
+    - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences
+        (XXXVII cycle)
+      location: Polytechnic University of Bari, Italy
+      area: Dept. of Electrical and Information Engineering
+      start_date: 2021
+      end_date: 2022
+    - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences
+        (XXXVI cycle)
+      location: Polytechnic University of Bari, Italy
+      area: Dept. of Electrical and Information Engineering
+      start_date: 2020
+      end_date: 2021
     teaching:
-      - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
-        area:  University of Bari, Dept. of Computer Science
-        degree: BSc in Computer Science and Software Production Technologies (ITPS), 2nd year
-        location: Bari, Italy
-        start_date: 2019
-        end_date: 2025
-      - institution: Social Computing [6 ECTS]
-        area:  University of Bari, Dept. of Computer Science
-        degree: MSc in Computer Science, 1st year
-        location: Bari, Italy
-        start_date: 2021
-        end_date: 2024
-      - institution:  Software Solutions for Reproducible Experiments [2 ECTS]
-        area:  University of Bari, Dept. of Computer Science
-        degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
-        location: Bari, Italy
-        start_date: 2022
-        end_date: 2023
-      - institution: Social Computing [5 ECTS]
-        area: ''
-        degree: MSc in Computer Science and Engineering???, University of Oulu
-        location: Oulu, Finland
-        start_date: 2022
-        end_date: 2023
-      - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
-        area: University of Bari, Dept. of Computer Science
-        degree: BSc in Computer Science, 3rd year
-        location: Bari, Italy
-        start_date: 2018
-        end_date: 2019
-      - institution: Mining Socio-technical Repositories [3 ECTS]
-        area: ''
-        degree: Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2017
-        end_date: 2018
-      - institution: "IT Tools Supporting Legal and Economic Research: Blockchain for Tracking Production and Transportation Chains [2 ECTS]"
-        area: ''
-        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXIII cycle), University of Bari, Jonian Dept. (Law and Business School)
-        location: Taranto, Italy
-        start_date: 2017
-        end_date: 2018
-      - institution: Classification Models in Software Engineering [2 ECTS]
-        area: ''
-        degree: Ph.D. program in Computer Science, University of Oulu
-        location: Oulu, Finland
-        start_date: 2016
-        end_date: 2017
-      - institution: Emotion Awareness in Social Computing [2 ECTS]
-        area: ''
-        degree: Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science
-        location: Oulu, Finland
-        start_date: 2016
-        end_date: 2017
-        highlights: 
-          - Co-taught with Prof. Nicole Novielli
-      - institution:  IT Tools Supporting Legal and Economic Research [2 ECTS]
-        area: ''
-        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXII cycle), University of Bari, Jonian Dept. (Law and Business School)
-        location: Taranto, Italy
-        start_date: 2016
-        end_date: 2017
-      - institution: Informatica (Computer Science) [9 ECTS]
-        area: ''
-        degree: BSc in Maritime Sciences and Management (SGAM), 2nd year
-        location: Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science
-        start_date: 2015
-        end_date: 2020
-      - institution: Abilità Informatica (Computer Skills) [4 ECTS]
-        area: ''
-        degree: Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School)
-        location: Taranto, Italy
-        start_date: 2015
-        end_date: 2020
-      - institution: Laboratorio di Informatica (C Programming Lab) [9 ECTS]
-        area: ''
-        degree: BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2014
-        end_date: 2015
-      - institution: Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS]
-        area: ''
-        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
-        location: Brindisi, Italy
-        start_date: 2014
-        end_date: 2015
-      - institution: Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]
-        area: ''
-        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
-        location: Brindis, Italy
-        start_date: 2008
-        end_date: 2013
-
+    - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
+      area: University of Bari, Dept. of Computer Science
+      degree: BSc in Computer Science and Software Production Technologies (ITPS),
+        2nd year
+      location: Bari, Italy
+      start_date: 2019
+      end_date: 2025
+    - institution: Social Computing [6 ECTS]
+      area: University of Bari, Dept. of Computer Science
+      degree: MSc in Computer Science, 1st year
+      location: Bari, Italy
+      start_date: 2021
+      end_date: 2024
+    - institution: Software Solutions for Reproducible Experiments [2 ECTS]
+      area: University of Bari, Dept. of Computer Science
+      degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
+      location: Bari, Italy
+      start_date: 2022
+      end_date: 2023
+    - institution: Social Computing [5 ECTS]
+      area: ''
+      degree: MSc in Computer Science and Engineering???, University of Oulu
+      location: Oulu, Finland
+      start_date: 2022
+      end_date: 2023
+    - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
+      area: University of Bari, Dept. of Computer Science
+      degree: BSc in Computer Science, 3rd year
+      location: Bari, Italy
+      start_date: 2018
+      end_date: 2019
+    - institution: Mining Socio-technical Repositories [3 ECTS]
+      area: ''
+      degree: Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University
+        of Bari, Dept. of Computer Science
+      location: Bari, Italy
+      start_date: 2017
+      end_date: 2018
+    - institution: 'IT Tools Supporting Legal and Economic Research: Blockchain for
+        Tracking Production and Transportation Chains [2 ECTS]'
+      area: ''
+      degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean
+        (XXXIII cycle), University of Bari, Jonian Dept. (Law and Business School)
+      location: Taranto, Italy
+      start_date: 2017
+      end_date: 2018
+    - institution: Classification Models in Software Engineering [2 ECTS]
+      area: ''
+      degree: Ph.D. program in Computer Science, University of Oulu
+      location: Oulu, Finland
+      start_date: 2016
+      end_date: 2017
+    - institution: Emotion Awareness in Social Computing [2 ECTS]
+      area: ''
+      degree: Ph.D. program in Computer Science and Mathematics (XXXII cycle), University
+        of Bari, Dept. of Computer Science
+      location: Oulu, Finland
+      start_date: 2016
+      end_date: 2017
+      highlights:
+      - Co-taught with Prof. Nicole Novielli
+    - institution: IT Tools Supporting Legal and Economic Research [2 ECTS]
+      area: ''
+      degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean
+        (XXXII cycle), University of Bari, Jonian Dept. (Law and Business School)
+      location: Taranto, Italy
+      start_date: 2016
+      end_date: 2017
+    - institution: Informatica (Computer Science) [9 ECTS]
+      area: ''
+      degree: BSc in Maritime Sciences and Management (SGAM), 2nd year
+      location: Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University
+        of Bari, Dept. of Computer Science
+      start_date: 2015
+      end_date: 2020
+    - institution: Abilità Informatica (Computer Skills) [4 ECTS]
+      area: ''
+      degree: Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and
+        Business School)
+      location: Taranto, Italy
+      start_date: 2015
+      end_date: 2020
+    - institution: Laboratorio di Informatica (C Programming Lab) [9 ECTS]
+      area: ''
+      degree: BSc in Computer Science and Software Production Technologies (ITPS),
+        1st year, University of Bari, Dept. of Computer Science
+      location: Bari, Italy
+      start_date: 2014
+      end_date: 2015
+    - institution: Linguaggi di Programmazione + Laboratorio (Programming Languages
+        + Lab) [12 ECTS]
+      area: ''
+      degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer
+        Science
+      location: Brindisi, Italy
+      start_date: 2014
+      end_date: 2015
+    - institution: Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]
+      area: ''
+      degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer
+        Science
+      location: Brindis, Italy
+      start_date: 2008
+      end_date: 2013
     invited_seminars:
-      - institution: "Collaboration in Software Engineering: 10 Years in Review"
-        area: ''
-        location: Carnegie Mellon University, USA
-        date: 2017-10-02
-      - institution: "Classification Models in Software Engineering: From Defect to Best-Answer Prediction"
-        area: ''
-        location: University of Victoria, Canada
-        date: 2016-11-24
-
+    - institution: 'Collaboration in Software Engineering: 10 Years in Review'
+      area: ''
+      location: Carnegie Mellon University, USA
+      date: 2017-10-02
+    - institution: 'Classification Models in Software Engineering: From Defect to
+        Best-Answer Prediction'
+      area: ''
+      location: University of Victoria, Canada
+      date: 2016-11-24
     software:
-      - name: EMTk (Emotion-Mining Toolkit)
-        date: "[EMTk on GitHub](https://github.com/collab-uniba/EMTk)"
-        highlights:
-          - EmoTxt is the module for training custom emotion classifiers from text. It provides
-            out of the box an emotion classifier specifically tuned for mining emotion from developers'
-            communication channels, such as Stack Overflow.
-          - Senti4SD is the module for emotion-polarity classification (sentiment analysis)
-            specifically trained on technical corpora from developers' communication channels,
-            such as GitHub and StackOveflow.
+    - name: EMTk (Emotion-Mining Toolkit)
+      date: '[EMTk on GitHub](https://github.com/collab-uniba/EMTk)'
+      highlights:
+      - EmoTxt is the module for training custom emotion classifiers from text. It
+        provides out of the box an emotion classifier specifically tuned for mining
+        emotion from developers' communication channels, such as Stack Overflow.
+      - Senti4SD is the module for emotion-polarity classification (sentiment analysis)
+        specifically trained on technical corpora from developers' communication channels,
+        such as GitHub and StackOveflow.
 design:
   theme: engineeringresumes
   font: Charter
@@ -381,7 +1411,7 @@ design:
   disable_page_numbering: false
   page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style:  Updated$:$ TODAY
+  last_updated_date_style: Updated$:$ TODAY
   header_font_size: 25 pt
   text_alignment: left-aligned
   seperator_between_connections: $|$
