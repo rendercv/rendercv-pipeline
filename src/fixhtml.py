@@ -9,7 +9,7 @@ def fix_index_html():
     with open(source_file, "w", encoding="utf-8") as f:
         for line in lines:
             # Replace ' in</h2>' at the end of the line with '  </h2>'
-            fixed_line = re.sub(r" in</h2>$", "  </h2>", line)
+            fixed_line = re.sub(r" in</h2>$", "</h2>", line)
             f.write(fixed_line)
 
 if __name__ == "__main__":
