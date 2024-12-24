@@ -136,7 +136,7 @@
           - A. Spina
           - A. Vitale
         date: 2024
-        journal: "Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimaraes, Portugal, May 14-17, 2024, vol. 3674"
+        journal: "Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimarães, Portugal, May 14-17, 2024, vol. 3674"
       - title: "Assessing the Use of AutoML for Data-Driven Software Engineering"
         authors:
           - "***F. Calefato***"
@@ -302,22 +302,6 @@
         date: 2021
         journal: "18th IEEE/ACM International Conference on Mining Software Repositories, MSR 2021, Madrid, Spain, May 17-19, 2021"
         doi: 10.1109/MSR52588.2021.00072
-      - title: "collab-uniba/KGTorrent: First release (v. 1.0.0) of KGTorrent (Version v1.0.0)"
-        authors:
-          - L. Quaranta
-          - "***F. Calefato***"
-          - F. Lanubile
-        date: 2021
-        journal: ""
-        doi: 10.5281/ZENODO.4472990
-      - title: "KGTorrent: A Dataset of Python Jupyter Notebooks from Kaggle (Version 1.0.0)"
-        authors:
-          - L. Quaranta
-          - "***F. Calefato***"
-          - F. Lanubile
-        date: 2021
-        journal: ""
-        doi: 10.5281/ZENODO.4468523
       - title: "Love, Joy, Anger, Sadness, Fear, and Surprise: SE Needs Special Kinds of AI: A Case Study on Text Mining and SE"
         authors:
           - N. Novielli
@@ -534,22 +518,6 @@
         date: 2017
         journal: "Current Trends in Web Engineering - ICWE 2017 International Workshops, Liquid Multi-Device Software and EnWoT, practi-O-web, NLPIT, SoWeMine, Rome, Italy, June 5-8, 2017, Revised Selected Papers, vol. 10544"
         doi: 10.1007/978-3-319-74433-9_22
-      - title: "A Preliminary Analysis on the Effects of Propensity to Trust in Distributed Software Development"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - N. Novielli
-        date: 2017
-        journal: "CoRR, vol. abs/1702.04958"
-      - title: "Mining Communication Data in a Music Community: A Preliminary Analysis"
-        authors:
-          - "***F. Calefato***"
-          - G. Iaffaldano
-          - F. Lanubile
-          - A. Lategano
-          - N. Novielli
-        date: 2017
-        journal: "CoRR, vol. abs/1705.04485"
       - title: "Assessing the impact of real-time machine translation on multilingual meetings in global software projects"
         authors:
           - "***F. Calefato***"
@@ -918,3 +886,35 @@
         date: 2003
         journal: "Softw. Process. Improv. Pract., vol. 8, no. 4"
         doi: 10.1002/SPIP.184
+      - title: "Success factors for effective knowledge sharing in community-based question-answering"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - M. Merolla
+          - N. Novielli
+        date: 2015
+        journal: "Proc. of the International Forum on Knowledge Asset Dynamics (IFKAD 2015), Bari, Italy, Jun. 10-12, 2015"
+      - title: "Real-time machine translation for software development teams"
+        authors:
+          - R. Prikladnicki
+          - T. Duarte
+          - T. Conte
+          - "***F. Calefato***"
+          - F. Lanubile
+          - others
+        date: 2013
+        journal: "Workshop on Software Engineering Innovation Foundation (SEIF'13), Rio de Janeiro, Brazil, Nov. 25–26, 2013"
+      - title: "Social media and trust building in virtual teams: The design of a replicated experiment"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+          - others
+        date: 2013
+        journal: "1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools@CSCW, San Antonio, TX, 23 Feb. 2013"
+      - title: "Practice: Collaborative Development Environments (Chapter 15)"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2011
+        journal: "Global Software and IT: A Guide to Distributed Development, Projects, and Outsourcing (C. Ebert, Ed.)"
