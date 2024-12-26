@@ -1,3 +1,4 @@
 __pycache__/
 rendercv_output/
 .python-version
+.DS_Store
