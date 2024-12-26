@@ -175,7 +175,7 @@ if __name__ == '__main__':
 
     script_dir = Path(__file__).parent
     dblp_file = os.path.join(str(script_dir), 'bibliography', 'dblp.bib')
-    additional_entries = os.path.join(str(script_dir), 'bibliography', 'additional.bib')
+    additional_entries = os.path.join(str(script_dir), 'bibliography', 'not_in_dblp.bib')
     bib_file = os.path.join(str(script_dir), 'bibliography', 'publications.bib')
     yaml_file = os.path.join(str(script_dir), 'bibliography', 'publications.yaml')
     
