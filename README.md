@@ -29,7 +29,7 @@
 
 - Jan 2004 – May 2007
 - *Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''*
-- *Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area of Software Engineering*
+- *Thesis listed among the [ACM SIGSOFT select Ph.D. Dissertations in the Area of Software Engineering](https://www.sigsoft.org/dissertations.html)*
 
 ## University of Bari, Italy, **MSc** in **Computer Science**
 
@@ -37,7 +37,7 @@
 - *Thesis: ``P2P Conferences in JXTA''*
 - *Graduation grade: 110/110 with honors*
 
-# Experience
+# Research Experience
 
 ## University of Bari, Dept. of Computer Science, Tenure-track Assistant Professor
 
@@ -636,7 +636,7 @@
 
 ## General Chair
 
-- *14th International Conference on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018*
+- *14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018*
 
 ## Steering Board Member
 
@@ -707,6 +707,10 @@
 
 - *Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs, coordinating with industry partners, mentoring students, ensuring compliance with academic standards, and evaluating the effectiveness of the internship experiences.*
 
+# Awards
+
+- Best Paper Award: *14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada*
+- [FABBR 2017 Award](https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf): *Winner of the national selection procedure `Fondo per il finanziamento delle attività base di ricerca (FFABR) 2017,' established by the Italian Ministry of University and Research (MUR) and intended for the annual funding of basic research activities of associate professors and researchers*
 # Ph.D. Students Supervision
 
 ## Kelly Azevedo Borges Leal, Dept. of Computer Science
@@ -757,19 +761,45 @@
 - 2020 – 2021
 - Polytechnic University of Bari, Italy
 
+# Keynote Presentations
+
+## The Potential and Challenges of Personality Detection in Software Engineering Research
+
+- Sept 2021
+- 4th International Workshop on Affective Computing in Requirements Engineering (AffectRE’21), co-located with RE’21
+
+## Facing Communication Challenges in Distributed Software Development
+
+- Aug 2016
+- 1st Int’l Workshop on Virtual Teams: Experiences in Global Software Engineering (VirtuES ’13), co-located with ICGSE’13
+
+# Invited Seminars
+
+## Collaboration in Software Engineering: 10 Years in Review, 
+
+- Oct 2017
+- Carnegie Mellon University, USA
+
+## Classification Models in Software Engineering: From Defect to Best-Answer Prediction, 
+
+- Nov 2016
+- University of Victoria, Canada
+
 # Teaching
 
-## Reti di Calcolatori (Computer Networks) [6 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 2nd year in University of Bari, Dept. of Computer Science
+## Reti di Calcolatori (Computer Networks) [6 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science in 
 
-- 2019 – 2025
+- 2022 – 2025
 - Bari, Italy
+- *Teaching evaluation scores:  2023-25: N/A; 2022-23: 95.52%*
 
-## Social Computing [6 ECTS], MSc in Computer Science, 1st year in University of Bari, Dept. of Computer Science
+## Social Computing [6 ECTS], MSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science in 
 
 - 2021 – 2024
 - Bari, Italy
+- *Teaching evaluation scores: 2023-24: N/A; 2022-23: 100%; 2021-22: 100%*
 
-## Software Solutions for Reproducible Experiments [2 ECTS], Ph.D. program in Computer Science and Mathematics (XXXVIII cycle) in University of Bari, Dept. of Computer Science
+## Software Solutions for Reproducible Experiments [2 ECTS], Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), University of Bari, Dept. of Computer Science in 
 
 - 2022 – 2023
 - Bari, Italy
@@ -778,11 +808,25 @@
 
 - 2022 – 2023
 - Oulu, Finland
+- *Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call Mobility for teaching staff' (2022-23), for university professors and researchers mobility*
+
+## Reti di Calcolatori (Computer Networks) [9 ECTS], BSc in Computer Science, 3rd year in University of Bari, Dept. of Computer Science
+
+- 2021 – 2022
+- Bari, Italy
+- *Teaching evaluation scores: 97.07%*
+
+## Reti di Calcolatori (Computer Networks) [6 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science in 
+
+- 2019 – 2021
+- Bari, Italy
+- *Teaching evaluation scores: 2020-21: 94.59%; 2019-20: 89.74%*
 
 ## Reti di Calcolatori (Computer Networks) [9 ECTS], BSc in Computer Science, 3rd year in University of Bari, Dept. of Computer Science
 
 - 2018 – 2019
 - Bari, Italy
+- *Teaching evaluation scores: 93.4%*
 
 ## Mining Socio-technical Repositories [3 ECTS], Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science in 
 
@@ -798,6 +842,7 @@
 
 - 2016 – 2017
 - Oulu, Finland
+- *Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call Mobility for teaching staff' (2015-16), for university professors and researchers mobility*
 
 ## Emotion Awareness in Social Computing [2 ECTS], Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science in 
 
@@ -814,38 +859,31 @@
 
 - 2015 – 2020
 - Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science
+- *Teaching evaluation scores: 2019-20: 95.2%; 2018-19: 95.9%; 2017-18: 97.4%; 2016-17: 91.9%; 2015-16: 83.5%*
 
 ## Abilità Informatica (Computer Skills) [4 ECTS], Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School) in 
 
 - 2015 – 2020
 - Taranto, Italy
+- *Teaching evaluation scores: 2019-20: 93.1%; 2018-19: 95.9%; 2017-18: 93.8%; 2016-17: 89.8%; 2015-16: 87.8%*
 
 ## Laboratorio di Informatica (C Programming Lab) [9 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science in 
 
-- 2014 – 2015
+- 2013 – 2015
 - Bari, Italy
+- *Teaching evaluation scores: 2014-15: 88.3%; 2013-14: 93.1%*
 
 ## Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS], BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science in 
 
-- 2014 – 2015
+- 2013 – 2014
 - Brindisi, Italy
+- *Teaching evaluation scores: 95.7%*
 
 ## Laboratorio di Informatica (C Programming Lab) [5/6 ECTS], BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science in 
 
 - 2008 – 2013
-- Brindis, Italy
-
-# Invited Seminars
-
-## Collaboration in Software Engineering: 10 Years in Review, 
-
-- Oct 2017
-- Carnegie Mellon University, USA
-
-## Classification Models in Software Engineering: From Defect to Best-Answer Prediction, 
-
-- Nov 2016
-- University of Victoria, Canada
+- Brindisi, Italy
+- *Teaching evaluation scores: N/A*
 
 # Software
 
