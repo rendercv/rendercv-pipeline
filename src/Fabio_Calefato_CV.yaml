@@ -35,8 +35,8 @@ cv:
       end_date: 2007-05
       highlights:
       - '*Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''''*'
-      - '*Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area
-        of Software Engineering*'
+      - '*Thesis listed among the [ACM SIGSOFT select Ph.D. Dissertations in the Area
+        of Software Engineering](https://www.sigsoft.org/dissertations.html)*'
     - institution: University of Bari, Italy
       area: '**Computer Science**'
       degree: '**MSc**'
@@ -45,7 +45,7 @@ cv:
       highlights:
       - '*Thesis: ``P2P Conferences in JXTA''''*'
       - '*Graduation grade: 110/110 with honors*'
-    experience:
+    research_experience:
     - company: University of Bari, Dept. of Computer Science
       position: Tenure-track Assistant Professor
       location: Bari, Italy
@@ -1254,8 +1254,8 @@ cv:
         TX, USA, Feb 24, 2013 – co-located with CSCW''13*'
     - name: General Chair
       highlights:
-      - '*14th International Conference on Global Software Engineering (ICGSE''19),
-        Montreal, Canada, 25-26 May 2018*'
+      - '*14th Int''l Conf. on Global Software Engineering (ICGSE''19), Montreal,
+        Canada, 25-26 May 2018*'
     - name: Steering Board Member
       highlights:
       - '*Int''l Conf. on Global Software Engineering (ICGSE), 2019-2022*'
@@ -1341,6 +1341,15 @@ cv:
         and implementation of internship programs, coordinating with industry partners,
         mentoring students, ensuring compliance with academic standards, and evaluating
         the effectiveness of the internship experiences.*'
+    awards:
+    - label: Best Paper Award
+      details: '*14th Int''l Conf. on Global Software Engineering (ICGSE''19), Montreal,
+        Canada*'
+    - label: '[FABBR 2017 Award](https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf)'
+      details: '*Winner of the national selection procedure `Fondo per il finanziamento
+        delle attività base di ricerca (FFABR) 2017,'' established by the Italian
+        Ministry of University and Research (MUR) and intended for the annual funding
+        of basic research activities of associate professors and researchers*'
     Ph.D._students_supervision:
     - institution: Kelly Azevedo Borges Leal
       area: Dept. of Computer Science
@@ -1392,23 +1401,49 @@ cv:
       area: Dept. of Electrical and Information Engineering
       start_date: 2020
       end_date: 2021
+    keynote_presentations:
+    - name: The Potential and Challenges of Personality Detection in Software Engineering
+        Research
+      location: 4th International Workshop on Affective Computing in Requirements
+        Engineering (AffectRE’21), co-located with RE’21
+      date: 2021-09-21
+    - name: Facing Communication Challenges in Distributed Software Development
+      location: '1st Int’l Workshop on Virtual Teams: Experiences in Global Software
+        Engineering (VirtuES ’13), co-located with ICGSE’13'
+      date: 2016-08-26
+    invited_seminars:
+    - institution: 'Collaboration in Software Engineering: 10 Years in Review'
+      area: ''
+      location: Carnegie Mellon University, USA
+      date: 2017-10-02
+    - institution: 'Classification Models in Software Engineering: From Defect to
+        Best-Answer Prediction'
+      area: ''
+      location: University of Victoria, Canada
+      date: 2016-11-24
     teaching:
     - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
-      area: University of Bari, Dept. of Computer Science
+      area: ''
       degree: BSc in Computer Science and Software Production Technologies (ITPS),
-        2nd year
+        2nd year, University of Bari, Dept. of Computer Science
       location: Bari, Italy
-      start_date: 2019
+      start_date: 2022
       end_date: 2025
+      highlights:
+      - '*Teaching evaluation scores:  2023-25: N/A; 2022-23: 95.52%*'
     - institution: Social Computing [6 ECTS]
-      area: University of Bari, Dept. of Computer Science
-      degree: MSc in Computer Science, 1st year
+      area: ''
+      degree: MSc in Computer Science, 1st year, University of Bari, Dept. of Computer
+        Science
       location: Bari, Italy
       start_date: 2021
       end_date: 2024
+      highlights:
+      - '*Teaching evaluation scores: 2023-24: N/A; 2022-23: 100%; 2021-22: 100%*'
     - institution: Software Solutions for Reproducible Experiments [2 ECTS]
-      area: University of Bari, Dept. of Computer Science
-      degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
+      area: ''
+      degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), University
+        of Bari, Dept. of Computer Science
       location: Bari, Italy
       start_date: 2022
       end_date: 2023
@@ -1418,12 +1453,35 @@ cv:
       location: Oulu, Finland
       start_date: 2022
       end_date: 2023
+      highlights:
+      - '*Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection
+        Call Mobility for teaching staff'' (2022-23), for university professors and
+        researchers mobility*'
+    - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
+      area: University of Bari, Dept. of Computer Science
+      degree: BSc in Computer Science, 3rd year
+      location: Bari, Italy
+      start_date: 2021
+      end_date: 2022
+      highlights:
+      - '*Teaching evaluation scores: 97.07%*'
+    - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
+      area: ''
+      degree: BSc in Computer Science and Software Production Technologies (ITPS),
+        2nd year, University of Bari, Dept. of Computer Science
+      location: Bari, Italy
+      start_date: 2019
+      end_date: 2021
+      highlights:
+      - '*Teaching evaluation scores: 2020-21: 94.59%; 2019-20: 89.74%*'
     - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
       area: University of Bari, Dept. of Computer Science
       degree: BSc in Computer Science, 3rd year
       location: Bari, Italy
       start_date: 2018
       end_date: 2019
+      highlights:
+      - '*Teaching evaluation scores: 93.4%*'
     - institution: Mining Socio-technical Repositories [3 ECTS]
       area: ''
       degree: Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University
@@ -1445,6 +1503,10 @@ cv:
       location: Oulu, Finland
       start_date: 2016
       end_date: 2017
+      highlights:
+      - '*Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection
+        Call Mobility for teaching staff'' (2015-16), for university professors and
+        researchers mobility*'
     - institution: Emotion Awareness in Social Computing [2 ECTS]
       area: ''
       degree: Ph.D. program in Computer Science and Mathematics (XXXII cycle), University
@@ -1468,6 +1530,9 @@ cv:
         of Bari, Dept. of Computer Science
       start_date: 2015
       end_date: 2020
+      highlights:
+      - '*Teaching evaluation scores: 2019-20: 95.2%; 2018-19: 95.9%; 2017-18: 97.4%;
+        2016-17: 91.9%; 2015-16: 83.5%*'
     - institution: Abilità Informatica (Computer Skills) [4 ECTS]
       area: ''
       degree: Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and
@@ -1475,38 +1540,37 @@ cv:
       location: Taranto, Italy
       start_date: 2015
       end_date: 2020
+      highlights:
+      - '*Teaching evaluation scores: 2019-20: 93.1%; 2018-19: 95.9%; 2017-18: 93.8%;
+        2016-17: 89.8%; 2015-16: 87.8%*'
     - institution: Laboratorio di Informatica (C Programming Lab) [9 ECTS]
       area: ''
       degree: BSc in Computer Science and Software Production Technologies (ITPS),
         1st year, University of Bari, Dept. of Computer Science
       location: Bari, Italy
-      start_date: 2014
+      start_date: 2013
       end_date: 2015
+      highlights:
+      - '*Teaching evaluation scores: 2014-15: 88.3%; 2013-14: 93.1%*'
     - institution: Linguaggi di Programmazione + Laboratorio (Programming Languages
         + Lab) [12 ECTS]
       area: ''
       degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer
         Science
       location: Brindisi, Italy
-      start_date: 2014
-      end_date: 2015
+      start_date: 2013
+      end_date: 2014
+      highlights:
+      - '*Teaching evaluation scores: 95.7%*'
     - institution: Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]
       area: ''
       degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer
         Science
-      location: Brindis, Italy
+      location: Brindisi, Italy
       start_date: 2008
       end_date: 2013
-    invited_seminars:
-    - institution: 'Collaboration in Software Engineering: 10 Years in Review'
-      area: ''
-      location: Carnegie Mellon University, USA
-      date: 2017-10-02
-    - institution: 'Classification Models in Software Engineering: From Defect to
-        Best-Answer Prediction'
-      area: ''
-      location: University of Victoria, Canada
-      date: 2016-11-24
+      highlights:
+      - '*Teaching evaluation scores: N/A*'
     software:
     - name: EMTk (Emotion-Mining Toolkit)
       date: '[EMTk on GitHub](https://github.com/collab-uniba/EMTk)'
