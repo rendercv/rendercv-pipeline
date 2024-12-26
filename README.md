@@ -250,11 +250,6 @@
 - ***F. Calefato***, F. Lanubile, N. Novielli, L. Quaranta
 - Proceedings of the 4th International Workshop on Emotion Awareness in Software Engineering, SEmotion@ICSE 2019, Montreal, QC, Canada, May 28, 2019
 
-## Proceedings of the 14th International Conference on Global Software Engineering, ICGSE 2019, Montreal, QC, Canada, May 25-31, 2019 
-- 2019
-- ***F. Calefato***, P. Tell, A. Dubey
-- IEEE / ACM
-
 ## Sentiment Polarity Detection for Software Development ([10.1007/S10664-017-9546-9](https://doi.org/10.1007/S10664-017-9546-9))
 - 2018
 - ***F. Calefato***, F. Lanubile, F. Maiorano, N. Novielli
@@ -629,41 +624,41 @@
 
 ## Program Co-Chair
 
-- *40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff, AZ, USA, Oct 2024*
+- *40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff, AZ, USA, Oct 2024, [iCORE rank: A](https://portal.core.edu.au/conf-ranks/676/)*
 - *16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23), Melbourne, Australia, May 2023*
 - *8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA, USA, Nov 14, 2016 – co-located with FSE'16*
 - *1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio, TX, USA, Feb 24, 2013 – co-located with CSCW'13*
 
 ## General Chair
 
-- *14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018*
+- *14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*
 
 ## Steering Board Member
 
-- *Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022*
+- *Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*
 
 ## Track Co-Chair
 
-- *43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track, Madrid, Spain, May 2021*
+- *43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track, Madrid, Spain, May 2021, [ICORE rank:](https://portal.core.edu.au/conf-ranks/1209/)A**
 
 ## Workshops & Tutorials Co-Chair
 
-- *23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23), Jyväskylä, Finland, 21-23 November 2022*
+- *23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23), Jyväskylä, Finland, 21-23 November 2022, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/1696/)*
 
 ## Workshops Co-Chair
 
-- *10th Int’l Conf. on Global Software Engineering (ICGSE'15), Ciudad Real, Spain, 13-16 July 2015*
+- *10th Int’l Conf. on Global Software Engineering (ICGSE'15), Ciudad Real, Spain, 13-16 July 2015, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*
 
 ## Open-science Co-Chair
 
-- *15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21), Bari, Italy, 11-15 Oct 2021*
-- *14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20), Bari, Italy, 5-9 Oct 2020*
+- *15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21), Bari, Italy, 11-15 Oct 2021, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)*
+- *14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20), Bari, Italy, 5-9 Oct 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)*
 
 ## Publicity & Social Media Chair
 
-- *21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark, 8-12 June 2020*
-- *13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden, 28-29 May 2018*
-- *8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy, 26-29 Aug 2013*
+- *21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark, 8-12 June 2020, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)*
+- *13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden, 28-29 May 2018, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*
+- *8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy, 26-29 Aug 2013, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*
 
 # Editorial Activities
 
@@ -804,7 +799,7 @@
 - 2022 – 2023
 - Bari, Italy
 
-## Social Computing [5 ECTS], MSc in Computer Science and Engineering???, University of Oulu in 
+## Social Computing [5 ECTS], MSc in Computer Science and Engineering, University of Oulu in 
 
 - 2022 – 2023
 - Oulu, Finland
