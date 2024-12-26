@@ -63,7 +63,7 @@
         <ul>
         <li>Jan 2004 – May 2007</li>
         <li><em>Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''</em></li>
-        <li><em>Thesis listed among the SIGSOFT Selected Ph.D. Dissertations in the Area of Software Engineering</em></li>
+        <li><em>Thesis listed among the <a href="https://www.sigsoft.org/dissertations.html">ACM SIGSOFT select Ph.D. Dissertations in the Area of Software Engineering</a></em></li>
         </ul>
         <h2>University of Bari, Italy, <strong>MSc</strong> in <strong>Computer Science</strong></h2>
         <ul>
@@ -71,7 +71,7 @@
         <li><em>Thesis: ``P2P Conferences in JXTA''</em></li>
         <li><em>Graduation grade: 110/110 with honors</em></li>
         </ul>
-        <h1>Experience</h1>
+        <h1>Research Experience</h1>
         <h2>University of Bari, Dept. of Computer Science, Tenure-track Assistant Professor</h2>
         <ul>
         <li>Nov 2019 – Nov 2022</li>
@@ -318,12 +318,6 @@
         <li>2019</li>
         <li><strong><em>F. Calefato</em></strong>, F. Lanubile, N. Novielli, L. Quaranta</li>
         <li>Proceedings of the 4th International Workshop on Emotion Awareness in Software Engineering, SEmotion@ICSE 2019, Montreal, QC, Canada, May 28, 2019</li>
-        </ul>
-        <h2>Proceedings of the 14th International Conference on Global Software Engineering, ICGSE 2019, Montreal, QC, Canada, May 25-31, 2019</h2>
-        <ul>
-        <li>2019</li>
-        <li><strong><em>F. Calefato</em></strong>, P. Tell, A. Dubey</li>
-        <li>IEEE / ACM</li>
         </ul>
         <h2>Sentiment Polarity Detection for Software Development (<a href="https://doi.org/10.1007/S10664-017-9546-9">10.1007/S10664-017-9546-9</a>)</h2>
         <ul>
@@ -772,41 +766,41 @@
         <h1>Events Organization</h1>
         <h2>Program Co-Chair</h2>
         <ul>
-        <li><em>40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff, AZ, USA, Oct 2024</em></li>
+        <li><em>40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff, AZ, USA, Oct 2024, <a href="https://portal.core.edu.au/conf-ranks/676/">iCORE rank: A</a></em></li>
         <li><em>16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering (CHASE’23), Melbourne, Australia, May 2023</em></li>
         <li><em>8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA, USA, Nov 14, 2016 – co-located with FSE'16</em></li>
         <li><em>1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools, San Antonio, TX, USA, Feb 24, 2013 – co-located with CSCW'13</em></li>
         </ul>
         <h2>General Chair</h2>
         <ul>
-        <li><em>14th International Conference on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018</em></li>
+        <li><em>14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada, 25-26 May 2018, <a href="https://portal.core.edu.au/conf-ranks/650/">ICORE rank: C</a></em></li>
         </ul>
         <h2>Steering Board Member</h2>
         <ul>
-        <li><em>Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022</em></li>
+        <li><em>Int'l Conf. on Global Software Engineering (ICGSE), 2019-2022, <a href="https://portal.core.edu.au/conf-ranks/650/">ICORE rank: C</a></em></li>
         </ul>
         <h2>Track Co-Chair</h2>
         <ul>
-        <li><em>43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track, Madrid, Spain, May 2021</em></li>
+        <li><em>43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software Engineering (SCORE) track, Madrid, Spain, May 2021, <a href="https://portal.core.edu.au/conf-ranks/1209/">ICORE rank:</a>A</em>*</li>
         </ul>
         <h2>Workshops &amp; Tutorials Co-Chair</h2>
         <ul>
-        <li><em>23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23), Jyväskylä, Finland, 21-23 November 2022</em></li>
+        <li><em>23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23), Jyväskylä, Finland, 21-23 November 2022, <a href="https://portal.core.edu.au/conf-ranks/1696/">ICORE rank: B</a></em></li>
         </ul>
         <h2>Workshops Co-Chair</h2>
         <ul>
-        <li><em>10th Int’l Conf. on Global Software Engineering (ICGSE'15), Ciudad Real, Spain, 13-16 July 2015</em></li>
+        <li><em>10th Int’l Conf. on Global Software Engineering (ICGSE'15), Ciudad Real, Spain, 13-16 July 2015, <a href="https://portal.core.edu.au/conf-ranks/650/">ICORE rank: C</a></em></li>
         </ul>
         <h2>Open-science Co-Chair</h2>
         <ul>
-        <li><em>15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21), Bari, Italy, 11-15 Oct 2021</em></li>
-        <li><em>14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20), Bari, Italy, 5-9 Oct 2020</em></li>
+        <li><em>15th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’21), Bari, Italy, 11-15 Oct 2021, <a href="https://portal.core.edu.au/conf-ranks/1376/">ICORE rank: A</a></em></li>
+        <li><em>14th Int'l Symposium on Empirical Software Engineering and Measurement (ESEM’20), Bari, Italy, 5-9 Oct 2020, <a href="https://portal.core.edu.au/conf-ranks/1376/">ICORE rank: A</a></em></li>
         </ul>
         <h2>Publicity &amp; Social Media Chair</h2>
         <ul>
-        <li><em>21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark, 8-12 June 2020</em></li>
-        <li><em>13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden, 28-29 May 2018</em></li>
-        <li><em>8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy, 26-29 Aug 2013</em></li>
+        <li><em>21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark, 8-12 June 2020, <a href="https://portal.core.edu.au/conf-ranks/355/">ICORE rank: B</a></em></li>
+        <li><em>13th Int’l Conf. on Global Software Engineering (ICGSE'18), Gothenburg, Sweden, 28-29 May 2018, <a href="https://portal.core.edu.au/conf-ranks/650/">ICORE rank: C</a></em></li>
+        <li><em>8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy, 26-29 Aug 2013, <a href="https://portal.core.edu.au/conf-ranks/650/">ICORE rank: C</a></em></li>
         </ul>
         <h1>Editorial Activities</h1>
         <h2>Associate Editor</h2>
@@ -847,6 +841,11 @@
         <h2>CS Dept. Director’s Delegate for Internship Programs</h2>
         <ul>
         <li><em>Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs, coordinating with industry partners, mentoring students, ensuring compliance with academic standards, and evaluating the effectiveness of the internship experiences.</em></li>
+        </ul>
+        <h1>Awards</h1>
+        <ul>
+        <li>Best Paper Award: <em>14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada</em></li>
+        <li><a href="https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf">FABBR 2017 Award</a>: <em>Winner of the national selection procedure `Fondo per il finanziamento delle attività base di ricerca (FFABR) 2017,' established by the Italian Ministry of University and Research (MUR) and intended for the annual funding of basic research activities of associate professors and researchers</em></li>
         </ul>
         <h1>Ph.D. Students Supervision</h1>
         <h2>Kelly Azevedo Borges Leal, Dept. of Computer Science</h2>
@@ -896,31 +895,69 @@
         <li>2020 – 2021</li>
         <li>Polytechnic University of Bari, Italy</li>
         </ul>
-        <h1>Teaching</h1>
-        <h2>Reti di Calcolatori (Computer Networks) [6 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 2nd year in University of Bari, Dept. of Computer Science</h2>
+        <h1>Keynote Presentations</h1>
+        <h2>The Potential and Challenges of Personality Detection in Software Engineering Research</h2>
         <ul>
-        <li>2019 – 2025</li>
-        <li>Bari, Italy</li>
+        <li>Sept 2021</li>
+        <li>4th International Workshop on Affective Computing in Requirements Engineering (AffectRE’21), co-located with RE’21</li>
         </ul>
-        <h2>Social Computing [6 ECTS], MSc in Computer Science, 1st year in University of Bari, Dept. of Computer Science</h2>
+        <h2>Facing Communication Challenges in Distributed Software Development</h2>
+        <ul>
+        <li>Aug 2016</li>
+        <li>1st Int’l Workshop on Virtual Teams: Experiences in Global Software Engineering (VirtuES ’13), co-located with ICGSE’13</li>
+        </ul>
+        <h1>Invited Seminars</h1>
+        <h2>Collaboration in Software Engineering: 10 Years in Review,</h2>
+        <ul>
+        <li>Oct 2017</li>
+        <li>Carnegie Mellon University, USA</li>
+        </ul>
+        <h2>Classification Models in Software Engineering: From Defect to Best-Answer Prediction,</h2>
+        <ul>
+        <li>Nov 2016</li>
+        <li>University of Victoria, Canada</li>
+        </ul>
+        <h1>Teaching</h1>
+        <h2>Reti di Calcolatori (Computer Networks) [6 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science</h2>
+        <ul>
+        <li>2022 – 2025</li>
+        <li>Bari, Italy</li>
+        <li><em>Teaching evaluation scores:  2023-25: N/A; 2022-23: 95.52%</em></li>
+        </ul>
+        <h2>Social Computing [6 ECTS], MSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science</h2>
         <ul>
         <li>2021 – 2024</li>
         <li>Bari, Italy</li>
+        <li><em>Teaching evaluation scores: 2023-24: N/A; 2022-23: 100%; 2021-22: 100%</em></li>
         </ul>
-        <h2>Software Solutions for Reproducible Experiments [2 ECTS], Ph.D. program in Computer Science and Mathematics (XXXVIII cycle) in University of Bari, Dept. of Computer Science</h2>
+        <h2>Software Solutions for Reproducible Experiments [2 ECTS], Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), University of Bari, Dept. of Computer Science</h2>
         <ul>
         <li>2022 – 2023</li>
         <li>Bari, Italy</li>
         </ul>
-        <h2>Social Computing [5 ECTS], MSc in Computer Science and Engineering???, University of Oulu</h2>
+        <h2>Social Computing [5 ECTS], MSc in Computer Science and Engineering, University of Oulu</h2>
         <ul>
         <li>2022 – 2023</li>
         <li>Oulu, Finland</li>
+        <li><em>Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call Mobility for teaching staff' (2022-23), for university professors and researchers mobility</em></li>
+        </ul>
+        <h2>Reti di Calcolatori (Computer Networks) [9 ECTS], BSc in Computer Science, 3rd year in University of Bari, Dept. of Computer Science</h2>
+        <ul>
+        <li>2021 – 2022</li>
+        <li>Bari, Italy</li>
+        <li><em>Teaching evaluation scores: 97.07%</em></li>
+        </ul>
+        <h2>Reti di Calcolatori (Computer Networks) [6 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science</h2>
+        <ul>
+        <li>2019 – 2021</li>
+        <li>Bari, Italy</li>
+        <li><em>Teaching evaluation scores: 2020-21: 94.59%; 2019-20: 89.74%</em></li>
         </ul>
         <h2>Reti di Calcolatori (Computer Networks) [9 ECTS], BSc in Computer Science, 3rd year in University of Bari, Dept. of Computer Science</h2>
         <ul>
         <li>2018 – 2019</li>
         <li>Bari, Italy</li>
+        <li><em>Teaching evaluation scores: 93.4%</em></li>
         </ul>
         <h2>Mining Socio-technical Repositories [3 ECTS], Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science</h2>
         <ul>
@@ -936,6 +973,7 @@
         <ul>
         <li>2016 – 2017</li>
         <li>Oulu, Finland</li>
+        <li><em>Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call Mobility for teaching staff' (2015-16), for university professors and researchers mobility</em></li>
         </ul>
         <h2>Emotion Awareness in Social Computing [2 ECTS], Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science</h2>
         <ul>
@@ -952,37 +990,31 @@
         <ul>
         <li>2015 – 2020</li>
         <li>Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science</li>
+        <li><em>Teaching evaluation scores: 2019-20: 95.2%; 2018-19: 95.9%; 2017-18: 97.4%; 2016-17: 91.9%; 2015-16: 83.5%</em></li>
         </ul>
         <h2>Abilità Informatica (Computer Skills) [4 ECTS], Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School)</h2>
         <ul>
         <li>2015 – 2020</li>
         <li>Taranto, Italy</li>
+        <li><em>Teaching evaluation scores: 2019-20: 93.1%; 2018-19: 95.9%; 2017-18: 93.8%; 2016-17: 89.8%; 2015-16: 87.8%</em></li>
         </ul>
         <h2>Laboratorio di Informatica (C Programming Lab) [9 ECTS], BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science</h2>
         <ul>
-        <li>2014 – 2015</li>
+        <li>2013 – 2015</li>
         <li>Bari, Italy</li>
+        <li><em>Teaching evaluation scores: 2014-15: 88.3%; 2013-14: 93.1%</em></li>
         </ul>
         <h2>Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS], BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science</h2>
         <ul>
-        <li>2014 – 2015</li>
+        <li>2013 – 2014</li>
         <li>Brindisi, Italy</li>
+        <li><em>Teaching evaluation scores: 95.7%</em></li>
         </ul>
         <h2>Laboratorio di Informatica (C Programming Lab) [5/6 ECTS], BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science</h2>
         <ul>
         <li>2008 – 2013</li>
-        <li>Brindis, Italy</li>
-        </ul>
-        <h1>Invited Seminars</h1>
-        <h2>Collaboration in Software Engineering: 10 Years in Review,</h2>
-        <ul>
-        <li>Oct 2017</li>
-        <li>Carnegie Mellon University, USA</li>
-        </ul>
-        <h2>Classification Models in Software Engineering: From Defect to Best-Answer Prediction,</h2>
-        <ul>
-        <li>Nov 2016</li>
-        <li>University of Victoria, Canada</li>
+        <li>Brindisi, Italy</li>
+        <li><em>Teaching evaluation scores: N/A</em></li>
         </ul>
         <h1>Software</h1>
         <h2>EMTk (Emotion-Mining Toolkit)</h2>
