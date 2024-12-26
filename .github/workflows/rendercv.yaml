@@ -34,7 +34,7 @@ jobs:
           cd ..
           python src/parsebib.py
           python src/pubmerger.py
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path docs/${cv_file%.yaml}.html --dont-generate-png
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png
           python src/genmd.py
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
