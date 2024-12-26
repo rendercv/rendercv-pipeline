@@ -84,6 +84,9 @@ def parse_bib(bib_file):
         if 'zenodo' in entry.fields.get('publisher', '').lower()  or 'corr' in entry.fields.get('journal', '').lower():
             continue
 
+        if entry.key == 'DBLP:conf/icgse/2019':
+            continue
+
         if entry.type == 'proceedings':
             authors = [format_author(editor) for editor in entry.persons.get('editor', [])]
             venue = entry.fields.get('publisher', '')
@@ -132,10 +135,26 @@ def format_yaml_content(data):
 
 
 def download_bib_from_dblp(file, url):
-    # Write to file in bibliography directory
-    with open(os.path.join(file), 'wb') as f:
-        r = requests.get(url)
-        f.write(r.content)
+    try:
+        response = requests.get(url, timeout=10)  # 10 second timeout
+        response.raise_for_status()  # Raises an HTTPError for bad responses
+        
+        with open(os.path.join(file), 'wb') as f:
+            f.write(response.content)
+            
+    except requests.exceptions.Timeout:
+        print(f"Warning: Request timed out while downloading from {url}")
+        if not os.path.exists(file):
+            raise FileNotFoundError(f"No existing BibTeX file found at {file}")
+        else:
+            print(f"Using existing BibTeX file at {file}")
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Warning: Failed to download BibTeX ({str(e)})")
+        if not os.path.exists(file):
+            raise FileNotFoundError(f"No existing BibTeX file found at {file}")
+        else:
+            print(f"Using existing BibTeX file at {file}")
 
 
 def merge_bib_files(dblp_file, additional_file, output_file):
