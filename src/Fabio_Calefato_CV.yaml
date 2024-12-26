@@ -524,14 +524,6 @@ cv:
         in Software Engineering, SEmotion@ICSE 2019, Montreal, QC, Canada, May 28,
         2019
       doi: 10.1109/SEMOTION.2019.00014
-    - title: Proceedings of the 14th International Conference on Global Software Engineering,
-        ICGSE 2019, Montreal, QC, Canada, May 25-31, 2019
-      authors:
-      - '***F. Calefato***'
-      - P. Tell
-      - A. Dubey
-      date: 2019
-      journal: IEEE / ACM
     - title: Sentiment Polarity Detection for Software Development
       authors:
       - '***F. Calefato***'
@@ -1245,7 +1237,7 @@ cv:
     - name: Program Co-Chair
       highlights:
       - '*40th Int’l Conf. on Software Maintenance and Evolution (ICSME’24), Flagstaff,
-        AZ, USA, Oct 2024*'
+        AZ, USA, Oct 2024, [iCORE rank: A](https://portal.core.edu.au/conf-ranks/676/)*'
       - '*16th Int’l Conf. on Cooperative and Human Aspects of Software Engineering
         (CHASE’23), Melbourne, Australia, May 2023*'
       - '*8th Int’l Workshop on Social Software Engineering (SSE’16), Seattle, WA,
@@ -1255,36 +1247,37 @@ cv:
     - name: General Chair
       highlights:
       - '*14th Int''l Conf. on Global Software Engineering (ICGSE''19), Montreal,
-        Canada, 25-26 May 2018*'
+        Canada, 25-26 May 2018, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*'
     - name: Steering Board Member
       highlights:
-      - '*Int''l Conf. on Global Software Engineering (ICGSE), 2019-2022*'
+      - '*Int''l Conf. on Global Software Engineering (ICGSE), 2019-2022, [ICORE rank:
+        C](https://portal.core.edu.au/conf-ranks/650/)*'
     - name: Track Co-Chair
       highlights:
       - '*43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software
-        Engineering (SCORE) track, Madrid, Spain, May 2021*'
+        Engineering (SCORE) track, Madrid, Spain, May 2021, [ICORE rank:](https://portal.core.edu.au/conf-ranks/1209/)A**'
     - name: Workshops & Tutorials Co-Chair
       highlights:
       - '*23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23),
-        Jyväskylä, Finland, 21-23 November 2022*'
+        Jyväskylä, Finland, 21-23 November 2022, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/1696/)*'
     - name: Workshops Co-Chair
       highlights:
       - '*10th Int’l Conf. on Global Software Engineering (ICGSE''15), Ciudad Real,
-        Spain, 13-16 July 2015*'
+        Spain, 13-16 July 2015, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*'
     - name: Open-science Co-Chair
       highlights:
       - '*15th Int''l Symposium on Empirical Software Engineering and Measurement
-        (ESEM’21), Bari, Italy, 11-15 Oct 2021*'
+        (ESEM’21), Bari, Italy, 11-15 Oct 2021, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)*'
       - '*14th Int''l Symposium on Empirical Software Engineering and Measurement
-        (ESEM’20), Bari, Italy, 5-9 Oct 2020*'
+        (ESEM’20), Bari, Italy, 5-9 Oct 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)*'
     - name: Publicity & Social Media Chair
       highlights:
       - '*21st Int’l Conf. on Agile Software Development (XP’20), Copenhagen, Denmark,
-        8-12 June 2020*'
+        8-12 June 2020, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)*'
       - '*13th Int’l Conf. on Global Software Engineering (ICGSE''18), Gothenburg,
-        Sweden, 28-29 May 2018*'
+        Sweden, 28-29 May 2018, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*'
       - '*8th Int’l Conf. on Global Software Engineering (ICGSE''13), Bari, Italy,
-        26-29 Aug 2013*'
+        26-29 Aug 2013, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*'
     editorial_activities:
     - name: Associate Editor
       highlights:
@@ -1449,7 +1442,7 @@ cv:
       end_date: 2023
     - institution: Social Computing [5 ECTS]
       area: ''
-      degree: MSc in Computer Science and Engineering???, University of Oulu
+      degree: MSc in Computer Science and Engineering, University of Oulu
       location: Oulu, Finland
       start_date: 2022
       end_date: 2023

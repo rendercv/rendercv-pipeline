@@ -402,13 +402,6 @@
         date: 2019
         journal: "Proceedings of the 4th International Workshop on Emotion Awareness in Software Engineering, SEmotion@ICSE 2019, Montreal, QC, Canada, May 28, 2019"
         doi: 10.1109/SEMOTION.2019.00014
-      - title: "Proceedings of the 14th International Conference on Global Software Engineering, ICGSE 2019, Montreal, QC, Canada, May 25-31, 2019"
-        authors:
-          - "***F. Calefato***"
-          - P. Tell
-          - A. Dubey
-        date: 2019
-        journal: "IEEE / ACM"
       - title: "Sentiment Polarity Detection for Software Development"
         authors:
           - "***F. Calefato***"
