@@ -198,16 +198,16 @@ check/lint: $(INSTALL_STAMP)  ## Lint the code
 
 .PHONY: release/version
 release/version:  ## Tag and push to origin (use release/version ARGS="x.x.x")
-	@$(eval TAG := $(shell $(GIT) describe --tags --abbrev=0 2>/dev/null || echo "0.0.1"))
-	@$(eval REMOTE_TAGS := $(shell $(GIT) ls-remote --tags origin | $(AWK) '{print $$2}'))
-	@if echo $(REMOTE_TAGS) | grep -q $(TAG); then \
-		echo -e "$(YELLOW)\nNothing to push: tag $(TAG) already exists on origin.$(RESET)"; \
-	else \
-		echo -e "$(CYAN)\nPushing new version $(TAG)...$(RESET)"; \
-		$(GIT) push origin; \
-		$(GIT) push origin $(TAG); \
-		echo -e "$(GREEN)Release $(TAG) pushed.$(RESET)"; \
-	fi
+    @$(eval TAG := $(if $(ARGS),$(ARGS),$(shell $(GIT) describe --tags --abbrev=0 2>/dev/null || echo "0.0.1")))
+    @$(eval REMOTE_TAGS := $(shell $(GIT) ls-remote --tags origin | $(AWK) '{print $$2}'))
+    @if echo $(REMOTE_TAGS) | grep -q $(TAG); then \
+        echo -e "$(YELLOW)\nNothing to push: tag $(TAG) already exists on origin.$(RESET)"; \
+    else \
+        echo -e "$(CYAN)\nPushing new version $(TAG)...$(RESET)"; \
+        $(GIT) push origin; \
+        $(GIT) push origin $(TAG); \
+        echo -e "$(GREEN)Release $(TAG) pushed.$(RESET)"; \
+    fi
 
 #-- Pages
 
