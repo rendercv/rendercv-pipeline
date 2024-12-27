@@ -100,11 +100,13 @@ def parse_bib(bib_file):
             venue = entry.fields.get('journal', '') or entry.fields.get('booktitle', '')
             title = clean_latex_markup(entry.fields.get('title', ''))
 
+        rank = entry.fields.get('ranking', '')
         pub = {
             'title': title,
             'authors': authors,
             'journal': clean_latex_markup(convert_latex_diacritics(venue)),
             'doi': entry.fields.get('doi', '').replace('\\_', '_'),
+            'rank': rank,
         }
         
         if 'year' in entry.fields:
@@ -133,6 +135,9 @@ def format_yaml_content(data, section='publications'):
         output += f"        journal: \"{pub['journal']}\"\n"
         if pub.get('doi'):
             output += f"        doi: {pub['doi']}\n"
+        if pub.get('rank'):
+            print(pub['rank'])
+            output += f"        rank: {pub['rank']}\n"
     return output
 
 

@@ -35,5 +35,9 @@
         \href{<<entry.url>>}{<<entry.clean_url|escape_latex_characters>>}
         ((* endif -*))
         ((* endif -*))
+
+        ((* if entry.rank -*))
+        , rank: <<entry.rank>>
+        ((* endif -*))
     \end{onecolentry}
 \end{samepage}
