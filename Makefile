@@ -253,3 +253,11 @@ release/publish: | dep/git  ## Push the tagged version to origin - triggers the 
 		$(GIT) push origin $(TAG); \
 		echo -e "$(GREEN)Release $(TAG) pushed.$(RESET)"; \
 	fi
+
+#-- Pages
+
+pages/serve:  ## Serve the GitHub Pages html file locally
+	@echo -e "$(CYAN)\nServing the documentation...$(RESET)"
+	@echo -e "$(YELLOW)Press Ctrl+C to stop the server.$(RESET)"
+	@bundle exec jekyll serve --source ./docs --destination ./docs/_site
+	@echo -e "$(GREEN)Documentation served.$(RESET)"
