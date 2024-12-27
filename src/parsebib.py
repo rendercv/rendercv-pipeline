@@ -117,11 +117,13 @@ def parse_bib(bib_file):
             
         publications.append(pub)
 
+    # sort by year in descending order
+    publications.sort(key=lambda x: x['date'], reverse=True)
     return {'publications': publications}
 
 
-def format_yaml_content(data):
-    output = "    publications:\n"
+def format_yaml_content(data, section='publications'):
+    output = f"    {section}:\n"
     for pub in data['publications']:
         output += f"      - title: \"{pub['title']}\"\n"
         output += "        authors:\n"
@@ -176,14 +178,19 @@ if __name__ == '__main__':
     script_dir = Path(__file__).parent
     dblp_file = os.path.join(str(script_dir), 'bibliography', 'dblp.bib')
     additional_entries = os.path.join(str(script_dir), 'bibliography', 'not_in_dblp.bib')
-    bib_file = os.path.join(str(script_dir), 'bibliography', 'publications.bib')
-    yaml_file = os.path.join(str(script_dir), 'bibliography', 'publications.yaml')
+    all_pubblications_bib_file = os.path.join(str(script_dir), 'bibliography', 'publications.bib')
+    selected_pubblications_bib_file = os.path.join(str(script_dir), 'bibliography', 'selected.bib')
+    all_pubblications_yaml_file = os.path.join(str(script_dir), 'bibliography', 'publications.yaml')
+    selected_pubblications_yaml_file = os.path.join(str(script_dir), 'bibliography', 'selected_publications.yaml')
     
     try:
         download_bib_from_dblp(dblp_file, dblp_url)
-        merge_bib_files(dblp_file, additional_entries, bib_file)
-        publications = parse_bib(bib_file)
-        with open(yaml_file, 'w') as f:
-            f.write(format_yaml_content(publications))
+        merge_bib_files(dblp_file, additional_entries, all_pubblications_bib_file)
+        all_publications = parse_bib(all_pubblications_bib_file)
+        with open(all_pubblications_yaml_file, 'w') as f:
+            f.write(format_yaml_content(all_publications, section='publications'))
+        selected_publications = parse_bib(selected_pubblications_bib_file)
+        with open(selected_pubblications_yaml_file, 'w') as f:
+            f.write(format_yaml_content(selected_publications, section='selected_publications'))
     except FileNotFoundError as e:
         print(f"Error: {e}")

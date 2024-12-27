@@ -611,6 +611,14 @@
         date: 2015
         journal: "Proceedings of the 7th International Workshop on Social Software Engineering, SSE 2015, Bergamo, Italy, September 1, 2015"
         doi: 10.1145/2804381.2804387
+      - title: "Success factors for effective knowledge sharing in community-based question-answering"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - M. Merolla
+          - N. Novielli
+        date: 2015
+        journal: "Proc. of the International Forum on Knowledge Asset Dynamics (IFKAD 2015), Bari, Italy, Jun. 10-12, 2015"
       - title: "Speech Recognition for Voice-Based Machine Translation"
         authors:
           - T. Duarte
@@ -698,6 +706,24 @@
         date: 2013
         journal: "Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE'13, Saint Petersburg, Russian Federation, August 18-26, 2013"
         doi: 10.1145/2491411.2494592
+      - title: "Real-time machine translation for software development teams"
+        authors:
+          - R. Prikladnicki
+          - T. Duarte
+          - T. Conte
+          - "***F. Calefato***"
+          - F. Lanubile
+          - others
+        date: 2013
+        journal: "Workshop on Software Engineering Innovation Foundation (SEIF'13), Rio de Janeiro, Brazil, Nov. 25–26, 2013"
+      - title: "Social media and trust building in virtual teams: The design of a replicated experiment"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+          - others
+        date: 2013
+        journal: "1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools@CSCW, San Antonio, TX, 23 Feb. 2013"
       - title: "Computer-mediated communication to support distributed requirements elicitations and negotiations tasks"
         authors:
           - "***F. Calefato***"
@@ -729,6 +755,19 @@
         date: 2012
         journal: "5th International Workshop on Co-operative and Human Aspects of Software Engineering, CHASE 2012, Zurich, Switzerland, June 2, 2012"
         doi: 10.1109/CHASE.2012.6223009
+      - title: "A Social Aggregator for SMEs"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+        date: 2012
+        journal: "Intersocial Workshop on Online Social Networks: Challenges and Perspectives (IWOSN'12), Patras, Greece, Jun. 15, 2012"
+      - title: "Social Awareness as a Trust Building Mechanism in Global Software Teams"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2012
+        journal: "CSCW'12 Workshop on The Future of Collaborative Software Development, Seattle, USA, Feb. 12 2012"
       - title: "A Controlled Experiment on the Effects of Machine Translation in Multilingual Requirements Meetings"
         authors:
           - "***F. Calefato***"
@@ -737,6 +776,28 @@
         date: 2011
         journal: "6th IEEE International Conference on Global Software Engineering, ICGSE 2011, Helsinki, Finland, August 15-18, 2011"
         doi: 10.1109/ICGSE.2011.14
+      - title: "Practice: Collaborative Development Environments (Chapter 15)"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2011
+        journal: "Global Software and IT: A Guide to Distributed Development, Projects, and Outsourcing (C. Ebert, Ed.)"
+      - title: "A planning poker tool for supporting collaborative estimation in distributed agile development"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - others
+        date: 2011
+        journal: "Proc. 6th Int. Conf. Softw. Eng. Adv.(ICSEA), Barcelona, Spain, 23-28 Oct. 2011"
+      - title: "Augmenting social awareness in a collaborative development environment"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Sanitate
+          - G. Santoro
+        date: 2011
+        journal: "Proc. of the 4th Int'l Workshop on Social Software Engineering (SSE '11), Szeged, Hungary, 5 Sept 2011"
+        doi: 10.1145/2024645.2024656
       - title: "Communication Media Selection for Remote Interaction of Ad Hoc Groups"
         authors:
           - "***F. Calefato***"
@@ -775,6 +836,18 @@
         date: 2009
         journal: "Proceedings of the 2nd International Workshop on Social Software Engineering and Applications, SoSEA '09, Amsterdam, The Netherlands, August 24, 2009"
         doi: 10.1145/1595836.1595842
+      - title: "Virtual Worlds, do we really need the third dimension to support collaborative learning"
+        authors:
+          - F. Abbattista
+          - "***F. Calefato***"
+          - A. De Lucia
+          - R. Francese
+          - F. Lanubile
+          - I. Passero
+          - G. Tortora
+          - others
+        date: 2009
+        journal: "Virtual Worlds for academic, organizational, and life-long learning-ViWo 2009 Workshop-ICWL, Aachen, Germany, 19-21 Aug. 2009"
       - title: "Adopting the Eclipse Communication Framework: The Case of eConference"
         authors:
           - "***F. Calefato***"
@@ -790,6 +863,19 @@
         date: 2008
         journal: "23rd IEEE/ACM International Conference on Automated Software Engineering - Workshop Proceedings (ASE Workshops 2008), 15-16 September 2008, L'Aquila, Italy"
         doi: 10.1109/ASEW.2008.4686310
+      - title: "Augmenting a content-based recommender system with tags for cultural heritage personalization"
+        authors:
+          - P. Basile
+          - "***F. Calefato***"
+          - M. Gemmis
+          - P. Lops
+          - G. Semeraro
+          - M. Bux
+          - C. Musto
+          - F. Narducci
+          - others
+        date: 2008
+        journal: "Personalized Access to Cultural Heritage (PATCH'08), Hannover, Germany, 29 Jul.–1 Aug. 2008"
       - title: "Evolving a text-based conferencing system: An experience report"
         authors:
           - "***F. Calefato***"
@@ -838,133 +924,6 @@
           - F. Lanubile
         date: 2007
         journal: "Proceedings of the 4th Italian Semantic Web Workshop, Dipartimento di Informatica - Universita' degli Studi di Bari - Italy, 18-20 December, 2007, vol. 314"
-      - title: "Plugging Presence Awareness into Mozilla Thunderbird"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-        date: 2006
-        journal: "Proceedings of the IASTED International Conference on Internet and Multimedia Systems and Applications, as part of the 24th IASTED International Multi-Conference on Applied Informatics, February 13-15, 2006, Innsbruck, Austria"
-      - title: "An Information Broker for Integrating Heterogeneous Hydrologic Data Sources: A Web Services Approach"
-        authors:
-          - "***F. Calefato***"
-          - A. Colagrossi
-          - D. Gendarmi
-          - F. Lanubile
-          - G. Semeraro
-        date: 2006
-        journal: "Research and Practical Issues of Enterprise Information Systems - IFIP TC 8 International Conference on Research and Practical Issues of Enterprise Information Systems (CONFENIS 2006) April 24-26, 2006, Vienna, Austria, vol. 205"
-        doi: 10.1007/0-387-34456-X_5
-      - title: "Function Clone Detection in Web Applications: A Semiautomated Approach"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - T. Mallardo
-        date: 2004
-        journal: "J. Web Eng., vol. 3, no. 1"
-      - title: "Assessing the Impact of Active Guidance for Defect Detection: A Replicated Experiment"
-        authors:
-          - F. Lanubile
-          - T. Mallardo
-          - "***F. Calefato***"
-          - C. Denger
-          - M. Ciolkowski
-        date: 2004
-        journal: "10th IEEE International Software Metrics Symposium (METRICS 2004), 11-17 September 2004, Chicago, IL, USA"
-        doi: 10.1109/METRIC.2004.1357909
-      - title: "Tool support for geographically dispersed inspection teams"
-        authors:
-          - F. Lanubile
-          - T. Mallardo
-          - "***F. Calefato***"
-        date: 2003
-        journal: "Softw. Process. Improv. Pract., vol. 8, no. 4"
-        doi: 10.1002/SPIP.184
-      - title: "Success factors for effective knowledge sharing in community-based question-answering"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - M. Merolla
-          - N. Novielli
-        date: 2015
-        journal: "Proc. of the International Forum on Knowledge Asset Dynamics (IFKAD 2015), Bari, Italy, Jun. 10-12, 2015"
-      - title: "Real-time machine translation for software development teams"
-        authors:
-          - R. Prikladnicki
-          - T. Duarte
-          - T. Conte
-          - "***F. Calefato***"
-          - F. Lanubile
-          - others
-        date: 2013
-        journal: "Workshop on Software Engineering Innovation Foundation (SEIF'13), Rio de Janeiro, Brazil, Nov. 25–26, 2013"
-      - title: "Social media and trust building in virtual teams: The design of a replicated experiment"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - N. Novielli
-          - others
-        date: 2013
-        journal: "1st Int’l Workshop on Trust in Virtual Teams: Theory and Tools@CSCW, San Antonio, TX, 23 Feb. 2013"
-      - title: "A Social Aggregator for SMEs"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - N. Novielli
-        date: 2012
-        journal: "Intersocial Workshop on Online Social Networks: Challenges and Perspectives (IWOSN'12), Patras, Greece, Jun. 15, 2012"
-      - title: "Social Awareness as a Trust Building Mechanism in Global Software Teams"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-        date: 2012
-        journal: "CSCW'12 Workshop on The Future of Collaborative Software Development, Seattle, USA, Feb. 12 2012"
-      - title: "Practice: Collaborative Development Environments (Chapter 15)"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-        date: 2011
-        journal: "Global Software and IT: A Guide to Distributed Development, Projects, and Outsourcing (C. Ebert, Ed.)"
-      - title: "A planning poker tool for supporting collaborative estimation in distributed agile development"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - others
-        date: 2011
-        journal: "Proc. 6th Int. Conf. Softw. Eng. Adv.(ICSEA), Barcelona, Spain, 23-28 Oct. 2011"
-      - title: "Augmenting social awareness in a collaborative development environment"
-        authors:
-          - "***F. Calefato***"
-          - F. Lanubile
-          - N. Sanitate
-          - G. Santoro
-        date: 2011
-        journal: "Proc. of the 4th Int'l Workshop on Social Software Engineering (SSE '11), Szeged, Hungary, 5 Sept 2011"
-        doi: 10.1145/2024645.2024656
-      - title: "Virtual Worlds, do we really need the third dimension to support collaborative learning"
-        authors:
-          - F. Abbattista
-          - "***F. Calefato***"
-          - A. De Lucia
-          - R. Francese
-          - F. Lanubile
-          - I. Passero
-          - G. Tortora
-          - others
-        date: 2009
-        journal: "Virtual Worlds for academic, organizational, and life-long learning-ViWo 2009 Workshop-ICWL, Aachen, Germany, 19-21 Aug. 2009"
-      - title: "Augmenting a content-based recommender system with tags for cultural heritage personalization"
-        authors:
-          - P. Basile
-          - "***F. Calefato***"
-          - M. Gemmis
-          - P. Lops
-          - G. Semeraro
-          - M. Bux
-          - C. Musto
-          - F. Narducci
-          - others
-        date: 2008
-        journal: "Personalized Access to Cultural Heritage (PATCH'08), Hannover, Germany, 29 Jul.–1 Aug. 2008"
       - title: "Towards Social Semantic Suggestive Tagging in a Digital Repository of Bookmarks"
         authors:
           - "***F. Calefato***"
@@ -990,12 +949,45 @@
           - D. Damian
         date: 2007
         journal: "Proceedings of the ICGSE Workshop on Global Requirements Engineering (GREW'07), Munich, Germany, 27-30 Aug. 2007"
+      - title: "Plugging Presence Awareness into Mozilla Thunderbird"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2006
+        journal: "Proceedings of the IASTED International Conference on Internet and Multimedia Systems and Applications, as part of the 24th IASTED International Multi-Conference on Applied Informatics, February 13-15, 2006, Innsbruck, Austria"
+      - title: "An Information Broker for Integrating Heterogeneous Hydrologic Data Sources: A Web Services Approach"
+        authors:
+          - "***F. Calefato***"
+          - A. Colagrossi
+          - D. Gendarmi
+          - F. Lanubile
+          - G. Semeraro
+        date: 2006
+        journal: "Research and Practical Issues of Enterprise Information Systems - IFIP TC 8 International Conference on Research and Practical Issues of Enterprise Information Systems (CONFENIS 2006) April 24-26, 2006, Vienna, Austria, vol. 205"
+        doi: 10.1007/0-387-34456-X_5
       - title: "Using the Econference tool for synchronous distributed requirements workshops"
         authors:
           - "***F. Calefato***"
           - F. Lanubile
         date: 2005
         journal: "Proc. of the 1st Int’l Workshop on Distributed Software Development (DiSD'05), Paris, France, 29 Aug. 2005"
+      - title: "Function Clone Detection in Web Applications: A Semiautomated Approach"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - T. Mallardo
+        date: 2004
+        journal: "J. Web Eng., vol. 3, no. 1"
+      - title: "Assessing the Impact of Active Guidance for Defect Detection: A Replicated Experiment"
+        authors:
+          - F. Lanubile
+          - T. Mallardo
+          - "***F. Calefato***"
+          - C. Denger
+          - M. Ciolkowski
+        date: 2004
+        journal: "10th IEEE International Software Metrics Symposium (METRICS 2004), 11-17 September 2004, Chicago, IL, USA"
+        doi: 10.1109/METRIC.2004.1357909
       - title: "A decentralized conferencing tool for ad hoc distributed workgroups"
         authors:
           - "***F. Calefato***"
@@ -1010,3 +1002,11 @@
         date: 2004
         journal: "Peer-to-peer remote conferencing"
         doi: 10.1049/ic:20040310
+      - title: "Tool support for geographically dispersed inspection teams"
+        authors:
+          - F. Lanubile
+          - T. Mallardo
+          - "***F. Calefato***"
+        date: 2003
+        journal: "Softw. Process. Improv. Pract., vol. 8, no. 4"
+        doi: 10.1002/SPIP.184

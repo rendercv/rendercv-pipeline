@@ -1,0 +1,378 @@
+    selected_publications:
+      - title: "A multivocal literature review on the benefits and limitations of industry-leading AutoML tools"
+        authors:
+          - L. Quaranta
+          - K. Azevedo
+          - "***F. Calefato***"
+          - M. Kalinowski
+        date: 2025
+        journal: "Inf. Softw. Technol., vol. 178"
+        doi: 10.1016/J.INFSOF.2024.107608
+      - title: "Pynblint: A quality assurance tool to improve the quality of Python Jupyter notebooks"
+        authors:
+          - L. Quaranta
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2024
+        journal: "SoftwareX, vol. 28"
+        doi: 10.1016/J.SOFTX.2024.101959
+      - title: "A lot of talk and a badge: An exploratory analysis of personal achievements in GitHub"
+        authors:
+          - "***F. Calefato***"
+          - L. Quaranta
+          - F. Lanubile
+        date: 2024
+        journal: "Inf. Softw. Technol., vol. 176"
+        doi: 10.1016/J.INFSOF.2024.107561
+      - title: "Generative AI in Software Engineering Must Be Human-Centered: The Copenhagen Manifesto"
+        authors:
+          - D. Russo
+          - S. Baltes
+          - N. Berkel
+          - P. Avgeriou
+          - "***F. Calefato***"
+          - B. Cabrero-Daniel
+          - G. Catolino
+          - J. Cito
+          - N. Ernst
+          - T. Fritz
+          - H. Hata
+          - R. Holmes
+          - M. Izadi
+          - F. Khomh
+          - M. Kjærgaard
+          - G. Liebel
+          - A. Lluch-Lafuente
+          - S. Lambiase
+          - W. Maalej
+          - G. Murphy
+          - N. Moe
+          - G. O'Brien
+          - E. Paja
+          - M. Pezzè
+          - J. Persson
+          - R. Prikladnicki
+          - P. Ralph
+          - M. Robillard
+          - T. Silva
+          - K.J. Stol
+          - M.A. Storey
+          - V. Stray
+          - P. Tell
+          - C. Treude
+          - B. Vasilescu
+        date: 2024
+        journal: "J. Syst. Softw., vol. 216"
+        doi: 10.1016/J.JSS.2024.112115
+      - title: "Professional Insights into Benefits and Limitations of Implementing MLOps Principles"
+        authors:
+          - G. Araujo
+          - M. Kalinowski
+          - M. Endler
+          - "***F. Calefato***"
+        date: 2024
+        journal: "Proceedings of the 26th International Conference on Enterprise Information Systems, ICEIS 2024, Angers, France, April 28-30, 2024, Volume 2"
+        doi: 10.5220/0012741100003690
+      - title: "Assessing the Use of AutoML for Data-Driven Software Engineering"
+        authors:
+          - "***F. Calefato***"
+          - L. Quaranta
+          - F. Lanubile
+          - M. Kalinowski
+        date: 2023
+        journal: "ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2023, New Orleans, LA, USA, October 26-27, 2023"
+        doi: 10.1109/ESEM56168.2023.10304796
+      - title: "Eliciting Best Practices for Collaboration with Computational Notebooks"
+        authors:
+          - L. Quaranta
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2022
+        journal: "Proc. ACM Hum. Comput. Interact., vol. 6, no. {CSCW1}"
+        doi: 10.1145/3512934
+      - title: "Using Personality Detection Tools for Software Engineering Research: How Far Can We Go?"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2022
+        journal: "ACM Trans. Softw. Eng. Methodol., vol. 31, no. 3"
+        doi: 10.1145/3491039
+      - title: "What Makes Agile Software Development Agile?"
+        authors:
+          - M. Kuhrmann
+          - P. Tell
+          - R. Hebig
+          - J. Klünder
+          - J. Münch
+          - O. Linssen
+          - D. Pfahl
+          - M. Felderer
+          - C. Prause
+          - S. MacDonell
+          - J. Nakatumba-Nabende
+          - D. Raffo
+          - S. Beecham
+          - E. Tüzün
+          - G. López
+          - N. Paez
+          - D. Fontdevila
+          - S. Licorish
+          - S. Küpper
+          - G. Ruhe
+          - E. Knauss
+          - Ö. Özcan-Top
+          - P. Clarke
+          - F. McCaffery
+          - M. Genero
+          - A. Vizcaíno
+          - M. Piattini
+          - M. Kalinowski
+          - T. Conte
+          - R. Prikladnicki
+          - S. Krusche
+          - A. Coskunçay
+          - E. Scott
+          - "***F. Calefato***"
+          - S. Pimonova
+          - R.H. Pfeiffer
+          - U. Schultz
+          - R. Heldal
+          - M. Fazal-Baqaie
+          - C. Anslow
+          - M. Nayebi
+          - K. Schneider
+          - S. Sauer
+          - D. Winkler
+          - S. Biffl
+          - M. Bastarrica
+          - I. Richardson
+        date: 2022
+        journal: "IEEE Trans. Software Eng., vol. 48, no. 9"
+        doi: 10.1109/TSE.2021.3099532
+      - title: "A Preliminary Investigation of MLOps Practices in GitHub"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - L. Quaranta
+        date: 2022
+        journal: "ESEM '22: ACM / IEEE International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland, September 19 - 23, 2022"
+        doi: 10.1145/3544902.3546636
+      - title: "Pynblint: a static analyzer for Python Jupyter notebooks"
+        authors:
+          - L. Quaranta
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2022
+        journal: "Proceedings of the 1st International Conference on AI Engineering: Software Engineering for AI, CAIN 2022, Pittsburgh, Pennsylvania, May 16-17, 2022"
+        doi: 10.1145/3522664.3528612
+      - title: "An In-Depth Analysis of Occasional and Recurring Collaborations in Online Music Co-creation"
+        authors:
+          - "***F. Calefato***"
+          - G. Iaffaldano
+          - L. Trisolini
+          - F. Lanubile
+        date: 2021
+        journal: "ACM Trans. Soc. Comput., vol. 4, no. 4"
+        doi: 10.1145/3493800
+      - title: "Assessment of off-the-shelf SE-specific sentiment analysis tools: An extended replication study"
+        authors:
+          - N. Novielli
+          - "***F. Calefato***"
+          - F. Lanubile
+          - A. Serebrenik
+        date: 2021
+        journal: "Empir. Softw. Eng., vol. 26, no. 4"
+        doi: 10.1007/S10664-021-09960-W
+      - title: "Towards Productizing AI/ML Models: An Industry Perspective from Data Scientists"
+        authors:
+          - F. Lanubile
+          - "***F. Calefato***"
+          - L. Quaranta
+          - M. Amoruso
+          - F. Fumarola
+          - M. Filannino
+        date: 2021
+        journal: "1st IEEE/ACM Workshop on AI Engineering - Software Engineering for AI, WAIN@ICSE 2021, Madrid, Spain, May 30-31, 2021"
+        doi: 10.1109/WAIN52551.2021.00027
+      - title: "Love, Joy, Anger, Sadness, Fear, and Surprise: SE Needs Special Kinds of AI: A Case Study on Text Mining and SE"
+        authors:
+          - N. Novielli
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2020
+        journal: "IEEE Softw., vol. 37, no. 3"
+        doi: 10.1109/MS.2020.2968557
+      - title: "Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?"
+        authors:
+          - N. Novielli
+          - "***F. Calefato***"
+          - D. Dongiovanni
+          - D. Girardi
+          - F. Lanubile
+        date: 2020
+        journal: "MSR '20: 17th International Conference on Mining Software Repositories, Seoul, Republic of Korea, 29-30 June, 2020"
+        doi: 10.1145/3379597.3387446
+      - title: "A large-scale, in-depth analysis of developers' personalities in the Apache ecosystem"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - B. Vasilescu
+        date: 2019
+        journal: "Inf. Softw. Technol., vol. 114"
+        doi: 10.1016/J.INFSOF.2019.05.012
+      - title: "RECODE: revision control for digital images"
+        authors:
+          - "***F. Calefato***"
+          - G. Castellano
+          - V. Rossano
+        date: 2019
+        journal: "Multim. Tools Appl., vol. 78, no. 23"
+        doi: 10.1007/S11042-019-7735-9
+      - title: "An empirical assessment of best-answer prediction models in technical Q&A sites"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+        date: 2019
+        journal: "Empir. Softw. Eng., vol. 24, no. 2"
+        doi: 10.1007/S10664-018-9642-5
+      - title: "Agile Collaboration for Distributed Teams [Software Technology]"
+        authors:
+          - "***F. Calefato***"
+          - C. Ebert
+        date: 2019
+        journal: "IEEE Softw., vol. 36, no. 1"
+        doi: 10.1109/MS.2018.2874668
+      - title: "How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+        date: 2018
+        journal: "Inf. Softw. Technol., vol. 94"
+        doi: 10.1016/J.INFSOF.2017.10.009
+      - title: "Investigating Crowd Creativity in Online Music Communities"
+        authors:
+          - "***F. Calefato***"
+          - G. Iaffaldano
+          - F. Lanubile
+          - F. Maiorano
+        date: 2018
+        journal: "Proc. ACM Hum. Comput. Interact., vol. 2, no. {CSCW}"
+        doi: 10.1145/3274296
+      - title: "Natural language or not (NLON): a package for software engineering text analysis pipeline"
+        authors:
+          - M. Mäntylä
+          - "***F. Calefato***"
+          - M. Claes
+        date: 2018
+        journal: "Proceedings of the 15th International Conference on Mining Software Repositories, MSR 2018, Gothenburg, Sweden, May 28-29, 2018"
+        doi: 10.1145/3196398.3196444
+      - title: "Assessing the impact of real-time machine translation on multilingual meetings in global software projects"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - T. Conte
+          - R. Prikladnicki
+        date: 2016
+        journal: "Empir. Softw. Eng., vol. 21, no. 3"
+        doi: 10.1007/S10664-015-9372-X
+      - title: "Moving to Stack Overflow: Best-Answer Prediction in Legacy Developer Forums"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+        date: 2016
+        journal: "Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM 2016, Ciudad Real, Spain, September 8-9, 2016"
+        doi: 10.1145/2961111.2962585
+      - title: "The role of social media in affective trust building in customer-supplier relationships"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - N. Novielli
+        date: 2015
+        journal: "Electron. Commer. Res., vol. 15, no. 4"
+        doi: 10.1007/S10660-015-9194-3
+      - title: "Cost Savings in Global Software Engineering: Where's the Evidence?"
+        authors:
+          - D. Smite
+          - "***F. Calefato***"
+          - C. Wohlin
+        date: 2015
+        journal: "IEEE Softw., vol. 32, no. 4"
+        doi: 10.1109/MS.2015.102
+      - title: "Mining Successful Answers in Stack Overflow"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - M. Marasciulo
+          - N. Novielli
+        date: 2015
+        journal: "12th IEEE/ACM Working Conference on Mining Software Repositories, MSR 2015, Florence, Italy, May 16-17, 2015"
+        doi: 10.1109/MSR.2015.56
+      - title: "Speech Recognition for Voice-Based Machine Translation"
+        authors:
+          - T. Duarte
+          - R. Prikladnicki
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2014
+        journal: "IEEE Softw., vol. 31, no. 1"
+        doi: 10.1109/MS.2014.14
+      - title: "An empirical simulation-based study of real-time speech translation for multilingual global project teams"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - R. Prikladnicki
+          - J. Pinto
+        date: 2014
+        journal: "2014 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '14, Torino, Italy, September 18-19, 2014"
+        doi: 10.1145/2652524.2652537
+      - title: "Group Awareness in Global Software Engineering"
+        authors:
+          - F. Lanubile
+          - "***F. Calefato***"
+          - C. Ebert
+        date: 2013
+        journal: "IEEE Softw., vol. 30, no. 2"
+        doi: 10.1109/MS.2013.30
+      - title: "Computer-mediated communication to support distributed requirements elicitations and negotiations tasks"
+        authors:
+          - "***F. Calefato***"
+          - D. Damian
+          - F. Lanubile
+        date: 2012
+        journal: "Empir. Softw. Eng., vol. 17, no. 6"
+        doi: 10.1007/S10664-011-9179-3
+      - title: "Assessing the impact of real-time machine translation on requirements meetings: a replicated experiment"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - T. Conte
+          - R. Prikladnicki
+        date: 2012
+        journal: "2012 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM '12, Lund, Sweden - September 19 - 20, 2012"
+        doi: 10.1145/2372251.2372299
+      - title: "Investigating the use of tags in collaborative development environments: a replicated study"
+        authors:
+          - "***F. Calefato***"
+          - D. Gendarmi
+          - F. Lanubile
+        date: 2010
+        journal: "Proceedings of the International Symposium on Empirical Software Engineering and Measurement, ESEM 2010, 16-17 September 2010, Bolzano/Bozen, Italy"
+        doi: 10.1145/1852786.1852818
+      - title: "Using frameworks to develop a distributed conferencing system: an experience report"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+        date: 2009
+        journal: "Softw. Pract. Exp., vol. 39, no. 15"
+        doi: 10.1002/SPE.937
+      - title: "A Controlled Experiment on the Effects of Synchronicity in Remote Inspection Meetings"
+        authors:
+          - "***F. Calefato***"
+          - F. Lanubile
+          - T. Mallardo
+        date: 2007
+        journal: "Proceedings of the First International Symposium on Empirical Software Engineering and Measurement, ESEM 2007, September 20-21, 2007, Madrid, Spain"
+        doi: 10.1109/ESEM.2007.61
