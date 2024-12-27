@@ -69,10 +69,14 @@ def format_author(author):
 
 
 def clean_latex_markup(text):
-    return text.replace('{', '').replace('}', '').replace('\\&', '&')
+    return text.replace('{', '').replace('}', '') 
 
 
 def filter_bib(bib_file):
+    class NoEscapeWriter(bibtex_writer.Writer):
+        def _encode(self, text):
+            return text
+    
     # load bib file
     parser = bibtex.Parser()
     bib_data = parser.parse_file(bib_file)
@@ -93,7 +97,7 @@ def filter_bib(bib_file):
     bib_data.entries = dict(sorted(bib_data.entries.items(), key=lambda x: x[1].fields.get('year', ''), reverse=True))
 
     # write filtered entries back to bib file
-    writer = bibtex_writer.Writer()
+    writer = NoEscapeWriter()
     with open(bib_file, 'w') as f:
         writer.write_file(bib_data, f)
 
@@ -122,7 +126,7 @@ def parse_bib(bib_file):
 
         rank = entry.fields.get('ranking', '')
         pub = {
-            'title': clean_latex_markup(title),
+            'title': clean_latex_markup(convert_latex_diacritics(title)),
             'authors': authors,
             'journal': clean_latex_markup(convert_latex_diacritics(venue)),
             'doi': entry.fields.get('doi', '').replace('\\_', '_'),
@@ -136,6 +140,7 @@ def parse_bib(bib_file):
             pub['journal'] += f", vol. {entry.fields['volume']}"
         if 'number' in entry.fields:
             pub['journal'] += f", no. {entry.fields['number']}"
+        pub['journal'] = clean_latex_markup(pub['journal'])
             
         publications.append(pub)
 
