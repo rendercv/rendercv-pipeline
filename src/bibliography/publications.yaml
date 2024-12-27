@@ -136,7 +136,7 @@
           - A. Spina
           - A. Vitale
         date: 2024
-        journal: "Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimarães, Portugal, May 14-17, 2024, vol. 3674"
+        journal: "Joint Proceedings of RCIS 2024 Workshops and Research Projects Track co-located with the 18th International Conferecence on Research Challenges in Information Science (RCIS 2024), Guimar\\textasciitilde aes, Portugal, May 14-17, 2024, vol. 3674"
       - title: "Assessing the Use of AutoML for Data-Driven Software Engineering"
         authors:
           - "***F. Calefato***"
@@ -337,7 +337,7 @@
         date: 2020
         journal: "MSR '20: 17th International Conference on Mining Software Repositories, Seoul, Republic of Korea, 29-30 June, 2020"
         doi: 10.1145/3379597.3387505
-      - title: "An empirical assessment of best-answer prediction models in technical Q&A sites"
+      - title: "An empirical assessment of best-answer prediction models in technical Q\&A sites"
         authors:
           - "***F. Calefato***"
           - F. Lanubile
@@ -510,7 +510,7 @@
           - N. Novielli
         date: 2017
         journal: "Current Trends in Web Engineering - ICWE 2017 International Workshops, Liquid Multi-Device Software and EnWoT, practi-O-web, NLPIT, SoWeMine, Rome, Italy, June 5-8, 2017, Revised Selected Papers, vol. 10544"
-        doi: 10.1007/978-3-319-74433-9_22
+        doi: 10.1007/978-3-319-74433-9\_22
       - title: "Assessing the impact of real-time machine translation on multilingual meetings in global software projects"
         authors:
           - "***F. Calefato***"
@@ -529,7 +529,7 @@
         date: 2016
         journal: "Interactions, vol. 23, no. 2"
         doi: 10.1145/2883619
-      - title: "The EmoQuest Project: Emotions in Q&A Sites"
+      - title: "The EmoQuest Project: Emotions in Q\&A Sites"
         authors:
           - N. Novielli
           - "***F. Calefato***"
@@ -916,7 +916,7 @@
           - F. Lanubile
         date: 2007
         journal: "Knowledge-Based Intelligent Information and Engineering Systems, 11th International Conference, KES 2007, XVII Italian Workshop on Neural Networks, Vietri sul Mare, Italy, September 12-14, 2007, Proceedings, Part III, vol. 4694"
-        doi: 10.1007/978-3-540-74829-8_89
+        doi: 10.1007/978-3-540-74829-8\_89
       - title: "Towards Social Semantic Suggestive Tagging"
         authors:
           - "***F. Calefato***"
@@ -964,7 +964,7 @@
           - G. Semeraro
         date: 2006
         journal: "Research and Practical Issues of Enterprise Information Systems - IFIP TC 8 International Conference on Research and Practical Issues of Enterprise Information Systems (CONFENIS 2006) April 24-26, 2006, Vienna, Austria, vol. 205"
-        doi: 10.1007/0-387-34456-X_5
+        doi: 10.1007/0-387-34456-X\_5
       - title: "Using the Econference tool for synchronous distributed requirements workshops"
         authors:
           - "***F. Calefato***"

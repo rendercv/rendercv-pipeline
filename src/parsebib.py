@@ -1,4 +1,5 @@
 from pybtex.database.input import bibtex
+from pybtex.database.output import bibtex as bibtex_writer
 import os
 from pathlib import Path
 import requests
@@ -71,6 +72,32 @@ def clean_latex_markup(text):
     return text.replace('{', '').replace('}', '').replace('\\&', '&')
 
 
+def filter_bib(bib_file):
+    # load bib file
+    parser = bibtex.Parser()
+    bib_data = parser.parse_file(bib_file)
+    
+    # filter out entries where publisher is '{Zenodo}' or journal is '{CoRR}' or key is 'DBLP:conf/icgse/2019'
+    filtered_entries = {
+        key: entry
+        for key, entry in bib_data.entries.items()
+        if entry.fields.get('publisher', '').strip('{}') != 'Zenodo'
+        and entry.fields.get('journal', '').strip('{}') != 'CoRR'
+        and key != 'DBLP:conf/icgse/2019'
+    }
+    
+    # Update bib_data with filtered entries
+    bib_data.entries = filtered_entries
+    
+    # sort entries by year in descending order
+    bib_data.entries = dict(sorted(bib_data.entries.items(), key=lambda x: x[1].fields.get('year', ''), reverse=True))
+
+    # write filtered entries back to bib file
+    writer = bibtex_writer.Writer()
+    with open(bib_file, 'w') as f:
+        writer.write_file(bib_data, f)
+
+
 def parse_bib(bib_file):
     if not os.path.exists(bib_file):
         raise FileNotFoundError(f"BibTeX file not found: {bib_file}")
@@ -80,29 +107,22 @@ def parse_bib(bib_file):
     
     publications = []
     for _, entry in bib_data.entries.items():
-        # filter out entries where publisher = {Zenodo} or journal = {CoRR}
-        if 'zenodo' in entry.fields.get('publisher', '').lower()  or 'corr' in entry.fields.get('journal', '').lower():
-            continue
-
-        if entry.key == 'DBLP:conf/icgse/2019':
-            continue
-
         if entry.type == 'proceedings':
             authors = [format_author(editor) for editor in entry.persons.get('editor', [])]
             venue = entry.fields.get('publisher', '')
-            title = clean_latex_markup(entry.fields.get('title', ''))
+            title = entry.fields.get('title', '')
         elif entry.type == 'inbook':
             authors = [format_author(author) for author in entry.persons.get('author', [])]
             venue = entry.fields.get('title', '')
-            title = clean_latex_markup(entry.fields.get('chapter', ''))
+            title = entry.fields.get('chapter', '')
         else:
             authors = [format_author(author) for author in entry.persons.get('author', [])]
             venue = entry.fields.get('journal', '') or entry.fields.get('booktitle', '')
-            title = clean_latex_markup(entry.fields.get('title', ''))
+            title = entry.fields.get('title', '')
 
         rank = entry.fields.get('ranking', '')
         pub = {
-            'title': title,
+            'title': clean_latex_markup(title),
             'authors': authors,
             'journal': clean_latex_markup(convert_latex_diacritics(venue)),
             'doi': entry.fields.get('doi', '').replace('\\_', '_'),
@@ -136,7 +156,6 @@ def format_yaml_content(data, section='publications'):
         if pub.get('doi'):
             output += f"        doi: {pub['doi']}\n"
         if pub.get('rank'):
-            print(pub['rank'])
             output += f"        rank: {pub['rank']}\n"
     return output
 
@@ -191,9 +210,10 @@ if __name__ == '__main__':
     try:
         download_bib_from_dblp(dblp_file, dblp_url)
         merge_bib_files(dblp_file, additional_entries, all_pubblications_bib_file)
+        filter_bib(all_pubblications_bib_file)
         all_publications = parse_bib(all_pubblications_bib_file)
         with open(all_pubblications_yaml_file, 'w') as f:
-            f.write(format_yaml_content(all_publications, section='publications'))
+             f.write(format_yaml_content(all_publications, section='publications'))
         selected_publications = parse_bib(selected_pubblications_bib_file)
         with open(selected_pubblications_yaml_file, 'w') as f:
             f.write(format_yaml_content(selected_publications, section='selected_publications'))
