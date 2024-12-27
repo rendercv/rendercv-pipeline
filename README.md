@@ -93,7 +93,7 @@
 ## Eliciting Best Practices for Collaboration with Computational Notebooks ([10.1145/3512934](https://doi.org/10.1145/3512934))
 - 2022
 - L. Quaranta, ***F. Calefato***, F. Lanubile
-- Proc. ACM Hum. Comput. Interact., vol. 6, no. {CSCW1}
+- Proc. ACM Hum. Comput. Interact., vol. 6, no. CSCW1
 
 ## Using Personality Detection Tools for Software Engineering Research: How Far Can We Go? ([10.1145/3491039](https://doi.org/10.1145/3491039))
 - 2022
@@ -173,7 +173,7 @@
 ## Investigating Crowd Creativity in Online Music Communities ([10.1145/3274296](https://doi.org/10.1145/3274296))
 - 2018
 - ***F. Calefato***, G. Iaffaldano, F. Lanubile, F. Maiorano
-- Proc. ACM Hum. Comput. Interact., vol. 2, no. {CSCW}
+- Proc. ACM Hum. Comput. Interact., vol. 2, no. CSCW
 
 ## Assessing the impact of real-time machine translation on multilingual meetings in global software projects ([10.1007/S10664-015-9372-X](https://doi.org/10.1007/S10664-015-9372-X))
 - 2016

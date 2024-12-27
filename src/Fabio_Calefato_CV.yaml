@@ -157,7 +157,7 @@ cv:
       - '***F. Calefato***'
       - F. Lanubile
       date: 2022
-      journal: Proc. ACM Hum. Comput. Interact., vol. 6, no. {CSCW1}
+      journal: Proc. ACM Hum. Comput. Interact., vol. 6, no. CSCW1
       doi: 10.1145/3512934
       rank: ICORE A
     - title: 'Using Personality Detection Tools for Software Engineering Research:
@@ -363,7 +363,7 @@ cv:
       - F. Lanubile
       - F. Maiorano
       date: 2018
-      journal: Proc. ACM Hum. Comput. Interact., vol. 2, no. {CSCW}
+      journal: Proc. ACM Hum. Comput. Interact., vol. 2, no. CSCW
       doi: 10.1145/3274296
       rank: ICORE A
     - title: Assessing the impact of real-time machine translation on multilingual
