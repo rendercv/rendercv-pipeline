@@ -7,7 +7,7 @@
     <title>
         Fabio Calefato's CV
     </title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    
     
 
     <!-- The loading of KaTeX is deferred to speed up page rendering -->
