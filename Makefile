@@ -37,6 +37,7 @@ STAMP_FILES := $(wildcard .*.stamp)
 SRC := src
 DOCS := docs
 DOCS_SITE := docs/_site
+RENDERCV_DIR := rendercv_output
 CACHE_DIRS := $(wildcard .*_cache)
 
 # Files
@@ -44,7 +45,7 @@ CV_FILE := Fabio_Calefato_CV
 PUB_FILE := Fabio_Calefato_Publications
 PY_FILES := $(shell find . -type f -name '*.py')
 DOCS_FILES := $(shell find $(DOCS) -type f -name '*.md') README.md
-PROJECT_INIT := .project-init
+LATEX_TEMP_FILES := $(PUB_FILE).aux $(PUB_FILE).bbl $(PUB_FILE).blg $(PUB_FILE).log $(PUB_FILE).run.xml $(PUB_FILE).bcf 
 
 # Colors
 RESET := \033[0m
@@ -146,12 +147,11 @@ project/update: | project/install  ## Update the project
 	@echo -e "$(GREEN)Project updated.$(RESET)"
 
 .PHONY: project/clean
-project/clean:  ## Clean the project - removes all cache dirs and stamp files
-	@echo -e "$(YELLOW)\nCleaning the project...$(RESET)"
+project/clean:  ## Clean untracked output files
+	@echo -e "$(YELLOW)\nCleaning...$(RESET)"
 	@find . -type d -name "__pycache__" | xargs rm -rf {};
-	@rm -rf $(STAMP_FILES) $(CACHE_DIRS) $(DOCS_SITE) || true
-	@echo -e "$(GREEN)Project cleaned.$(RESET)"
-
+	@rm -rf $(STAMP_FILES) $(CACHE_DIRS) $(DOCS_SITE) $(LATEX_TEMP_FILES) $(RENDERCV_DIR) || true
+	@echo -e "$(GREEN)Directory cleaned.$(RESET)"
 
 project/import_biblio: dep/python $(INSTALL_STAMP)  ## Import bibliography
 	@echo -e "$(CYAN)\nImporting bibliography...$(RESET)"
@@ -184,71 +184,26 @@ project/buildall: project/build_cv project/build_pubs
 
 .PHONY: check/format
 check/format: $(INSTALL_STAMP)  ## Format the code
-	@echo -e "$(CYAN)\nFormatting the code...$(RESET)"
+	@echo -e "$(CYAN)\nFormatting...$(RESET)"
 	@ruff format $(PY_FILES)
 	@echo -e "$(GREEN)Code formatted.$(RESET)"
 
 .PHONY: check/lint
 check/lint: $(INSTALL_STAMP)  ## Lint the code
-	@echo -e "$(CYAN)\nLinting the code...$(RESET)"
+	@echo -e "$(CYAN)\nLinting...$(RESET)"
 	@ruff check $(PY_FILES)
 	@echo -e "$(GREEN)Code linted.$(RESET)"
 
 #-- Release
 
-.PHONY: tag
-tag: | dep/git
-	@$(eval TAG := $(shell $(GIT) describe --tags --abbrev=0))
-	@$(eval BEHIND_AHEAD := $(shell $(GIT) rev-list --left-right --count $(TAG)...origin/main))
-	@$(shell if [ "$(BEHIND_AHEAD)" = "0	0" ]; then echo "false" > $(RELEASE_STAMP); else echo "true" > $(RELEASE_STAMP); fi)
-	@echo -e "$(CYAN)\nChecking if a new release is needed...$(RESET)"
-	@echo -e "  $(CYAN)Current tag:$(RESET) $(TAG)"
-	@echo -e "  $(CYAN)Commits behind/ahead:$(RESET) $(shell echo ${BEHIND_AHEAD} | tr '[:space:]' '/' | $(SED) 's/\/$$//')"
-	@echo -e "  $(CYAN)Needs release:$(RESET) $(shell cat $(RELEASE_STAMP))"
-
-.PHONY: staging
-staging: | dep/git
-	@if $(GIT) diff --cached --quiet; then \
-		echo "true" > $(STAGING_STAMP); \
-	else \
-		echo "false" > $(STAGING_STAMP); \
-	fi; \
-	echo -e "$(CYAN)\nChecking the staging area...$(RESET)"; \
-	echo -e "  $(CYAN)Staging area empty:$(RESET) $$(cat $(STAGING_STAMP))"
-
 .PHONY: release/version
-release/version: | tag staging  ## Tag a new release version
-	@NEEDS_RELEASE=$$(cat $(RELEASE_STAMP)); \
-	if [ "$$NEEDS_RELEASE" = "true" ]; then \
-		case "$(ARGS)" in \
-			"patch"|"minor"|"major"|"prepatch"|"preminor"|"premajor"|"prerelease"|"--next-phase") \
-				echo -e "$(CYAN)\nCreating a new version...$(RESET)"; \
-				;; \
-			*) \
-				echo -e "$(RED)Invalid version argument.$(RESET)"; \
-				echo -e "$(RED)\nUsage: make release/version ARGS=\"patch|minor|major|prepatch|preminor|premajor|prerelease|--next-phase\"$(RESET)"; \
-				exit 1; \
-				;; \
-		esac; \
-		$(eval TAG := $(shell $(GIT) describe --tags --abbrev=0)) \
-		$(eval NEW_TAG := $(shell $(POETRY) version $(ARGS) > /dev/null && $(POETRY) version -s)) \
-		$(GIT) add pyproject.toml; \
-		$(GIT) commit -m "Bump version to $(NEW_TAG)"; \
-		echo -e "$(CYAN)\nTagging a new patch version... [$(TAG)->$(NEW_TAG)]$(RESET)"; \
-		$(GIT) tag $(NEW_TAG); \
-		echo -e "$(GREEN)New patch version tagged.$(RESET)"; \
-	else \
-		echo -e "$(YELLOW)\nNo new release needed.$(RESET)"; \
-	fi
-
-.PHONY: release/publish
-release/publish: | dep/git  ## Push the tagged version to origin - triggers the release and docker actions
-	@$(eval TAG := $(shell $(GIT) describe --tags --abbrev=0))
+release/version:  ## Tag and push to origin (use release/version ARGS="x.x.x")
+	@$(eval TAG := $(shell $(GIT) describe --tags --abbrev=0 2>/dev/null || echo "0.0.1"))
 	@$(eval REMOTE_TAGS := $(shell $(GIT) ls-remote --tags origin | $(AWK) '{print $$2}'))
 	@if echo $(REMOTE_TAGS) | grep -q $(TAG); then \
 		echo -e "$(YELLOW)\nNothing to push: tag $(TAG) already exists on origin.$(RESET)"; \
 	else \
-		echo -e "$(CYAN)\nPushing new release $(TAG)...$(RESET)"; \
+		echo -e "$(CYAN)\nPushing new version $(TAG)...$(RESET)"; \
 		$(GIT) push origin; \
 		$(GIT) push origin $(TAG); \
 		echo -e "$(GREEN)Release $(TAG) pushed.$(RESET)"; \
