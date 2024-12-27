@@ -120,6 +120,11 @@
 - ***F. Calefato***, G. Iaffaldano, L. Trisolini, F. Lanubile
 - ACM Trans. Soc. Comput., vol. 4, no. 4
 
+## Will You Come Back to Contribute? Investigating the Inactivity of OSS Core Developers in GitHub 
+- 2021
+- ***F. Calefato***, M. Gerosa, G. Iaffaldano, F. Lanubile, I. Steinmacher
+- CoRR, vol. abs/2103.04656
+
 ## Assessment of off-the-shelf SE-specific sentiment analysis tools: An extended replication study ([10.1007/S10664-021-09960-W](https://doi.org/10.1007/S10664-021-09960-W))
 - 2021
 - N. Novielli, ***F. Calefato***, F. Lanubile, A. Serebrenik
