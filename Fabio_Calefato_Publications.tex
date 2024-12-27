@@ -34,8 +34,26 @@
 \usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-%usepackage[style=ieee,sorting=ydnt]{biblatex}
-%\addbibresource{src/bibliography/publications.bib}
+
+% References settings
+\usepackage[style=ieee,sorting=ydnt]{biblatex}
+\addbibresource{src/bibliography/publications.bib}
+
+% Define filters for publication types
+\defbibfilter{journals}{
+  type=article
+}
+
+\defbibfilter{conferences}{
+  type=inproceedings or
+  type=conference
+}
+
+\defbibfilter{books}{
+  type=book or
+  type=inbook or
+  type=incollection
+}
 
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
@@ -207,7 +225,18 @@
     
     \nocite{*}
     %\printbibliography
-    \bibliographystyle{acm}  %
-    \bibliography{src/bibliography/publications}
+
+    % Print bibliography by type
+    \section{Journal \& Magazine Papers }
+    \printbibliography[filter=journals,heading=none]
+    
+    \section{Conference \& Workshop Papers}
+    \printbibliography[filter=conferences,heading=none]
+
+    \section{Books \& Books Chapters}
+    \printbibliography[filter=books,heading=none]
+    
+    %\bibliographystyle{acm}  %
+    %\bibliography{src/bibliography/publications}
 
 \end{document}
