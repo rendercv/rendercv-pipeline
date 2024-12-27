@@ -8,3 +8,4 @@ rendercv_output/
 *.blg
 *.log
 *.run.xml
+*.stamp
