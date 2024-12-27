@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
       - name: Insteall PdfLatex with Biber
         run: |
-          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra biber
+          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber 
       - name: RenderCV
         run: |
           cd src
