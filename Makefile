@@ -40,7 +40,7 @@ DOCS_SITE := docs/_site
 CACHE_DIRS := $(wildcard .*_cache)
 
 # Files
-CV_FILE := Fabio_Calefato_CV.yaml
+CV_FILE := Fabio_Calefato_CV
 PUB_FILE := Fabio_Calefato_Publications
 PY_FILES := $(shell find . -type f -name '*.py')
 DOCS_FILES := $(shell find $(DOCS) -type f -name '*.md') README.md
@@ -165,7 +165,7 @@ project/update_cv: dep/python $(INSTALL_STAMP) ## Update CV input file with sele
 
 project/build_cv: | project/update_cv  ## Build pdf file of CV
 	@echo -e "$(CYAN)\nBuild CV...$(RESET)" 
-	@rendercv render src/${CV_FILE} --pdf-path ${CV_FILE}.yaml.pdf --markdown-path README.md --latex-path ${CV_FILE}.yaml.tex --html-path ${CV_FILE}.yaml.html --dont-generate-png --use-local-latex-command pdflatex
+	@rendercv render src/${CV_FILE}.yaml --pdf-path ${CV_FILE}.pdf --markdown-path README.md --latex-path ${CV_FILE}.tex --html-path ${CV_FILE}.html --dont-generate-png --use-local-latex-command pdflatex
 	@$(PYTHON) $(SRC)/genmd.py
 	@echo -e "$(GREEN)CV built.$(RESET)"
 
