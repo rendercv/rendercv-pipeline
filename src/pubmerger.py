@@ -3,7 +3,7 @@ import os
 
 def merge_publications_into_cv():
     template_path = os.path.join("src", "Fabio_Calefato_CV_template.yaml")
-    pubs_path = os.path.join("src", "bibliography", "publications.yaml")
+    pubs_path = os.path.join("src", "bibliography", "selected_publications.yaml")
     output_path = os.path.join("src", "Fabio_Calefato_CV.yaml")
 
     with open(template_path, 'r') as f:
@@ -11,7 +11,7 @@ def merge_publications_into_cv():
     with open(pubs_path, 'r') as f:
         pubs_data = yaml.safe_load(f)
 
-    cv_data["cv"]["sections"]["publications"] = pubs_data["publications"]
+    cv_data["cv"]["sections"]["selected_publications"] = pubs_data["selected_publications"]
 
     with open(output_path, 'w') as f:
         yaml.dump(cv_data, f, sort_keys=False, allow_unicode=True, default_flow_style=False)

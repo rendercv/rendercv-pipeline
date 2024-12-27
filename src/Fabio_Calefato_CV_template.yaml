@@ -77,8 +77,8 @@ cv:
       - label: Scopus
         details: "*h*-index 21, 1,500+ citations"
 
-    publications:
-      ###bibliography/publications.yaml###
+    selected_publications:
+      ###bibliography/selected_publications.yaml###
 
     events_organization:
       - name: Program Co-Chair
@@ -236,11 +236,136 @@ cv:
 
     keynote_presentations:
       - name: "The Potential and Challenges of Personality Detection in Software Engineering Research"
-        location: "4th International Workshop on Affective Computing in Requirements Engineering (AffectRE’21), co-located with RE’21"
+        location: "4th Int'l Workshop on Affective Computing in Requirements Engineering (AffectRE’21), co-located with RE’21"
         date: 2021-09-21
       - name: "Facing Communication Challenges in Distributed Software Development"
         location: "1st Int’l Workshop on Virtual Teams: Experiences in Global Software Engineering (VirtuES ’13), co-located with ICGSE’13"
         date: 2016-08-26
+
+    membership_in_program_committees:
+      - bullet: "32nd IEEE Int’l Conf. on Software Analysis, Evolution, and Reengineering (*SANER’25*), 
+                Montréal, Canada 4-7 Mar. 2025, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/2280/)"
+      - bullet: "47th IEEE/ACM Int'l Conf. on Software Engineering (*ICSE'25*) – SEIS track, Ottawa, Canada, 
+                April 27-May 3 2025, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "47th IEEE/ACM Int'l Conf. on Software Engineering (*ICSE'25*) – Workshops track, Ottawa, 
+                Canada, April 27-May 3 2025, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "46th IEEE/ACM Int'l Conf. on Software Engineering (*ICSE'24*) – SEIS track, Lisbon, Portugal,
+                14-20 Apr. 2024, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "46th IEEE/ACM Int'l Conf. on Software Engineering (*ICSE'24*) – Workshops track, Lisbon, 
+                Portugal, 14-20 Apr. 2024, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "46th IEEE/ACM Int'l Conf. on Software Engineering (*ICSE'24*) – Student Research Competition 
+                (SRC) track, Lisbon, Portugal, 14-20 Apr. 2024, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "18th ACM/IEEE Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'24*), 
+                Barcelona, Spain 24-25 Oct. 2024, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "21st Int'l Conf. on Mining Software Repositories (*MSR'24*) – Mining Challenge track, Lisbon, 
+                Portugal, 15-16 Apr. 2024, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/711/)"
+      - bullet: "3rd Int'l Conf. on AI Engineering – Software Engineering for AI (*CAIN'24*), Lisbon, Portugal,
+                14-15 Apr. 2024"
+      - bullet: "1st IEEE/ACM Workshop on Multi-disciplinary, Open, and RElevant Requirements Engineering 
+                (*MO2RE'24*), Lisbon Portugal 16 Apr. 2024"
+      - bullet: "17th ACM/IEEE Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'23*), 
+                New Orleans, USA 26-27 Oct. 2023, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "39th Int'l Conf. on Software Maintenance and Evolution (*ICSME'23*) – NIER track, Bogotà, 
+                Colombia, 1-6 Oct. 2023, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/676/)"
+      - bullet: "45th IEEE/ACM Int'l Conf. on Software Engineering – Posters track (*ICSE'23*), Melbourne, 
+                Australia, 14-20 May 2023, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "23rd Int'l Conf. on Product-Focused Software Process Improvement (*PROFES'23*), Dornbirn, 
+                Austria 10-13 Dec. 2023, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/1696/)"
+      - bullet: "30th IEEE/ACM Int'l Conf. on Program Comprehension – ERA track (*ICPC'22*), Pittsburgh, 
+                USA, 16–17 May 2022, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1181/)"
+      - bullet: "17th Int'l Conf. on Global Software Engineering (*ICSSP/ICGSE'22*), Pittsburgh, USA, 
+                19–20 May 2022, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "15th IEEE/ACM Int'l Conf. on Cooperative and Human Aspects of Software Engineering 
+                (*CHASE'22*) Pittsburgh, USA, 18–19 May 2022"
+      - bullet: "1st IEEE/ACM Workshop on Natural Language-based Software Engineering (*NLBSE'22*), 
+                Pittsburgh, USA, 8 May 2022"
+      - bullet: "29th IEEE Int'l Conf. on Software Analysis, Evolution and Reengineering (*SANER'22*), 
+                Honolulu, USA, 15 Mar. 2022, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/2280/)"
+      - bullet: "23rd Int'l Conf. on Agile Software Development (*XP'22*), Copenhagen, Denmark, 13-17 
+                June 2022, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)"
+      - bullet: "16th ACM/IEEE Symposium on Empirical Software Engineering and Measurement (*ESEM'21*) - 
+                Emerging Results and Vision Track, online, 14-15 Oct. 2021, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "22nd Int'l Conf. on Agile Software Development (*XP'21*), online, 14-18 June 2021, [
+                ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)"
+      - bullet: "37th IEEE Int'l Conf. on Software Maintenance and Evolution (*ICSME'21*) - NIER Track, 
+                online, 27 Sept. - 1 Oct. 2021, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/676/)"
+      - bullet: "14th ACM/IEEE Int'l Conf. on Cooperative and Human Aspects of Software Engineering (*CHASE'21*), 
+                online, 20-21 May 2021"
+      - bullet: "17th Int'l Conf. on Open-Source Software (*OSS'21*), online, 12 May 2021"
+      - bullet: "16th ACM/IEEE Int'l Conf. on Global Software Engineering (*ICSSP/ICGSE'21*), online, 18-19 May 2021,'
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "17th IEEE/ACM Int'l Conf. on Mining Software Repositories (*MSR'20*) – Mining Challenge track, online, 
+                29-30 June 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/711/)"
+      - bullet: "15th ACM/IEEE Symposium on Empirical Software Engineering and Measurement (*ESEM'20*) - Emerging Results 
+                and Vision Track , online, 5-7 Oct. 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering 
+                (*ESEC/FSE'20*) - SRC track , online, 6-16 Nov. 2020, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/52/)"
+      - bullet: "21st Int'l Conf. on Agile Software Development (*XP'20*), online, 8-12 June 2020, 
+                [ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)"
+      - bullet: "15th IEEE/ACM Int'l Conf. on Global Software Engineering (*ICGSE'20*), online, 26-28 June 2020, 
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "13th IEEE/ACM Int'l Conf. on Cooperative and Human Aspects of Software Engineering (*CHASE'20*), 
+                online, 1-2 July 2020"
+      - bullet: "36th Int'l Conf. on Software Maintenance and Evolution (*ICSME'20*) Doctoral Symposium Program Committee, 
+                Adelaide, Australia, Sep 28-Oct 02, 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/676/)"
+      - bullet: "13th Int'l Conf. on the Quality of Information and Communications Technology (*QUATIC'20*), online, 
+                9-11 Sept. 2020, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/2180/)"
+      - bullet: "16th Int'l Symposium on Open Collaboration (*OpenSym'20*), online, 26–27 Aug. 2020, 
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/1432/)"
+      - bullet: "15th Int'l Conf. on Global Software Engineering (*ICGSE'20*), online, 26-28 June 2020, 
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "27th IEEE Int'l Conf. on Software Analysis, Evolution and Reengineering (*SANER'20*), London, Ontario, 
+                Canada, February 18-21, 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/2280/)"
+      - bullet: "13th Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'19*), Porto de Galinhas, 
+                Brazil, 16-20 Sept. 2019, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "20th Int'l Conf. on Agile Software Development (*XP'19*), Montréal, Canada, 21-25 May 2019, 
+                [ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)"
+      - bullet: "12th Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'18*), Oulu, Finland, 
+                11-12 Oct. 2018, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "12th Workshop on Distributed Software Development, Software Ecosystems and Systems-of-Systems 
+                (*WDES'18*), Madrid, Spain, Sept. 24, 2018"
+      - bullet: "40th Int'l Conf. on Software Engineering (*ICSE'18*) – Student Contest on Software Engineering (SCORE) track, 
+                Gothenburg, Sweden, May 27–June 3, 2018, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/1209/)"
+      - bullet: "13th Int'l Conf. on Global Software Engineering (*ICGSE'18*), Gothenburg, Sweden, 24-26 May 2018, 
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "1st Int'l Workshop on Affective Computing for Requirements Engineering (*AffectRE'18*), 
+                Banff, Canada Aug 21, 2018"
+      - bullet: "11th Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'17*) Toronto, 
+                Canada, 9-10 Nov. 2017, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "12th Int'l Conf. on Global Software Engineering (*ICGSE'17*), Buenos Aires, Argentina, 
+                22-23 May 2017, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "10th Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'16*), 
+                Ciudad Real, Spain, 8-9 Sept. 2016, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "11th Int'l Conf. on Global Software Engineering (*ICGSE'16*), Orange County, CA, USA, 2-5 Aug. 
+                2016, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "9th Int'l Symposium on Empirical Software Engineering and Measurement (*ESEM'15*), Beijing, 
+                China, 22-23 Oct. 2015, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)"
+      - bullet: "10th Int'l Conf. on Global Software Engineering (*ICGSE'15*), Ciudad Real, Spain, 13-16 July 2015, 
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "7th Software Quality Days (*SWQD'15*), Vienna, Austria, 20-23 Jan. 2015"
+      - bullet: "6th Software Quality Days (*SWQD'14*), Vienna, Austria, 14-16 Jan. 2014"
+      - bullet: "8th Int'l Conf. on Global Software Engineering (*ICGSE'13*), Bari, Italy, 26-29 Aug. 2013, 
+                [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "7th Int'l Conf. on Global Software Engineering (*ICGSE'12*), Porto Alegre, Brazil, 27-30 Aug. 
+                2012, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "5th Workshop of the Italian Eclipse Community (*Eclipse-IT'10*), Savona, Italy, 
+                Sep. 30-Oct. 1, 2010"
+      - bullet: "5th Int'l Conf. on P2P, Parallel, Grid, Cloud and Internet Computing (*3PGCIC-2010*), 
+                Fukuoka, Japan, 4-6 Nov. 2010"
+      - bullet: "2nd Int'l Workshop on Social Software Engineering and Applications (*SoSEA'09*), 
+                Amsterdam, The Netherlands, 24 Aug. 2009"
+      - bullet: "4th Int'l Conf. on Global Software Engineering (*ICGSE'09*), Limerick, Ireland, 
+                13-16 Jul. 2009, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "4th Workshop of the Italian Eclipse Community (*Eclipse-IT'09*), Bergamo, Italy, 
+                28-29 Sept. 2009"
+      - bullet: "14th Collaboration Researchers' International Workshop on Groupware (*CRIWG'08*),
+                Omaha, NE, USA, 14-18 Sept. 2008"
+      - bullet: "3rd Int'l Conf. on Global Software Engineering (*ICGSE'08*), Bangalore, India, 
+                17-20 Aug. 2008, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)"
+      - bullet: "3rd Workshop of the Italian Eclipse Community (*Eclipse-IT'08*), Bari, Italy, 
+                17-18 Nov. 2008"
+      - bullet: "1st Int'l Conf. on Software Engineering and Applications (*ICSEA'06*), Tahiti, 
+                Polynesia, Oct. 29 – Nov. 3, 2006, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/1210/)"
 
     invited_seminars:
       - institution: "Collaboration in Software Engineering: 10 Years in Review"
