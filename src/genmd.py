@@ -1,8 +1,11 @@
 import os
 import re
 
+
 def fix_index_html():
-    source_file = os.path.join(os.path.dirname(__file__), "..", "Fabio_Calefato_CV.html")
+    source_file = os.path.join(
+        os.path.dirname(__file__), "..", "Fabio_Calefato_CV.html"
+    )
     output_file = os.path.join(os.path.dirname(__file__), "..", "docs", "index.md")
     with open(source_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
@@ -33,6 +36,7 @@ def replace_stylesheets():
     with open(source_file, "w", encoding="utf-8") as f:
         f.write(filedata)
 
+
 def replace_css_links():
     source_file = os.path.join(os.path.dirname(__file__), "..", "docs", "index.md")
     # replace old with new style string
@@ -43,8 +47,8 @@ def replace_css_links():
     replacement = '<link rel="stylesheet" href="/assets/css/styles.css">'
     updated_content = re.sub(css_pattern1, replacement, content, flags=re.DOTALL)
     css_pattern2 = r'<link rel="stylesheet" href="https://.*?/?>'
-    updated_content = re.sub(css_pattern2, '', updated_content, flags=re.DOTALL)
-    #updated_content = re.sub(css_pattern, remove, updated_content, flags=re.DOTALL)
+    updated_content = re.sub(css_pattern2, "", updated_content, flags=re.DOTALL)
+    # updated_content = re.sub(css_pattern, remove, updated_content, flags=re.DOTALL)
     # write updated content to file
     with open(source_file, "w", encoding="utf-8") as f:
         f.write(updated_content)
@@ -53,4 +57,3 @@ def replace_css_links():
 if __name__ == "__main__":
     fix_index_html()
     replace_css_links()
-    
