@@ -994,13 +994,13 @@
           - F. Lanubile
         date: 2004
         journal: "Proc. ASE Workshop on Cooperative Support for Distributed Software Engineering Processes (CSSE'04), Linz, Austria, 21 Sept. 2004"
-      - title: ""
+      - title: "Peer-to-peer remote conferencing"
         authors:
           - "***F. Calefato***"
           - F. Lanubile
           - T. Mallardo
         date: 2004
-        journal: "Peer-to-peer remote conferencing"
+        journal: "26th Int'l Conf. on Software Engineering - W12S Workshop "Third International Workshop on Global Software Development (GSD 2004), Edinburgh, Scotland, May 2004""
         doi: 10.1049/ic:20040310
       - title: "Tool support for geographically dispersed inspection teams"
         authors:
