@@ -453,6 +453,38 @@
 - 3rd Int'l Conf. on Global Software Engineering (*ICGSE'08*), Bangalore, India, 17-20 Aug. 2008, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)
 - 3rd Workshop of the Italian Eclipse Community (*Eclipse-IT'08*), Bari, Italy, 17-18 Nov. 2008
 - 1st Int'l Conf. on Software Engineering and Applications (*ICSEA'06*), Tahiti, Polynesia, Oct. 29 – Nov. 3, 2006, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/1210/)
+# Research Visits
+
+## M-Group, University of Oulu, 
+
+- Sept 2023 – Sept 2023
+- Oulu, Finland
+- *Host: Prof. Davide Taibi*
+
+## STRUDEL, Carnegie Mellon University (CMU), 
+
+- July 2017 – Oct 2017
+- Pittsburgh, USA
+- *Host: Prof. Bogdan Vasilescu*
+
+## CHISEL, University of Victoria, 
+
+- Nov 2016 – Dec 2016
+- Victoria, Canada
+- *Host: Prof. Margaret-Anne Storey*
+
+## SEGAL, University of Victoria, 
+
+- Jan 2006 – Apr 2006
+- Victoria, Canada
+- *Host: Prof. Daniela Damian*
+
+## Distributed Systems Group, Vienna University of Technology, 
+
+- May 2005 – June 2005
+- Vienna, Austria
+- *Host: Prof. Schaharm Dustdar*
+
 # Invited Seminars
 
 ## Collaboration in Software Engineering: 10 Years in Review, 

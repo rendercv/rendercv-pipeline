@@ -806,6 +806,42 @@ cv:
         Italy, 17-18 Nov. 2008
     - bullet: '1st Int''l Conf. on Software Engineering and Applications (*ICSEA''06*),
         Tahiti, Polynesia, Oct. 29 – Nov. 3, 2006, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/1210/)'
+    research_visits:
+    - institution: M-Group, University of Oulu
+      area: ''
+      location: Oulu, Finland
+      start_date: 2023-09
+      end_date: 2023-09
+      highlights:
+      - '*Host: Prof. Davide Taibi*'
+    - institution: STRUDEL, Carnegie Mellon University (CMU)
+      area: ''
+      location: Pittsburgh, USA
+      start_date: 2017-07
+      end_date: 2017-10
+      highlights:
+      - '*Host: Prof. Bogdan Vasilescu*'
+    - institution: CHISEL, University of Victoria
+      area: ''
+      location: Victoria, Canada
+      start_date: 2016-11
+      end_date: 2016-12
+      highlights:
+      - '*Host: Prof. Margaret-Anne Storey*'
+    - institution: SEGAL, University of Victoria
+      area: ''
+      location: Victoria, Canada
+      start_date: 2006-01
+      end_date: 2006-04
+      highlights:
+      - '*Host: Prof. Daniela Damian*'
+    - institution: Distributed Systems Group, Vienna University of Technology
+      area: ''
+      location: Vienna, Austria
+      start_date: 2005-05
+      end_date: 2005-06
+      highlights:
+      - '*Host: Prof. Schaharm Dustdar*'
     invited_seminars:
     - institution: 'Collaboration in Software Engineering: 10 Years in Review'
       area: ''
