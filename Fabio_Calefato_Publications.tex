@@ -55,6 +55,8 @@
   type=incollection
 }
 
+%
+
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
     \input{glyphtounicode}
@@ -220,14 +222,11 @@
         \mbox{\hrefWithoutArrow{https://github.com/bateman}{{\footnotesize\faGithub}\hspace*{0.13cm}bateman}}%
     \end{header}
 
-    \vspace{5 pt - 0.3 cm}
-
-    
-    \nocite{*}
-    %\printbibliography
+    \vspace{15 pt - 0.3 cm}
 
     % Print bibliography by type
-    \section{Journal \& Magazine Papers }
+    \nocite{*}
+    \section{Journal \& Magazine Papers}
     \printbibliography[filter=journals,heading=none]
     
     \section{Conference \& Workshop Papers}
@@ -235,8 +234,5 @@
 
     \section{Books \& Books Chapters}
     \printbibliography[filter=books,heading=none]
-    
-    %\bibliographystyle{acm}  %
-    %\bibliography{src/bibliography/publications}
 
 \end{document}
