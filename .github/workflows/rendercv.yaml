@@ -65,4 +65,4 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
           git commit -m "render the latest CV"
-          git push
+          git push origin HEAD:main
