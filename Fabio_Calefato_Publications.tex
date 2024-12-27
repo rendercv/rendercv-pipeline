@@ -34,8 +34,8 @@
 \usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-\usepackage[style=ieee,sorting=ydnt]{biblatex}
-\addbibresource{src/bibliography/publications.bib}
+%usepackage[style=ieee,sorting=ydnt]{biblatex}
+%\addbibresource{src/bibliography/publications.bib}
 
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
@@ -206,8 +206,8 @@
 
     
     \nocite{*}
-    \printbibliography
-    %\bibliographystyle{ieeetr}  %
-    %\bibliography{src/bibliography/publications}
+    %\printbibliography
+    \bibliographystyle{acm}  %
+    \bibliography{src/bibliography/publications}
 
 \end{document}
