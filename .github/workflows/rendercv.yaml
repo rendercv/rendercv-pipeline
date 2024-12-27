@@ -36,6 +36,9 @@ jobs:
           python src/pubmerger.py
           rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png
           python src/genmd.py
+          pdflatex Fabio_Calefato_Publications
+          biber Fabio_Calefato_Publications
+          pdflatex Fabio_Calefato_Publications
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
