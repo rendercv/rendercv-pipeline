@@ -326,56 +326,6 @@
 
 - Best Paper Award: *14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada*
 - [FABBR 2017 Award](https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf): *Winner of the national selection procedure `Fondo per il finanziamento delle attività base di ricerca (FFABR) 2017,' established by the Italian Ministry of University and Research (MUR) and intended for the annual funding of basic research activities of associate professors and researchers*
-# Ph.D. Students Supervision
-
-## Kelly Azevedo Borges Leal, Dept. of Computer Science
-
-- July 2023 – present
-- Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil
-- *Topic: AutoML for Software Engineering*
-- *Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*
-
-## Luigi Quaranta, Dept. of Computer Science, Ph.D. program cycle XXXV
-
-- Nov 2022
-- University of Bari, Italy
-- *Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''*
-- *Co-supervised with prof. Filippo Lanubile*
-
-## Giuseppe Iaffaldano, Dept. of Computer Science, Ph.D. program cycle XXXII
-
-- Feb 2020
-- University of Bari, Italy
-- *Thesis: ``Investigating the Dynamics of Online Creative Communities''*
-- *Co-supervised with prof. Filippo Lanubile*
-
-# Membership in Doctoral Boards
-
-## Ph.D. program in Computer Science and Mathematics (XL cycle), Dept. of Computer Science
-
-- 2024 – 2025
-- University of Bari, Italy
-
-## Ph.D. program in Computer Science and Mathematics (XXXIX cycle), Dept. of Computer Science
-
-- 2023 – 2024
-- University of Bari, Italy
-
-## Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), Dept. of Computer Science
-
-- 2022 – 2023
-- University of Bari, Italy
-
-## Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle), Dept. of Electrical and Information Engineering
-
-- 2021 – 2022
-- Polytechnic University of Bari, Italy
-
-## Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle), Dept. of Electrical and Information Engineering
-
-- 2020 – 2021
-- Polytechnic University of Bari, Italy
-
 # Keynote Presentations
 
 ## The Potential and Challenges of Personality Detection in Software Engineering Research
@@ -496,6 +446,56 @@
 
 - Nov 2016
 - University of Victoria, Canada
+
+# Ph.D. Students Supervision
+
+## Kelly Azevedo Borges Leal, Dept. of Computer Science
+
+- July 2023 – present
+- Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil
+- *Topic: AutoML for Software Engineering*
+- *Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*
+
+## Luigi Quaranta, Dept. of Computer Science, Ph.D. program cycle XXXV
+
+- Nov 2022
+- University of Bari, Italy
+- *Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''*
+- *Co-supervised with prof. Filippo Lanubile*
+
+## Giuseppe Iaffaldano, Dept. of Computer Science, Ph.D. program cycle XXXII
+
+- Feb 2020
+- University of Bari, Italy
+- *Thesis: ``Investigating the Dynamics of Online Creative Communities''*
+- *Co-supervised with prof. Filippo Lanubile*
+
+# Membership in Doctoral Boards
+
+## Ph.D. program in Computer Science and Mathematics (XL cycle), Dept. of Computer Science
+
+- 2024 – 2025
+- University of Bari, Italy
+
+## Ph.D. program in Computer Science and Mathematics (XXXIX cycle), Dept. of Computer Science
+
+- 2023 – 2024
+- University of Bari, Italy
+
+## Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), Dept. of Computer Science
+
+- 2022 – 2023
+- University of Bari, Italy
+
+## Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle), Dept. of Electrical and Information Engineering
+
+- 2021 – 2022
+- Polytechnic University of Bari, Italy
+
+## Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle), Dept. of Electrical and Information Engineering
+
+- 2020 – 2021
+- Polytechnic University of Bari, Italy
 
 # Teaching
 
