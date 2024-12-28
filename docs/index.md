@@ -468,6 +468,59 @@
         <li>3rd Workshop of the Italian Eclipse Community (<em>Eclipse-IT'08</em>), Bari, Italy, 17-18 Nov. 2008</li>
         <li>1st Int'l Conf. on Software Engineering and Applications (<em>ICSEA'06</em>), Tahiti, Polynesia, Oct. 29 – Nov. 3, 2006, <a href="https://portal.core.edu.au/conf-ranks/1210/">ICORE rank: C</a></li>
         </ul>
+        <h1>Research Projects</h1>
+        <h2>PRONEM - Natural Language Processing for Global Software Development</h2>
+        <ul>
+        <li>Mar 2012 – Mar 2014</li>
+        <li><em>Fundend by:</em> Brazilian Ministry of Education (PRONEM/FAPERGS/CNPQ 03/2011)</li>
+        <li><em>Unit funding: R$ 249,600.00</em></li>
+        <li><em>Partners:</em> Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS, project coordinator), Federal University of Rio Grande do Sul (UFRGS), University of Bari</li>
+        <li><em>Description:</em> International project that aimed at investigating machine translation's impact on Brazil's global software development capabilities, addressing the critical challenge that only 10% of professional developers were proficient in English. Project coordination was led by Prof. Renata Vieira and Prof. Rafael Prikladnicki (PUCRS).</li>
+        <li><em>Role:</em> Scientific coordinator fo the University of Bari unit. Designed and implemented an open-source real-time translation system for synchronous communication in distributed software requirements meetings. Developed comprehensive experimental methodology to evaluate machine translation effectiveness compared to native language usage during requirements elicitation and negotiation meetings.</li>
+        </ul>
+        <h2>C3 - Creative Cultural Collaboration</h2>
+        <ul>
+        <li>Nov 2018 – July 2020</li>
+        <li><em>Funded by:</em> POR Puglia, Axis I, Action 1.6, INNONETWORK Program (FESR-FSE 2014-2020)</li>
+        <li><em>Project funding:</em> € 383.852,47</li>
+        <li><em>Partners:</em> AI2 srl (project coorinator), DABIMUS srl, Quorum Italia srl, Marshmallow Games srl, University of Bari</li>
+        <li><em>Description:</em> Regional project investigated methodological and technological frameworks for creating computational artifacts to enable scalable production processes and enhance collaboration in large, distributed multidisciplinary teams.</li>
+        <li><em>Role:</em> Workpackage Leader for the University of Bari unit. Led the Operational Unit responsible for the collaborative platform workpackage (OR3), which included conducting state-of-the-art analysis of open-source co-working solutions, platform design, and ongoing maintenance and evolution activities. The University of Bari unit was coordinated by Prof. Filippo Lanubile.</li>
+        </ul>
+        <h2>OpEn - Open up Entrepreneurship</h2>
+        <ul>
+        <li>Sept 2015 – Sept 2017</li>
+        <li><em>Funded by.</em> EU Erasmus+ Program (2015-1-EL-KA202-014168)</li>
+        <li><em>Project funding:</em> € 229.193,00</li>
+        <li><em>Partners:</em> Small Enterprises’ Institute of the Hellenic Confederation of Professionals, Craftsmen, and Merchants (IME GSEVEE, project coordinator), The European Business and Innovation Centre of Burgos (CEEI-Burgos), University of Bari, University of Patras, Manchester Metropolitan University</li>
+        <li><em>Description:</em> International project aimed at addressing the critical gap between entrepreneurs' digital technology needs and their e-business capabilities in global markets. The project developed multidisciplinary open educational resources to foster entrepreneurial mindset and digital business competencies for existing and prospective entrepreneurs Project coordination was led by Vassilis Siomadis (IME GSEVEE).</li>
+        <li><em>Role:</em> Workpackage Leader for the University of Bari unit. Led operational teams in two key workpackages: designed thematic unit structure and e-class outline for the e-learning portal (WP2: E-module Service Design and Setup), and developed educational content focusing on web-based knowledge management tools (WP3: OpEn Educational Material). The University of Bari unit was coordinated by Prof. Filippo Lanubile.</li>
+        </ul>
+        <h2>VINCENTE - A Virtual Collective Intelligence Environment to Develop Sustainable Technology Entrepreneurship Ecosystems</h2>
+        <ul>
+        <li>Sept 2013 – Sept 2015</li>
+        <li><em>Funded by:</em> MUR PONREC 2007-2013 (PON02_00563_3470993)</li>
+        <li><em>Project funding:</em> € 8.548.807,40</li>
+        <li><em>Partners:</em> Engineering Computer Engineering, Exprivia SpA, ST Microelectronics, San Raffaele Hospital, AVIO, Alenia, Tozzi Renewable Energy, CNR, University of Salento, University of Bari, Politecnico di Bari, DHITECH</li>
+        <li><em>Description:</em> National project aimed at strengthening research cooperation networks between academia and industry to enhance competitiveness and economic growth, while promoting the adoption of advanced technologies and services.</li>
+        <li><em>Role:</em> Work package leader. Led the work unit on 'Innovative Models and Components for Social Networking' (OR6), focusing on developing interaction frameworks for collaborative environments. Specifically designed computer-mediated communication frameworks and selected appropriate communication tools for the VINCENTE virtual environment. The University of Bari unit was coordinated by Prof. Donato Malerba.</li>
+        </ul>
+        <h2>INTERSOCIAL - Unleashing the Power of Social Networking for Enhancing Regional Systems</h2>
+        <ul>
+        <li>Nov 2011 – Nov 2013</li>
+        <li><em>Funded by:</em> EU INTERREG Greece-Italy 2007-13, Priority Axis 1: Strengthening competitiveness and innovation</li>
+        <li><em>Partners:</em> University of Ioannina (project coordination), University of Bari, University of Patras, Euro-Mediterranean Cultural Heritage Agency</li>
+        <li><em>Description:</em> European project aimed at fostering regional development through the creation of a cross-border network of social innovation and entrepreneurship. The project developed a social networking platform to facilitate knowledge sharing and collaboration among regional stakeholders, enhancing SME competitiveness through social networking technologies and business data analytics. Project coordination was led by Prof. Evaggelia Pitoura.</li>
+        <li><em>Role:</em> Work package leader. Led operational teams across two work packages: conducted state-of-the-art analysis of social networking tools and enterprise-level social web presence policies (WP3: Development of Innovation Devices), and managed requirements analysis, deployment, and experimental evaluation of ESA (Enterprise Social Aggregator), a custom social networking tool for SMEs (WP4: Deployment and evaluation of innovation devices). The University of Bari unit was coordinated by Prof. Filippo Lanubile.</li>
+        </ul>
+        <h2>LOGIN - LOgistica INtegrata</h2>
+        <ul>
+        <li>June 2012 – Oct 2015</li>
+        <li><em>Funded by:</em> MISE - call Industria 2015 - Made in Italy New Technologies Program 2012-2015 (MI01_00294)</li>
+        <li><em>Partners:</em> DAISY-NET s.c.a.r.l (project coordination), University of Bari, Politecnico di Bari, University of Salento, University of Foggia, Cetma</li>
+        <li><em>Description:</em> National project developing an integrated logistics platform based on Service Oriented Architecture (SOA) for tracking goods movement and monitoring related information flows through web services.</li>
+        <li><em>Role:</em> Work package leader. Led work packages focused on the CollabWeb component: defined specifications within the integrated LOGIN model (WP2) and designed component architecture (WP3). Project coordination for University of Bari unit was led by Prof. Giuseppe Visaggio.</li>
+        </ul>
         <h1>Research Visits</h1>
         <h2>M-Group, University of Oulu,</h2>
         <ul>
