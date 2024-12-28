@@ -105,6 +105,11 @@
 - M. Kuhrmann, P. Tell, R. Hebig, J. Klünder, J. Münch, O. Linssen, D. Pfahl, M. Felderer, C. Prause, S. MacDonell, J. Nakatumba-Nabende, D. Raffo, S. Beecham, E. Tüzün, G. López, N. Paez, D. Fontdevila, S. Licorish, S. Küpper, G. Ruhe, E. Knauss, Ö. Özcan-Top, P. Clarke, F. McCaffery, M. Genero, A. Vizcaíno, M. Piattini, M. Kalinowski, T. Conte, R. Prikladnicki, S. Krusche, A. Coskunçay, E. Scott, ***F. Calefato***, S. Pimonova, R.H. Pfeiffer, U. Schultz, R. Heldal, M. Fazal-Baqaie, C. Anslow, M. Nayebi, K. Schneider, S. Sauer, D. Winkler, S. Biffl, M. Bastarrica, I. Richardson
 - IEEE Trans. Software Eng., vol. 48, no. 9
 
+## Will you come back to contribute? Investigating the inactivity of OSS core developers in GitHub ([10.1007/S10664-021-10012-6](https://doi.org/10.1007/S10664-021-10012-6))
+- 2022
+- ***F. Calefato***, M. Gerosa, G. Iaffaldano, F. Lanubile, I. Steinmacher
+- Empir. Softw. Eng., vol. 27, no. 3
+
 ## A Preliminary Investigation of MLOps Practices in GitHub ([10.1145/3544902.3546636](https://doi.org/10.1145/3544902.3546636))
 - 2022
 - ***F. Calefato***, F. Lanubile, L. Quaranta
@@ -119,11 +124,6 @@
 - 2021
 - ***F. Calefato***, G. Iaffaldano, L. Trisolini, F. Lanubile
 - ACM Trans. Soc. Comput., vol. 4, no. 4
-
-## Will You Come Back to Contribute? Investigating the Inactivity of OSS Core Developers in GitHub 
-- 2021
-- ***F. Calefato***, M. Gerosa, G. Iaffaldano, F. Lanubile, I. Steinmacher
-- CoRR, vol. abs/2103.04656
 
 ## Assessment of off-the-shelf SE-specific sentiment analysis tools: An extended replication study ([10.1007/S10664-021-09960-W](https://doi.org/10.1007/S10664-021-09960-W))
 - 2021
