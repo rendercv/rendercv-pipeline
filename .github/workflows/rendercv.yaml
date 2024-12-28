@@ -42,7 +42,7 @@ jobs:
           biber Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
-          cp README.md docs/index.md
+          python src/genmd.py
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:

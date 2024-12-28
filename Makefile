@@ -174,7 +174,7 @@ project/update_cv: dep/python $(INSTALL_STAMP) ## Update CV input file with sele
 project/build_cv: | project/update_cv  ## Build pdf file of CV
 	@echo -e "$(CYAN)\nBuild CV...$(RESET)" 
 	@rendercv render src/${CV_FILE}.yaml --pdf-path ${CV_FILE}.pdf --markdown-path README.md --latex-path ${CV_FILE}.tex --html-path ${CV_FILE}.html --dont-generate-png --use-local-latex-command pdflatex
-	@cp README.md docs/index.md
+	@$(PYTHON) $(SRC)/genmd.py
 	@echo -e "$(GREEN)CV built.$(RESET)"
 
 project/build_pubs: | project/import_biblio  ## Build pdf files of CV and publications
