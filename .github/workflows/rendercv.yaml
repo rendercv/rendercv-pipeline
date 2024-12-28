@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
       - name: Install PdfLatex with Biber
         run: |
-          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber 
+          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
       - name: RenderCV
         run: |
           cd src
@@ -41,6 +41,7 @@ jobs:
           python src/genmd.py
           pdflatex Fabio_Calefato_Publications
           biber Fabio_Calefato_Publications
+          pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
