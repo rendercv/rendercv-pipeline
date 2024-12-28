@@ -26,9 +26,6 @@ jobs:
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
-      - name: Install pandoc
-        run: |
-          sudo apt-get install pandoc -y
       - name: Build CV
         run: |
           cd src
@@ -45,8 +42,7 @@ jobs:
           biber Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
-          pandoc -f html -t markdown --markdown-headings=atx --standalone --wrap=none Fabio_Calefato_CV.html -o Fabio_Calefato_CV.md
-          cp Fabio_Calefato_CV.md docs/index.md
+          cp README.md docs/index.md
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:

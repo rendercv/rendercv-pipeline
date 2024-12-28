@@ -21,7 +21,6 @@ JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot install
 BUNDLE := $(shell bundle --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 PDFLATEX := $(shell pdflatex --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 BIBER := $(shell biber --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
-PANDOC := $(shell pandoc --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 
 # Variables
 GITHUB_REPO ?= $(shell url=$$($(GIT) config --get remote.origin.url); echo $${url%.git})
@@ -80,11 +79,10 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)Shell:$(RESET) $(SHELL) - $(shell $(SHELL) --version | head -n 1)"
 	@echo -e "  $(CYAN)Make:$(RESET) $(MAKE_VERSION)"
 	@echo -e "  $(CYAN)Git:$(RESET) $(GIT_VERSION)"
-	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
-	@echo -e "  $(CYAN)Bundler:$(RESET) $(BUNDLE)"
-	@echo -e "  $(CYAN)Pandoc:$(RESET) $(PANDOC)"
 	@echo -e "  $(CYAN)pdflatex:$(RESET) $(PDFLATEX)"
 	@echo -e "  $(CYAN)biber:$(RESET) $(BIBER)"
+	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
+	@echo -e "  $(CYAN)Bundler:$(RESET) $(BUNDLE)"
 	@echo -e "$(MAGENTA)Project:$(RESET)"
 	@echo -e "  $(CYAN)Project repository:$(RESET) $(GITHUB_REPO)"
 	@echo -e "  $(CYAN)Project directory:$(RESET) $(CURDIR)"
@@ -176,7 +174,7 @@ project/update_cv: dep/python $(INSTALL_STAMP) ## Update CV input file with sele
 project/build_cv: | project/update_cv  ## Build pdf file of CV
 	@echo -e "$(CYAN)\nBuild CV...$(RESET)" 
 	@rendercv render src/${CV_FILE}.yaml --pdf-path ${CV_FILE}.pdf --markdown-path README.md --latex-path ${CV_FILE}.tex --html-path ${CV_FILE}.html --dont-generate-png --use-local-latex-command pdflatex
-	@$(PYTHON) $(SRC)/genmd.py
+	@cp README.md docs/index.md
 	@echo -e "$(GREEN)CV built.$(RESET)"
 
 project/build_pubs: | project/import_biblio  ## Build pdf files of CV and publications
@@ -187,7 +185,7 @@ project/build_pubs: | project/import_biblio  ## Build pdf files of CV and public
 	@pdflatex $(PUB_FILE)
 	@echo -e "$(GREEN)Publications built.$(RESET)"
 
-project/buildall: project/build_cv project/build_pubs
+project/build_all: project/build_cv project/build_pubs ## Build all files
 	@echo -e "$(GREEN)All files built.$(RESET)"
 
 #-- Check
