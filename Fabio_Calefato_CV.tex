@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[10pt, letterpaper]{article}
 
 % Packages:
 \usepackage[
@@ -47,7 +47,8 @@
 \usepackage{charter}
 
 % Some settings:
-\raggedright
+\usepackage[none]{hyphenat}
+\sloppy
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
 \pagestyle{empty} % no header or footer
 \setcounter{secnumdepth}{0} % no section numbering

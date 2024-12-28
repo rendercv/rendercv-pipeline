@@ -670,7 +670,7 @@ design:
   theme: engineeringresumes
   font: Charter
   font_size: 10pt
-  page_size: a4paper
+  page_size: letterpaper
   color: black
   disable_external_link_icons: false
   disable_page_numbering: false
@@ -678,7 +678,7 @@ design:
   disable_last_updated_date: false
   last_updated_date_style:  Updated$:$ TODAY
   header_font_size: 25 pt
-  text_alignment: left-aligned
+  text_alignment: justified-with-no-hyphenation
   seperator_between_connections: $|$
   use_icons_for_connections: true
   margins:
