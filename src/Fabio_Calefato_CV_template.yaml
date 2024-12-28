@@ -184,56 +184,6 @@ cv:
                   established by the Italian Ministry of University and Research (MUR) and intended for the annual funding 
                   of basic research activities of associate professors and researchers*"
 
-    Ph.D._students_supervision:
-      - institution: Kelly Azevedo Borges Leal 
-        area: "Dept. of Computer Science"
-        location: "Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil"
-        start_date: 2023-07
-        highlights:
-          - "*Topic: AutoML for Software Engineering*"
-          - "*Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*"
-      - institution: Luigi Quaranta 
-        area: "Dept. of Computer Science, Ph.D. program cycle XXXV"
-        location: "University of Bari, Italy"
-        date: 2022-11-14
-        highlights:
-          - "*Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''*"
-          - "*Co-supervised with prof. Filippo Lanubile*"
-      - institution: Giuseppe Iaffaldano
-        area: "Dept. of Computer Science, Ph.D. program cycle XXXII"
-        location: "University of Bari, Italy"
-        date: 2020-02-14
-        highlights:
-          - "*Thesis: ``Investigating the Dynamics of Online Creative Communities''*"
-          - "*Co-supervised with prof. Filippo Lanubile*"
-
-    membership_in_doctoral_boards:
-      - institution: Ph.D. program in Computer Science and Mathematics (XL cycle)
-        location: University of Bari, Italy
-        area: Dept. of Computer Science
-        start_date: 2024
-        end_date: 2025
-      - institution: Ph.D. program in Computer Science and Mathematics (XXXIX cycle)
-        location: University of Bari, Italy
-        area: Dept. of Computer Science
-        start_date: 2023
-        end_date: 2024
-      - institution: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
-        location: University of Bari, Italy
-        area: Dept. of Computer Science
-        start_date: 2022
-        end_date: 2023
-      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle)
-        location: Polytechnic University of Bari, Italy
-        area: Dept. of Electrical and Information Engineering
-        start_date: 2021
-        end_date: 2022
-      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle)
-        location: Polytechnic University of Bari, Italy
-        area: Dept. of Electrical and Information Engineering
-        start_date: 2020
-        end_date: 2021
-
     keynote_presentations:
       - name: "The Potential and Challenges of Personality Detection in Software Engineering Research"
         location: "4th Int'l Workshop on Affective Computing in Requirements Engineering (AffectRE’21), co-located with RE’21"
@@ -413,6 +363,56 @@ cv:
         area: ''
         location: University of Victoria, Canada
         date: 2016-11-24
+
+    Ph.D._students_supervision:
+      - institution: Kelly Azevedo Borges Leal 
+        area: "Dept. of Computer Science"
+        location: "Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil"
+        start_date: 2023-07
+        highlights:
+          - "*Topic: AutoML for Software Engineering*"
+          - "*Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*"
+      - institution: Luigi Quaranta 
+        area: "Dept. of Computer Science, Ph.D. program cycle XXXV"
+        location: "University of Bari, Italy"
+        date: 2022-11-14
+        highlights:
+          - "*Thesis: ``Collaboration Around Computational Notebooks To Build AI-enabled Systems''*"
+          - "*Co-supervised with prof. Filippo Lanubile*"
+      - institution: Giuseppe Iaffaldano
+        area: "Dept. of Computer Science, Ph.D. program cycle XXXII"
+        location: "University of Bari, Italy"
+        date: 2020-02-14
+        highlights:
+          - "*Thesis: ``Investigating the Dynamics of Online Creative Communities''*"
+          - "*Co-supervised with prof. Filippo Lanubile*"
+
+    membership_in_doctoral_boards:
+      - institution: Ph.D. program in Computer Science and Mathematics (XL cycle)
+        location: University of Bari, Italy
+        area: Dept. of Computer Science
+        start_date: 2024
+        end_date: 2025
+      - institution: Ph.D. program in Computer Science and Mathematics (XXXIX cycle)
+        location: University of Bari, Italy
+        area: Dept. of Computer Science
+        start_date: 2023
+        end_date: 2024
+      - institution: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle)
+        location: University of Bari, Italy
+        area: Dept. of Computer Science
+        start_date: 2022
+        end_date: 2023
+      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVII cycle)
+        location: Polytechnic University of Bari, Italy
+        area: Dept. of Electrical and Information Engineering
+        start_date: 2021
+        end_date: 2022
+      - institution: Interuniversity Ph.D. program in Aerospace Engineering and Sciences (XXXVI cycle)
+        location: Polytechnic University of Bari, Italy
+        area: Dept. of Electrical and Information Engineering
+        start_date: 2020
+        end_date: 2021
 
     teaching:
       - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
