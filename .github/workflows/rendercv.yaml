@@ -23,10 +23,13 @@ jobs:
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
-      - name: Install PdfLatex with Biber
+      - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
-      - name: RenderCV
+      - name: Install pandoc
+        run: |
+          sudo apt-get install pandoc -y
+      - name: Build CV
         run: |
           cd src
           cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
@@ -38,11 +41,12 @@ jobs:
           python src/parsebib.py
           python src/pubmerger.py
           rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png
-          python src/genmd.py
           pdflatex Fabio_Calefato_Publications
           biber Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
+          pandoc -f html -t markdown --markdown-headings=atx --standalone --wrap=none Fabio_Calefato_CV.html -o Fabio_Calefato_CV.md
+          cp Fabio_Calefato_CV.md docs/index.md
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
