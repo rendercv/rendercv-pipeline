@@ -141,8 +141,8 @@ $(INSTALL_STAMP): requirements.txt
 		echo -e "$(RED)\nVirtual environment missing. Please run 'make virtualenv' first.$(RESET)"; \
 	else \
 		echo -e "$(CYAN)\nInstalling project dependencies...$(RESET)"; \
-		@$(PYTHON) -m pip --upgrade pip; \
-		@$(PYTHON) -m pip -r requirements.txt; \
+		$(PYTHON) -m pip --upgrade pip; \
+		$(PYTHON) -m pip -r requirements.txt; \
 		echo -e "$(GREEN)Dependencies installed.$(RESET)"; \
 		touch $(INSTALL_STAMP); \
 	fi
