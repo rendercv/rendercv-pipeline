@@ -25,11 +25,16 @@
 
 # Education
 
+## University of Bari, Italy, **Inter-University Specialization School for Secondary Education** in **Physics, Computer Science, and Mathematics**
+
+- July 2007 – June 2008
+- *Graduation grade: 42/42*
+
 ## University of Bari, Italy, **PhD** in **Computer Science**
 
 - Jan 2004 – May 2007
 - *Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''*
-- *Thesis listed among the [ACM SIGSOFT select Ph.D. Dissertations in the Area of Software Engineering](https://www.sigsoft.org/dissertations.html)*
+- *Thesis listed among the [ACM SIGSOFT selected Ph.D. Dissertations in the Area of Software Engineering](https://www.sigsoft.org/dissertations.html)*
 
 ## University of Bari, Italy, **MSc** in **Computer Science**
 
@@ -408,18 +413,18 @@
 ## PRONEM - Natural Language Processing for Global Software Development
 
 - Mar 2012 – Mar 2014
-- *Fundend by:* Brazilian Ministry of Education (PRONEM/FAPERGS/CNPQ 03/2011)
+- *Funded by:* Brazilian Ministry of Education (PRONEM/FAPERGS/CNPQ 03/2011)
 - *Unit funding: R$ 249,600.00*
 - *Partners:* Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS, project coordinator), Federal University of Rio Grande do Sul (UFRGS), University of Bari
 - *Description:* International project that aimed at investigating machine translation's impact on Brazil's global software development capabilities, addressing the critical challenge that only 10% of professional developers were proficient in English. Project coordination was led by Prof. Renata Vieira and Prof. Rafael Prikladnicki (PUCRS).
-- *Role:* Scientific coordinator fo the University of Bari unit. Designed and implemented an open-source real-time translation system for synchronous communication in distributed software requirements meetings. Developed comprehensive experimental methodology to evaluate machine translation effectiveness compared to native language usage during requirements elicitation and negotiation meetings.
+- *Role:* Scientific coordinator for the University of Bari unit. Designed and implemented an open-source real-time translation system for synchronous communication in distributed software requirements meetings. Developed comprehensive experimental methodology to evaluate machine translation effectiveness compared to native language usage during requirements elicitation and negotiation meetings.
 
 ## C3 - Creative Cultural Collaboration
 
 - Nov 2018 – July 2020
 - *Funded by:* POR Puglia, Axis I, Action 1.6, INNONETWORK Program (FESR-FSE 2014-2020)
 - *Project funding:* € 383.852,47
-- *Partners:* AI2 srl (project coorinator), DABIMUS srl, Quorum Italia srl, Marshmallow Games srl, University of Bari
+- *Partners:* AI2 srl (project coordinator), DABIMUS srl, Quorum Italia srl, Marshmallow Games srl, University of Bari
 - *Description:* Regional project investigated methodological and technological frameworks for creating computational artifacts to enable scalable production processes and enhance collaboration in large, distributed multidisciplinary teams.
 - *Role:* Workpackage Leader for the University of Bari unit. Led the Operational Unit responsible for the collaborative platform workpackage (OR3), which included conducting state-of-the-art analysis of open-source co-working solutions, platform design, and ongoing maintenance and evolution activities. The University of Bari unit was coordinated by Prof. Filippo Lanubile.
 
