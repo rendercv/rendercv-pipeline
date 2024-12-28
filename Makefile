@@ -17,6 +17,11 @@ PYTHON := $(shell command -v python 2> /dev/null)
 PYENV_ROOT := $(shell pyenv root)
 GIT := $(shell command -v git 2> /dev/null)
 GIT_VERSION := $(shell $(GIT) --version 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+BUNDLE := $(shell bundle --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+PDFLATEX := $(shell pdflatex --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+BIBER := $(shell biber --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+PANDOC := $(shell pandoc --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 
 # Variables
 GITHUB_REPO ?= $(shell url=$$($(GIT) config --get remote.origin.url); echo $${url%.git})
@@ -75,6 +80,11 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)Shell:$(RESET) $(SHELL) - $(shell $(SHELL) --version | head -n 1)"
 	@echo -e "  $(CYAN)Make:$(RESET) $(MAKE_VERSION)"
 	@echo -e "  $(CYAN)Git:$(RESET) $(GIT_VERSION)"
+	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
+	@echo -e "  $(CYAN)Bundler:$(RESET) $(BUNDLE)"
+	@echo -e "  $(CYAN)Pandoc:$(RESET) $(PANDOC)"
+	@echo -e "  $(CYAN)pdflatex:$(RESET) $(PDFLATEX)"
+	@echo -e "  $(CYAN)biber:$(RESET) $(BIBER)"
 	@echo -e "$(MAGENTA)Project:$(RESET)"
 	@echo -e "  $(CYAN)Project repository:$(RESET) $(GITHUB_REPO)"
 	@echo -e "  $(CYAN)Project directory:$(RESET) $(CURDIR)"
@@ -198,7 +208,7 @@ check/lint: $(INSTALL_STAMP)  ## Lint the code
 
 .PHONY: release/version
 release/version:  ## Tag and push to origin (use release/version ARGS="x.x.x")
-	@$(eval TAG := $(shell $(GIT) describe --tags --abbrev=0 2>/dev/null || echo "0.0.1"))
+	@$(eval TAG := $(ARGS))
 	@$(eval REMOTE_TAGS := $(shell $(GIT) ls-remote --tags origin | $(AWK) '{print $$2}'))
 	@if echo $(REMOTE_TAGS) | grep -q $(TAG); then \
 		echo -e "$(YELLOW)\nNothing to push: tag $(TAG) already exists on origin.$(RESET)"; \
