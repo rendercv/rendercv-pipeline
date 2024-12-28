@@ -29,7 +29,6 @@ def replace_css_links():
     updated_content = re.sub(css_pattern1, "", content, flags=re.DOTALL)
     css_pattern2 = r'<link rel="stylesheet" href="https://.*?/?>'
     updated_content = re.sub(css_pattern2, "", updated_content, flags=re.DOTALL)
-    # updated_content = re.sub(css_pattern, remove, updated_content, flags=re.DOTALL)
     # write updated content to file
     with open(source_file, "w", encoding="utf-8") as f:
         f.write(updated_content)
