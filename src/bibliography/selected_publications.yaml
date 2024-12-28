@@ -165,16 +165,15 @@
         date: 2021
         journal: "ACM Trans. Soc. Comput., vol. 4, no. 4"
         doi: 10.1145/3493800
-      - title: "Will you come back to contribute? Investigating the inactivity of OSS core developers in GitHub"
+      - title: "Will You Come Back to Contribute? Investigating the Inactivity of OSS Core Developers in GitHub"
         authors:
           - "***F. Calefato***"
           - M. Gerosa
           - G. Iaffaldano
           - F. Lanubile
           - I. Steinmacher
-        date: 2022
-        journal: "Empir. Softw. Eng., vol. 27, no. 3"
-        doi: 10.1007/S10664-021-10012-6
+        date: 2021
+        journal: "CoRR, vol. abs/2103.04656"
         rank: SJR Q1
       - title: "Assessment of off-the-shelf SE-specific sentiment analysis tools: An extended replication study"
         authors:
