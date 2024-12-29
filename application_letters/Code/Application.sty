@@ -21,6 +21,7 @@
 \RequirePackage{adjustbox}
 \RequirePackage{fancyhdr}
 \RequirePackage{calc}
+\RequirePackage{charter}
 %................................................................
 %
 %                           Colours 
@@ -90,7 +91,8 @@
 #1 \\
 \begin{minipage}{0.6\textwidth}
 \vspace{\baselineskip}
-\includegraphics[#3]{#2} \\
+\includegraphics[#3]{#2} 
+\vspace{-1.5\baselineskip} \\
 \makebox[\widthof{\includegraphics[#3]{#2}}]{\hrulefill}
 \end{minipage} 
 \vspace{\baselineskip} \\
