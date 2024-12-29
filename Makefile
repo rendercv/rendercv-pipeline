@@ -19,7 +19,7 @@ GIT := $(shell command -v git 2> /dev/null)
 GIT_VERSION := $(shell $(GIT) --version 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 BUNDLE := $(shell bundle --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
-PDFLATEX := $(shell pdflatex --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+LATEX := $(shell command -v pdflatex 2> /dev/null)
 BIBER := $(shell biber --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
 
 # Variables
@@ -37,11 +37,14 @@ SRC := src
 DOCS := docs
 DOCS_SITE := docs/_site
 RENDERCV_DIR := rendercv_output
+APP_LETTER_DIR := application_letters
 CACHE_DIRS := $(wildcard .*_cache)
 
 # Files
 CV_FILE := Fabio_Calefato_CV
 PUB_FILE := Fabio_Calefato_Publications
+APP_LETTER_SRC := HPI
+APP_LETTER_FILE := Fabio_Calefato_Application
 PY_FILES := $(shell find . -type f -name '*.py')
 DOCS_FILES := $(shell find $(DOCS) -type f -name '*.md') README.md
 LATEX_TEMP_FILES := $(PUB_FILE).aux $(PUB_FILE).bbl $(PUB_FILE).blg $(PUB_FILE).log $(PUB_FILE).run.xml $(PUB_FILE).bcf 
@@ -74,7 +77,7 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)Shell:$(RESET) $(SHELL) - $(shell $(SHELL) --version | head -n 1)"
 	@echo -e "  $(CYAN)Make:$(RESET) $(MAKE_VERSION)"
 	@echo -e "  $(CYAN)Git:$(RESET) $(GIT_VERSION)"
-	@echo -e "  $(CYAN)pdflatex:$(RESET) $(PDFLATEX)"
+	@echo -e "  $(CYAN)LaTeX:$(RESET) $(shell $(LATEX) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)biber:$(RESET) $(BIBER)"
 	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
 	@echo -e "  $(CYAN)Bundler:$(RESET) $(BUNDLE)"
@@ -126,7 +129,6 @@ virtualenv: | python  ## Check if virtualenv exists and activate it - create it 
 	@$(PYENV) local $(PYENV_VIRTUALENV_NAME)
 	@echo -e "$(GREEN)Virtualenv activated.$(RESET)"
 
-
 #-- Project
 
 .PHONY: project/install
@@ -174,13 +176,20 @@ project/build_cv: | project/update_cv  ## Build pdf file of CV
 
 project/build_pubs: | project/import_biblio  ## Build pdf files of CV and publications
 	@echo -e "$(CYAN)\nBuilding Publications...$(RESET)"
-	@pdflatex $(PUB_FILE)
+	@$(LATEX) $(PUB_FILE)
 	@biber $(PUB_FILE)
-	@pdflatex $(PUB_FILE)
-	@pdflatex $(PUB_FILE)
+	@$(LATEX) $(PUB_FILE)
+	@$(LATEX) $(PUB_FILE)
 	@echo -e "$(GREEN)Publications built.$(RESET)"
 
-project/build_all: project/build_cv project/build_pubs ## Build all files
+project/build_application:  ## Build application letter
+	@echo -e "$(CYAN)\nBuilding application letter...$(RESET)"
+	cd $(APP_LETTER_DIR) && \
+	$(LATEX) -jobname=$(APP_LETTER_FILE)_$(APP_LETTER_SRC) $(APP_LETTER_SRC).tex && \
+	cd .. && \
+	echo -e "$(GREEN)Application letter built.$(RESET)"
+
+project/build_all: project/build_cv project/build_pubs  ## Build all files
 	@echo -e "$(GREEN)All files built.$(RESET)"
 
 #-- Check
