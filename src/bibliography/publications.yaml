@@ -8,6 +8,17 @@
         date: 2025
         journal: "Inf. Softw. Technol., vol. 178"
         doi: 10.1016/J.INFSOF.2024.107608
+      - title: "On the Self-admitted Use of GenAI in Open Source Software Projects"
+        authors:
+          - T. Xiao
+          - Y. Fan
+          - "***F. Calefato***"
+          - R. Kula
+          - C. Treude
+          - H. Hata
+          - S. Baltes
+        date: 2025
+        journal: "IEEE Transactions on Software Engineering (under review"
       - title: "A lot of talk and a badge: An exploratory analysis of personal achievements in GitHub"
         authors:
           - "***F. Calefato***"
