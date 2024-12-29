@@ -30,11 +30,6 @@ PYENV_VIRTUALENV_NAME ?= $(shell cat .python-version)
 
 # Stamp files
 INSTALL_STAMP := .install.stamp
-DEPS_EXPORT_STAMP := .deps-export.stamp
-BUILD_STAMP := .build.stamp
-DOCS_STAMP := .docs.stamp
-RELEASE_STAMP := .release.stamp
-STAGING_STAMP := .staging.stamp
 STAMP_FILES := $(wildcard .*.stamp)
 
 # Dirs
