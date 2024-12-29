@@ -1,0 +1,144 @@
+% *** Job application package ***
+% Last updated:  13.01.2023
+% Version: V.01.00 // 0 updates/patches
+%
+%---------------------------------------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Code/Application}[2022]
+%
+%                            Packages
+%_______________________________________________________________
+\RequirePackage[T1]{fontenc}
+\RequirePackage{geometry}           % to adjust margins
+\RequirePackage{fontawesome}        % symbols (phone, e-mail, etc.)
+\RequirePackage{xcolor}             % colours
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{graphicx}           % Picture
+\RequirePackage{dashrule}           % Dotted line
+\RequirePackage{hyperref}           % Clickable links
+\RequirePackage{adjustbox}
+\RequirePackage{fancyhdr}
+%................................................................
+%
+%                           Colours 
+%_______________________________________________________________
+\definecolor{darkgray}{rgb}{0.45,0.45,0.45}
+\definecolor{NTNU_blue}{HTML}{2E5AAC}
+\definecolor{Overleaf_green}{HTML}{46A247}
+\colorlet{icons}{Overleaf_green}
+\colorlet{soft_text}{darkgray}
+% Gray (soft) text:
+\newcommand{\softtext}[1]{\textcolor{soft_text}{#1}}
+\newcommand{\softbullet}{\softtext{\small\textbullet}\hspace{0.5em}}
+\newcommand{\veritem}[1]{\softbullet#1\hspace{1em}}
+%\renewcommand{\labelitemi}{\softtext{\small\textbullet}}
+%................................................................
+%
+%                   Document adjustments
+%_______________________________________________________________
+\geometry{%
+        left=23mm,
+        right=23mm, 
+        bindingoffset=0mm, 
+        top=20mm,
+        bottom=20mm
+    }
+%
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+\newcommand{\dotline}{\noindent\textcolor{soft_text}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
+%
+\hypersetup{hidelinks}
+%................................................................
+%
+%                        New commands 
+%_______________________________________________________________
+% e-mail command:
+\newcommand\ProvideEmail[1]{%
+  \expandafter\newcommand\csname Email\endcsname{%
+    \href{mailto:#1}{#1}%
+  }%
+}
+% Date command:
+\renewcommand\date[2]{%
+    \@namedef{Date#2}{%
+    #1
+    }%
+}
+% Adress command
+\newcommand\ProvideAdress[3]{%
+  \expandafter\newcommand\csname Adress#3\endcsname{%
+    #1, #2
+  }%
+}
+% Phone command:
+\newcommand\ProvidePhone[2]{%
+  \expandafter\newcommand\csname Phone#2\endcsname{%
+    #1
+  }%
+}
+% Name command (for company name):
+\newcommand\ProvideName[2]{%
+  \expandafter\newcommand\csname Name#2\endcsname{%
+    #1
+  }%
+}
+% Signature command:
+\newcommand\Signature[3]{%
+#1 \\
+\begin{minipage}{0.6\textwidth}
+\vspace{\baselineskip}
+\includegraphics[#3]{#2}
+\end{minipage} 
+\vspace{\baselineskip} \\
+\makeatletter
+\@author
+\makeatother
+}
+% Signature line command_
+\newcommand{\SignatureLine}[2]{%
+#1 \\
+\begin{minipage}{0.6\textwidth}
+\vspace{3\baselineskip}
+\makebox[#2]{\hrulefill}
+\end{minipage} 
+\vspace{\baselineskip} \\
+\makeatletter
+\@author
+\makeatother
+}
+%................................................................
+%
+%                           Section 
+%_______________________________________________________________
+\renewcommand{\section}{\@ifstar\@section\@@section}
+% Starred section command (\section*{ })
+% This is needed to fix bibliography title(s).
+\newcommand{\@section}[1]{%
+  \bigskip%
+  {\LARGE\MakeUppercase{#1}}\\[-1ex]%
+  \linia\medskip
+}%
+% Unstarred section command (\section{ })
+\newcommand{\@@section}[1]{%
+  \bigskip%
+  {\LARGE\MakeUppercase{#1}}\\[-1ex]%
+  \linia\medskip
+}%
+% Subsection:
+\renewcommand{\subsection}[1]{%
+  \smallskip%
+  {\large\bfseries{#1}\par}\medskip
+}%
+%................................................................
+%
+% 
+%                               Other 
+%_______________________________________________________________
+\AtBeginDocument{%
+    \hypersetup{hidelinks}
+}
+%................................................................
+%
+\endinput
