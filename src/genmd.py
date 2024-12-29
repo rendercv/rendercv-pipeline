@@ -16,8 +16,8 @@ def fix_index_html():
             fixed_line = re.sub(r"^<!DOCTYPE html>\n", "", line)
             # Replace ' in</h2>' at the end of the line with '  </h2>'
             fixed_line = re.sub(r" in</h2>$", "</h2>", fixed_line)
-            # Replace '``' with '"' 
-            fixed_line = re.sub(r"``", '"', fixed_line)
+            # Replace "``"" with "''" 
+            fixed_line = re.sub(r"``", "''", fixed_line)
             f.write(fixed_line)
 
 
