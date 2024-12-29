@@ -20,6 +20,7 @@
 \RequirePackage{hyperref}           % Clickable links
 \RequirePackage{adjustbox}
 \RequirePackage{fancyhdr}
+\RequirePackage{calc}
 %................................................................
 %
 %                           Colours 
@@ -89,7 +90,8 @@
 #1 \\
 \begin{minipage}{0.6\textwidth}
 \vspace{\baselineskip}
-\includegraphics[#3]{#2}
+\includegraphics[#3]{#2} \\
+\makebox[\widthof{\includegraphics[#3]{#2}}]{\hrulefill}
 \end{minipage} 
 \vspace{\baselineskip} \\
 \makeatletter
