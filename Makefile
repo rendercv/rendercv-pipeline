@@ -17,10 +17,11 @@ PYTHON := $(shell command -v python 2> /dev/null)
 PYENV_ROOT := $(shell pyenv root)
 GIT := $(shell command -v git 2> /dev/null)
 GIT_VERSION := $(shell $(GIT) --version 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+RENDERCV := $(shell command -v rendercv 2> /dev/null)
 JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
-BUNDLE := $(shell bundle --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+BUNDLE := $(shell command -v bundle 2> /dev/null)
 LATEX := $(shell command -v pdflatex 2> /dev/null)
-BIBER := $(shell biber --version | head -n 1 2> /dev/null || echo -e "\033[31mnot installed\033[0m")
+BIBER := $(shell command -v biber 2> /dev/null)
 
 # Variables
 GITHUB_REPO ?= $(shell url=$$($(GIT) config --get remote.origin.url); echo $${url%.git})
@@ -77,10 +78,11 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)Shell:$(RESET) $(SHELL) - $(shell $(SHELL) --version | head -n 1)"
 	@echo -e "  $(CYAN)Make:$(RESET) $(MAKE_VERSION)"
 	@echo -e "  $(CYAN)Git:$(RESET) $(GIT_VERSION)"
+	@echo -e "  $(CYAN)RenderCV:$(RESET) $(shell $(RENDERCV) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)LaTeX:$(RESET) $(shell $(LATEX) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
-	@echo -e "  $(CYAN)biber:$(RESET) $(BIBER)"
+	@echo -e "  $(CYAN)biber:$(RESET) $(shell $(BIBER) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
-	@echo -e "  $(CYAN)Bundler:$(RESET) $(BUNDLE)"
+	@echo -e "  $(CYAN)Bundler:$(RESET) $(shell $(BUNDLE) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "$(MAGENTA)Project:$(RESET)"
 	@echo -e "  $(CYAN)Project repository:$(RESET) $(GITHUB_REPO)"
 	@echo -e "  $(CYAN)Project directory:$(RESET) $(CURDIR)"
@@ -170,14 +172,14 @@ project/update_cv: dep/python $(INSTALL_STAMP) ## Update CV input file with sele
 
 project/build_cv: | project/update_cv  ## Build pdf file of CV
 	@echo -e "$(CYAN)\nBuild CV...$(RESET)" 
-	@rendercv render src/${CV_FILE}.yaml --pdf-path ${CV_FILE}.pdf --markdown-path README.md --latex-path ${CV_FILE}.tex --html-path ${CV_FILE}.html --dont-generate-png --use-local-latex-command pdflatex
+	@$(RENDERCV) render src/${CV_FILE}.yaml --pdf-path ${CV_FILE}.pdf --markdown-path README.md --latex-path ${CV_FILE}.tex --html-path ${CV_FILE}.html --dont-generate-png --use-local-latex-command pdflatex
 	@$(PYTHON) $(SRC)/genmd.py
 	@echo -e "$(GREEN)CV built.$(RESET)"
 
 project/build_pubs: | project/import_biblio  ## Build pdf files of CV and publications
 	@echo -e "$(CYAN)\nBuilding Publications...$(RESET)"
 	@$(LATEX) $(PUB_FILE)
-	@biber $(PUB_FILE)
+	@$(BIBER) $(PUB_FILE)
 	@$(LATEX) $(PUB_FILE)
 	@$(LATEX) $(PUB_FILE)
 	@echo -e "$(GREEN)Publications built.$(RESET)"
@@ -228,5 +230,5 @@ release/version:  ## Tag and push to origin (use release/version ARGS="x.x.x")
 pages/serve:  ## Serve the GitHub Pages html file locally
 	@echo -e "$(CYAN)\nServing the documentation...$(RESET)"
 	@echo -e "$(YELLOW)Press Ctrl+C to stop the server.$(RESET)"
-	@bundle exec jekyll serve --source ./docs --destination ./docs/_site
+	@$(BUNDLE) exec jekyll serve --source $(DOCS) --destination $(DOCS_SITE)
 	@echo -e "$(GREEN)Documentation served.$(RESET)"
