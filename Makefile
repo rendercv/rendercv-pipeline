@@ -31,7 +31,6 @@ PYTHON_VERSION ?= 3.13.1
 PYENV_VIRTUALENV_NAME ?= $(shell cat .python-version)
 
 # Stamp files
-INSTALL_STAMP := .install.stamp
 STAMP_FILES := $(wildcard .*.stamp)
 
 # Dirs
@@ -104,14 +103,10 @@ dep/git:
 dep/pyenv:
 	@if [ -z "$(PYENV)" ]; then echo -e "$(RED)Pyenv not found.$(RESET)" && exit 1; fi
 
-.PHONY: dep/python
-dep/python: dep/pyenv
-	@if [ -z "$(PYTHON)" ]; then echo -e "$(RED)Python not found.$(RESET)" && exit 1; fi
-
 #-- System
 
 .PHONY: python
-python: | dep/pyenv  ## Check if Python is installed
+python: | dep/pyenv dep/git  ## Check if Python is installed
 	@if ! $(PYENV) versions | grep $(PYTHON_VERSION) > /dev/null ; then \
 		echo -e "$(RED)Python version $(PYTHON_VERSION) not installed.$(RESET)"; \
 		echo -e "$(RED)To install it, run '$(PYENV) install $(PYTHON_VERSION)'.$(RESET)"; \
@@ -136,8 +131,7 @@ virtualenv: | python  ## Check if virtualenv exists and activate it - create it 
 #-- Project
 
 .PHONY: project/install
-project/install: virtualenv $(INSTALL_STAMP)  ## Install the project for development
-$(INSTALL_STAMP): requirements.txt
+project/install: virtualenv requirements.txt  ## Install the project for development
 	@if [ ! -f .python-version ]; then \
 		echo -e "$(RED)\nVirtual environment missing. Please run 'make virtualenv' first.$(RESET)"; \
 	else \
@@ -145,11 +139,10 @@ $(INSTALL_STAMP): requirements.txt
 		$(PYTHON) -m pip --upgrade pip; \
 		$(PYTHON) -m pip -r requirements.txt; \
 		echo -e "$(GREEN)Dependencies installed.$(RESET)"; \
-		touch $(INSTALL_STAMP); \
 	fi
 
 .PHONY: project/update
-project/update: | project/install  ## Update the project
+project/update: virtualenv requirements.txt  ## Update the project
 	@echo -e "$(CYAN)\nUpdating the project...$(RESET)"
 	@$(PYTHON) -m pip install --upgrade pip
 	@$(PYTHON) -m pip install -r requirements.txt --upgrade
@@ -162,12 +155,12 @@ project/clean:  ## Clean untracked output files
 	@rm -rf $(STAMP_FILES) $(CACHE_DIRS) $(DOCS_SITE) $(LATEX_TEMP_FILES) $(RENDERCV_DIR) || true
 	@echo -e "$(GREEN)Directory cleaned.$(RESET)"
 
-project/import_biblio: dep/python  ## Import bibliography
+project/import_biblio: python  ## Import bibliography
 	@echo -e "$(CYAN)\nImporting bibliography...$(RESET)"
 	@$(PYTHON) $(SRC)/parsebib.py
 	@echo -e "$(GREEN)Bibliography imported.$(RESET)"
 
-project/update_cv: dep/python  ## Update CV input file with selected bibliography
+project/update_cv: python  ## Update CV input file with selected bibliography
 	@echo -e "$(CYAN)\nUpdating CV input file with selected bibliography...$(RESET)" 
 	@$(PYTHON) $(SRC)/pubmerger.py
 	@echo -e "$(GREEN)CV input file updated.$(RESET)"
@@ -200,13 +193,13 @@ project/build_all: project/build_cv project/build_pubs project/build_application
 #-- Check
 
 .PHONY: check/format
-check/format: $(INSTALL_STAMP)  ## Format the code
+check/format:  ## Format the code
 	@echo -e "$(CYAN)\nFormatting...$(RESET)"
 	@ruff format $(PY_FILES)
 	@echo -e "$(GREEN)Code formatted.$(RESET)"
 
 .PHONY: check/lint
-check/lint: $(INSTALL_STAMP)  ## Lint the code
+check/lint:  ## Lint the code
 	@echo -e "$(CYAN)\nLinting...$(RESET)"
 	@ruff check $(PY_FILES)
 	@echo -e "$(GREEN)Code linted.$(RESET)"
