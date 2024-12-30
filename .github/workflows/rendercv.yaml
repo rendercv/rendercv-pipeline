@@ -55,6 +55,7 @@ jobs:
               - '*.pdf'
               - '*.md'
               - 'docs/*.md'
+              - 'application_letters/*.pdf'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |
