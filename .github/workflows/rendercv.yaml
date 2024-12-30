@@ -24,6 +24,9 @@ jobs:
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
+      - name: Install poppler
+        run: |
+          sudo apt-get install poppler-utils -y
       - name: Create docs folder
         run: mkdir -p docs      
       - name: Build CV
