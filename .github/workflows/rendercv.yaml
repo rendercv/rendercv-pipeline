@@ -15,25 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup pyenv
-        uses: "gabrielfalcao/pyenv-action@v18"
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.13
-      - name: Create and activate virtualenv
-        run: |
-          pyenv install 3.13-dev
-          pyenv local 3.13-dev
-          python -m venv .cv
-          source .cv/bin/activate
+          python-version: "3.13"
       - name: Install RenderCV
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          pip install -r requirements.txt
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
       - name: Create docs folder
-        run: mkdir -p docs
+        run: mkdir -p docs      
       - name: Build CV
         run: |
           cd src
@@ -43,7 +35,18 @@ jobs:
             exit 1
           fi
           cd ..
-          make project/build_all
+          python src/parsebib.py
+          python src/pubmerger.py
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png
+          python src/genmd.py
+          pdflatex Fabio_Calefato_Publications
+          biber Fabio_Calefato_Publications
+          pdflatex Fabio_Calefato_Publications
+          pdflatex Fabio_Calefato_Publications
+          cd application_letters
+          pdflatex HPI.tex 
+          pdfunite HPI.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Fabio_Calefato_Application_HPI.pdf 
+          cd ..
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
