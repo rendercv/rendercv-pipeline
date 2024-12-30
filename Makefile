@@ -22,6 +22,7 @@ JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot install
 BUNDLE := $(shell command -v bundle 2> /dev/null)
 LATEX := $(shell command -v pdflatex 2> /dev/null)
 BIBER := $(shell command -v biber 2> /dev/null)
+POPPLER := $(shell command -v pdfunite 2> /dev/null)
 
 # Variables
 GITHUB_REPO ?= $(shell url=$$($(GIT) config --get remote.origin.url); echo $${url%.git})
@@ -81,6 +82,7 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)RenderCV:$(RESET) $(shell $(RENDERCV) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)LaTeX:$(RESET) $(shell $(LATEX) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)biber:$(RESET) $(shell $(BIBER) --version || echo "$(RED)not installed $(RESET)")"
+	@echo -e "  $(CYAN)poppler:$(RESET) $(shell $(POPPLER) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
 	@echo -e "  $(CYAN)Bundler:$(RESET) $(shell $(BUNDLE) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "$(MAGENTA)Project:$(RESET)"
@@ -184,14 +186,16 @@ project/build_pubs: | project/import_biblio  ## Build pdf files of CV and public
 	@$(LATEX) $(PUB_FILE)
 	@echo -e "$(GREEN)Publications built.$(RESET)"
 
+# merge pdfs, 1. application letter, 2. cv, 3. pubblications
 project/build_application:  ## Build application letter
 	@echo -e "$(CYAN)\nBuilding application letter...$(RESET)"
 	cd $(APP_LETTER_DIR) && \
-	$(LATEX) -jobname=$(APP_LETTER_FILE)_$(APP_LETTER_SRC) $(APP_LETTER_SRC).tex && \
+	$(LATEX) -jobname=$(APP_LETTER_SRC) $(APP_LETTER_SRC).tex && \
+	$(POPPLER) $(APP_LETTER_SRC).pdf ../$(CV_FILE).pdf ../$(PUB_FILE).pdf $(APP_LETTER_FILE)_$(APP_LETTER_SRC).pdf && \
 	cd .. && \
 	echo -e "$(GREEN)Application letter built.$(RESET)"
 
-project/build_all: project/build_cv project/build_pubs  ## Build all files
+project/build_all: project/build_cv project/build_pubs project/build_application  ## Build all files
 	@echo -e "$(GREEN)All files built.$(RESET)"
 
 #-- Check
