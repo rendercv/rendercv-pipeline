@@ -19,8 +19,8 @@ jobs:
         uses: "gabrielfalcao/pyenv-action@v18"
       - name: Create and activate virtualenv
         run: |
-          pyenv install 3.13.1
-          pyenv local 3.13.1
+          pyenv install 3.13
+          pyenv local 3.13
           python -m venv .cv
           source .cv/bin/activate
       - name: Install RenderCV
