@@ -17,15 +17,25 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
-      - name: Create docs folder
-        run: mkdir -p docs
+          python-version: "3.13.1"
+      - name: setup pyenv
+        uses: "gabrielfalcao/pyenv-action@v18"
+        with:
+            default: 3.13.1
+      - name: Create and activate virtualenv
+        run: |
+          pyenv local 3.13.1 
+          python -m venv .cv
+          source .cv/bin/activate
       - name: Install RenderCV
         run: |
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
+      - name: Create docs folder
+        run: mkdir -p docs
       - name: Build CV
         run: |
           cd src
