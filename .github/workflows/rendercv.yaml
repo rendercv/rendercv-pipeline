@@ -26,6 +26,9 @@ jobs:
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
+      - name: Install poppler
+        run: |
+          sudo apt-get install poppler
       - name: Build CV
         run: |
           cd src
@@ -35,14 +38,7 @@ jobs:
             exit 1
           fi
           cd ..
-          python src/parsebib.py
-          python src/pubmerger.py
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png
-          pdflatex Fabio_Calefato_Publications
-          biber Fabio_Calefato_Publications
-          pdflatex Fabio_Calefato_Publications
-          pdflatex Fabio_Calefato_Publications
-          python src/genmd.py
+          make project/build_all
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
