@@ -162,12 +162,12 @@ project/clean:  ## Clean untracked output files
 	@rm -rf $(STAMP_FILES) $(CACHE_DIRS) $(DOCS_SITE) $(LATEX_TEMP_FILES) $(RENDERCV_DIR) || true
 	@echo -e "$(GREEN)Directory cleaned.$(RESET)"
 
-project/import_biblio: dep/python $(INSTALL_STAMP)  ## Import bibliography
+project/import_biblio: dep/python  ## Import bibliography
 	@echo -e "$(CYAN)\nImporting bibliography...$(RESET)"
 	@$(PYTHON) $(SRC)/parsebib.py
 	@echo -e "$(GREEN)Bibliography imported.$(RESET)"
 
-project/update_cv: dep/python $(INSTALL_STAMP) ## Update CV input file with selected bibliography
+project/update_cv: dep/python  ## Update CV input file with selected bibliography
 	@echo -e "$(CYAN)\nUpdating CV input file with selected bibliography...$(RESET)" 
 	@$(PYTHON) $(SRC)/pubmerger.py
 	@echo -e "$(GREEN)CV input file updated.$(RESET)"
@@ -186,7 +186,6 @@ project/build_pubs: | project/import_biblio  ## Build pdf files of CV and public
 	@$(LATEX) $(PUB_FILE)
 	@echo -e "$(GREEN)Publications built.$(RESET)"
 
-# merge pdfs, 1. application letter, 2. cv, 3. pubblications
 project/build_application:  ## Build application letter
 	@echo -e "$(CYAN)\nBuilding application letter...$(RESET)"
 	cd $(APP_LETTER_DIR) && \
