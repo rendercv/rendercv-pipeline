@@ -21,8 +21,9 @@ jobs:
           python-version: 3.13
       - name: Create and activate virtualenv
         run: |
-          pyenv install 3.13.0
-          pyenv local 3.13.0
+          pyenv install --list
+          pyenv install 3.13-dev
+          pyenv local 3.13-dev
           python -m venv .cv
           source .cv/bin/activate
       - name: Install RenderCV
