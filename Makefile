@@ -39,6 +39,7 @@ DOCS := docs
 DOCS_SITE := docs/_site
 RENDERCV_DIR := rendercv_output
 APP_LETTER_DIR := application_letters
+CERT_DIR := Certificates
 CACHE_DIRS := $(wildcard .*_cache)
 
 # Files
@@ -46,6 +47,8 @@ CV_FILE := Fabio_Calefato_CV
 PUB_FILE := Fabio_Calefato_Publications
 APP_LETTER_SRC := HPI
 APP_LETTER_FILE := Fabio_Calefato_Application
+PHD_CERT_FILE := $(CERT_DIR)/phd_certificate-ita.pdf
+MSC_CERT_FILE := $(CERT_DIR)/msc_certificate-ita.pdf
 PY_FILES := $(shell find . -type f -name '*.py')
 DOCS_FILES := $(shell find $(DOCS) -type f -name '*.md') README.md
 LATEX_TEMP_FILES := $(PUB_FILE).aux $(PUB_FILE).bbl $(PUB_FILE).blg $(PUB_FILE).log $(PUB_FILE).run.xml $(PUB_FILE).bcf 
@@ -183,7 +186,7 @@ project/build_application:  ## Build application letter
 	@echo -e "$(CYAN)\nBuilding application letter...$(RESET)"
 	cd $(APP_LETTER_DIR) && \
 	$(LATEX) -jobname=$(APP_LETTER_SRC) $(APP_LETTER_SRC).tex && \
-	$(POPPLER) $(APP_LETTER_SRC).pdf ../$(CV_FILE).pdf ../$(PUB_FILE).pdf $(APP_LETTER_FILE)_$(APP_LETTER_SRC).pdf && \
+	$(POPPLER) $(APP_LETTER_SRC).pdf ../$(CV_FILE).pdf ../$(PUB_FILE).pdf $(PHD_CERT_FILE) $(MSC_CERT_FILE) $(APP_LETTER_FILE)_$(APP_LETTER_SRC).pdf && \
 	cd .. && \
 	echo -e "$(GREEN)Application letter built.$(RESET)"
 

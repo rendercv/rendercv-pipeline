@@ -48,7 +48,7 @@ jobs:
           pdflatex Fabio_Calefato_Publications
           cd application_letters
           pdflatex HPI.tex 
-          pdfunite HPI.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Fabio_Calefato_Application_HPI.pdf 
+          pdfunite HPI.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf Fabio_Calefato_Application_HPI.pdf 
           cd ..
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
