@@ -12,7 +12,7 @@ cv:
     - network: GitHub
       username: bateman
   sections:
-    current_position:
+    research_experience:
       - company: University of Bari, Dept. of Computer Science
         position: Associate Professor
         location: Bari, Italy
@@ -27,36 +27,6 @@ cv:
           - "[PeoplewareAI](https://peopleware.ai) is a spin-off company of the University of Bari, founded to transfer the results of research in the field of AI and software engineering to the market"
           - "Direct R&D and product development in human-centered AI applications, including emotion/sentiment analysis tools for technical communication and MLOps automation pipelines for healthcare systems"
           - "Foster industry-academia collaboration through consulting services and technology transfer projects"
-
-    education:
-      - institution: University of Bari, Italy
-        area: "**Physics, Computer Science, and Mathematics**"
-        degree: "**Inter-University Specialization School for Secondary Education**"
-        start_date: 2007-07
-        end_date: 2008-06
-        highlights:
-          - "*Graduation grade: 42/42*"
-      - institution: University of Bari, Italy
-        area: "**Computer Science**"
-        degree: "**PhD**"
-        start_date: 2004-01
-        end_date: 2007-05
-        highlights:
-          - "*Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''*"
-          - "*Thesis listed among the [ACM SIGSOFT selected Ph.D. Dissertations in the Area of Software Engineering](https://www.sigsoft.org/dissertations.html)*"
-          - "*Supervisor: Prof. Filippo Lanubile (Uniba)*"
-          - "*Co-supersor: Prof. Daniela Damian (UVic)*"
-      - institution: University of Bari, Italy
-        area: "**Computer Science**"
-        degree: "**MSc**"
-        start_date: 1996-09
-        end_date: 2002-10
-        highlights:
-          - "*Thesis: ``P2P Conferences in JXTA''*"
-          - "*Graduation grade: 110/110 with honors*"
-          - "*Supervisor: Prof. Filippo Lanubile (Uniba)*"
-
-    research_experience:
       - company: University of Bari, Dept. of Computer Science
         position: Tenure-track Assistant Professor
         location: Bari, Italy
@@ -83,13 +53,56 @@ cv:
         start_date: 2007-04
         end_date: 2008-11
 
+    education:
+      - institution: University of Bari, Italy
+        area: "**Physics, Computer Science, and Mathematics**"
+        degree: "**Inter-University Specialization School for Secondary Education**"
+        start_date: 2008-07
+        end_date: 2009-06
+        highlights:
+          - "*Graduation grade: 42/42*"
+      - institution: University of Bari, Italy
+        area: "**Computer Science**"
+        degree: "**PhD**"
+        start_date: 2004-01
+        end_date: 2007-05
+        highlights:
+          - "*Thesis: ``Supporting Synchronous Communication in Distributed Software Teams''*"
+          - "*Thesis listed among the [ACM SIGSOFT selected Ph.D. Dissertations in the Area of Software Engineering](https://www.sigsoft.org/dissertations.html)*"
+          - "*Supervisor: Prof. Filippo Lanubile (Uniba)*"
+          - "*Co-supersor: Prof. Daniela Damian (UVic)*"
+      - institution: University of Bari, Italy
+        area: "**Computer Science**"
+        degree: "**MSc**"
+        start_date: 1996-09
+        end_date: 2002-10
+        highlights:
+          - "*Thesis: ``P2P Conferences in JXTA''*"
+          - "*Graduation grade: 110/110 with honors*"
+          - "*Supervisor: Prof. Filippo Lanubile (Uniba)*"
+
     research_activity:
       - "My research primarily focuses on the intersection of Software Engineering and AI/ML, while also encompassing human factors in software development and globally distributed software engineering. Throughout my career, I have maintained a strong focus on empirical validation of research findings, conducting controlled experiments, case studies, and mining open source software repositories. My work has consistently appeared in top-tier venues and has influenced both academic research and industry practices in software engineering. Below is a detailed description of some of my research activities, organized by recency and impact."
-      - "**Generative AI for software engineering research and practices**: In collaboration with leading international researchers, I am advancing three active workstreams that emerged from my participation in the 2023 and 2024 editions of the [*Copenhagen Symposium on Human-Centered Software Engineering AI*](https://www.danielrusso.org/copenhagen-symposium-human-centered-ai-software-engineering). The first workstream, conducted jointly with S. Baltes (Uni-Bayreuth), C. Treude (SMU), H. Hata (Shinshu Univ.), and R.G. Kula (Osaka Univ.), comprises an observational study mining self-admitted mentions of LLMs usage in open source projects. Together, we examined how developers integrate AI assistants into their workflows across development tasks, content types, and usage purposes. Our study analyzed over 250,000 open-source repositories, identifying patterns in AI tool adoption and their impact on project metrics. An article describing this collaborative work is currently under review at IEEE TSE. The second workstream, pursued in collaboration with S. Baltes (Uni-Bayreuth) and S. Wagner (TUM), aims at establishing a comprehensive set of guidelines for conducting experiments with LLMs in software engineering research. Our joint initiative addresses the challenges of achieving reproducible results with LLMs, focusing on issues such as model versioning, parameter settings, and training data transparency. Through this collaboration, we tackle the unique characteristics of LLMs that affect study validity and reproducibility, providing researchers with concrete protocols for empirical evaluations. The third workstream, pursued in partnership with M.A Storey (UVic) and B. Trinkenreich (CSU), investigates the integration of AI in software engineering research methodologies. Together, we examine how Generative AI tools can support various research tasks including qualitative analysis, systematic literature reviews, and human studies design. Our collaborative work explores both opportunities and risks of AI adoption in SE research, gathering perspectives from researchers about the changing landscape of empirical software engineering methods."
+      - "**Generative AI for software engineering research and practices**: In collaboration with leading international researchers, I am advancing three active workstreams that emerged from my participation in the 2023 and 2024 editions of the [*Copenhagen Symposium on Human-Centered Software Engineering AI*](https://www.danielrusso.org/copenhagen-symposium-human-centered-ai-software-engineering). The first workstream, conducted jointly with S. Baltes (Uni-Bayreuth), C. Treude (SMU), H. Hata (Shinshu Univ.), and R.G. Kula (Osaka Univ.), comprises an observational study mining self-admitted mentions of LLMs usage in open source projects. Together, we examined how developers integrate AI assistants into their workflows across development tasks, content types, and usage purposes. Our study analyzed over 250,000 open-source repositories, identifying patterns in AI tool adoption and their impact on project metrics. An article describing this collaborative work is currently under review at IEEE TSE. The second workstream, pursued in collaboration with S. Baltes (Uni-Bayreuth) and S. Wagner (TUM), aims at establishing a comprehensive set of guidelines for conducting experiments with LLMs in software engineering research. Our joint initiative addresses the challenges of achieving reproducible results with LLMs by tackling their unique characteristics that affect study validity and reproducibility, providing researchers with concrete protocols for empirical evaluations. The third workstream, pursued in partnership with M.A Storey (UVic) and B. Trinkenreich (CSU), investigates the integration of AI in software engineering research methodologies. Together, we examine how Generative AI tools can support various research tasks including qualitative analysis, systematic literature reviews, and human studies design. Our collaborative work explores both opportunities and risks of AI adoption in SE research, gathering perspectives from researchers about the changing landscape of empirical software engineering methods."
       - "**Software engineering for AI-Enabled systems**: One of my recent research interests has focused on improving the development workflows of AI/ML-based systems through empirical studies and tool development. I conducted a comprehensive review of industry-leading AutoML tools to analyze their benefits and limitations in software engineering contexts (IST 2025). I have contributed to understanding MLOps practices by analyzing adoption patterns in open-source projects on GitHub (ESEM 2022). This work revealed key challenges in transitioning ML models from experimentation to production, leading to development of an MLOps solution framework applied in healthcare contexts (CAIN 2022). Finallly, I have established best practices for collaborative development of AI systems using computational notebooks (CSCW 2021)."
       - "**Industry-based research on the state of software engineering practices**: I have participated and continue to contribute to several industry-based global surveys to understand software engineering practices. The [*HELENA*](https://helenastudy.wordpress.com/helena-team) (Hybrid dEveLopmENt Approaches in software systems development) project has identified key characteristics of hybrid development approaches through analysis of 1,000+ developers across 50 countries since 2016. Our findings on agile process adoption patterns appeared in IEEE TSE (2021), significantly impacting understanding of modern development methodologies. The [*NaPiRE*](http://www.napire.org) project (Naming the Pain in Requirements Engineering) is a global survey initiative examining industrial practices and challenges in Requirements Engineering. Through biannual surveys, our large-scale academic collaboration develops a holistic theory of RE practices and problems, producing insights that guide problem-driven research. The *Evolution of Post-Pandemic Work Policies* project analyzes hybrid and remote work policies across companies worldwide through global surveys and academic collaboration. Our research provides evidence-based insights into emerging work patterns, revealing challenges and adaptations in post-pandemic work environments and helping organizations optimize their hybrid workplace policies."
       - "**Human factors in software engineering**: In my research I have extensively investigated how human factors such, as personality traits, emotions, and social dynamics, influence software development processes, leveraging AI/ML techniques for analysis across various developer platforms and communication channels. In technical Q&A platforms like Stack Overflow, I have conducted comprehensive studies analyzing both technical aspects (such as community guidelines for effective questions) and social factors affecting answer success rates (MSR 2015, ESEM 2016, IST 2018, EMSE 2019). This work has led to the creation of gold standards for sentiment analysis (MSR 2018) and the development of ML-based methods to detect emotions and sentiment polarity in technical communication (IEEE Software 2020). Additionally, I have conducted cross-platform evaluations of sentiment analysis tools (MSR 2020) and performed extended replications to assess how the choice of sentiment analysis tools influences the validity of empirical studies (EMSE 2021). Beyond sentiment analysis, I have investigated how developer personalities influence collaboration in large software ecosystems like Apache (ICGSE 2018, IST 2019), with particular attention to how traits like agreeableness impact code review activities and pull request acceptance (ICGSE 2017). My work has shed the light on the need for developing specialized tools for automatic personality detection from text in technical contexts (TOSEM 2021). With this line of research I have demonstrated the critical importance of domain-specific approaches when analyzing developer communications, showing the limitations of general-purpose personality and sentiment analysis tools in software engineering contexts. Finally, I have also studied retention and disengagement factors of Open Source Software community participants, defining and validating a theoretical model of the activity rhythm of open source project developers (SOHEAL 2019, EMSE 2022)."
       - "**Global software engineering**: My research has addressed the challenges of software development distributed on a global scale. Key contributions include theoretical and empirical work on trust-building mechanisms and social awareness in virtual teams (CSCW 2013, CHASE 2012, IEEE Software 2013). I pioneered SocialCDE, a social awareness tool for fostering trust in distributed teams (ESEC/FSE 2013), which was awared the *2011 Microsoft Software Engineering Innovation Award*; this work demonstrated how social awareness tools can increase trust and improve coordination in global teams. I also made significant advances in communication barriers, developing and evaluating eConference, a real-time ML-based translation tools (ICGSE 2010-11, ESEM 2012, ESEM 2014, ESE 2016) that showed promising efficiency gains while identifying important trade-offs in distributed development activities; the tool was awarded the *2006 Eclipse Innovation Award* by IBM. Additional contributions include an industrial action research study on communication tools in distributed agile teams (ICGSE 2020). My expertise in this domain is reflected in my service as General Chair for ICGSE 2019 and my role as Guest Editor for JSS special issue on Global Software Engineering (JSS 2021)."
+
+    awards:
+      - label: Best Paper Award
+        details: "*14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada*"
+      - label: "[FABBR 2017 Award](https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf)"
+        details: "*Winner of the national selection procedure `Fondo per il finanziamento delle attività base di ricerca (FFABR) 2017,' established by the Italian Ministry of University and Research (MUR) and intended for the annual funding of basic research activities of associate professors and researchers*"
+
+    bibliometrics:
+      - label: Google Scholar
+        details: "*h*-index 30, 3,100+ citations"
+      - label: Scopus
+        details: "*h*-index 21, 1,500+ citations"
+
+    selected_publications:
+      ###bibliography/selected_publications.yaml###
 
     Ph.D._students_supervision:
       - institution: Kelly Azevedo Borges Leal
@@ -113,6 +126,152 @@ cv:
         highlights:
           - "*Thesis: ``Investigating the Dynamics of Online Creative Communities''*"
           - "*Co-supervised with prof. Filippo Lanubile*"
+
+
+    teaching:
+      - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
+        area: ""
+        degree: BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - "*Teaching evaluation scores:  2023-25: N/A;
+            2022-23: 95.52%*"
+      - institution: Social Computing [6 ECTS]
+        area: ""
+        degree: MSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2021
+        end_date: 2024
+        highlights:
+          - "*Teaching evaluation scores: 2023-24: N/A;
+            2022-23: 100%;
+            2021-22: 100%*"
+      - institution: Software Solutions for Reproducible Experiments [2 ECTS]
+        area: ""
+        degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2022
+        end_date: 2023
+      - institution: Social Computing [5 ECTS]
+        area: ""
+        degree: MSc in Computer Science and Engineering, University of Oulu
+        location: Oulu, Finland
+        start_date: 2022
+        end_date: 2023
+        highlights:
+          - "*Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call
+            Mobility for teaching staff' (2022-23), for university professors and researchers mobility*"
+      - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
+        area: University of Bari, Dept. of Computer Science
+        degree: BSc in Computer Science, 3rd year
+        location: Bari, Italy
+        start_date: 2021
+        end_date: 2022
+        highlights:
+          - "*Teaching evaluation scores: 97.07%*"
+      - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
+        area: ""
+        degree: BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2019
+        end_date: 2021
+        highlights:
+          - "*Teaching evaluation scores: 2020-21: 94.59%;
+            2019-20: 89.74%*"
+      - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
+        area: University of Bari, Dept. of Computer Science
+        degree: BSc in Computer Science, 3rd year
+        location: Bari, Italy
+        start_date: 2018
+        end_date: 2019
+        highlights:
+          - "*Teaching evaluation scores: 93.4%*"
+      - institution: Mining Socio-technical Repositories [3 ECTS]
+        area: ""
+        degree: Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2017
+        end_date: 2018
+      - institution: "IT Tools Supporting Legal and Economic Research: Blockchain for Tracking Production and Transportation Chains [2 ECTS]"
+        area: ""
+        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXIII cycle), University of Bari, Jonian Dept. (Law and Business School)
+        location: Taranto, Italy
+        start_date: 2017
+        end_date: 2018
+      - institution: Classification Models in Software Engineering [2 ECTS]
+        area: ""
+        degree: Ph.D. program in Computer Science, University of Oulu
+        location: Oulu, Finland
+        start_date: 2016
+        end_date: 2017
+        highlights:
+          - "*Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call
+            Mobility for teaching staff' (2015-16), for university professors and researchers mobility*"
+      - institution: Emotion Awareness in Social Computing [2 ECTS]
+        area: ""
+        degree: Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science
+        location: Oulu, Finland
+        start_date: 2016
+        end_date: 2017
+        highlights:
+          - Co-taught with Prof. Nicole Novielli
+      - institution: IT Tools Supporting Legal and Economic Research [2 ECTS]
+        area: ""
+        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXII cycle), University of Bari, Jonian Dept. (Law and Business School)
+        location: Taranto, Italy
+        start_date: 2016
+        end_date: 2017
+      - institution: Informatica (Computer Science) [9 ECTS]
+        area: ""
+        degree: BSc in Maritime Sciences and Management (SGAM), 2nd year
+        location: Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science
+        start_date: 2015
+        end_date: 2020
+        highlights:
+          - "*Teaching evaluation scores: 2019-20: 95.2%;
+            2018-19: 95.9%;
+            2017-18: 97.4%;
+            2016-17: 91.9%;
+            2015-16: 83.5%*"
+      - institution: Abilità Informatica (Computer Skills) [4 ECTS]
+        area: ""
+        degree: Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School)
+        location: Taranto, Italy
+        start_date: 2015
+        end_date: 2020
+        highlights:
+          - "*Teaching evaluation scores: 2019-20: 93.1%;
+            2018-19: 95.9%;
+            2017-18: 93.8%;
+            2016-17: 89.8%;
+            2015-16: 87.8%*"
+      - institution: Laboratorio di Informatica (C Programming Lab) [9 ECTS]
+        area: ""
+        degree: BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science
+        location: Bari, Italy
+        start_date: 2013
+        end_date: 2015
+        highlights:
+          - "*Teaching evaluation scores: 2014-15: 88.3%;
+            2013-14: 93.1%*"
+      - institution: Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS]
+        area: ""
+        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
+        location: Brindisi, Italy
+        start_date: 2013
+        end_date: 2014
+        highlights:
+          - "*Teaching evaluation scores: 95.7%*"
+      - institution: Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]
+        area: ""
+        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
+        location: Brindisi, Italy
+        start_date: 2008
+        end_date: 2013
+        highlights:
+          - "*Teaching evaluation scores: N/A*"
 
     funded_research_projects:
       - name: "PRONEM - Natural Language Processing for Global Software Development"
@@ -188,20 +347,54 @@ cv:
           - "*Duration:* 24 months (Jan 2025 - Dec 2026)"
           - "*Status:* Under review"
 
-    awards:
-      - label: Best Paper Award
-        details: "*14th Int'l Conf. on Global Software Engineering (ICGSE'19), Montreal, Canada*"
-      - label: "[FABBR 2017 Award](https://www.anvur.it/wp-content/uploads/2018/05/Beneficiari_FFABR_Ricercatori.pdf)"
-        details: "*Winner of the national selection procedure `Fondo per il finanziamento delle attività base di ricerca (FFABR) 2017,' established by the Italian Ministry of University and Research (MUR) and intended for the annual funding of basic research activities of associate professors and researchers*"
-
-    bibliometrics:
-      - label: Google Scholar
-        details: "*h*-index 30, 3,100+ citations"
-      - label: Scopus
-        details: "*h*-index 21, 1,500+ citations"
-
-    selected_publications:
-      ###bibliography/selected_publications.yaml###
+    academic_service:
+      - name: Rector’s Delegate for the GARR Network
+        highlights:
+          - "*May 2023 - present: The GARR Consortium is the Italian national research and education network,
+            providing high-speed Internet connectivity and advanced services to universities and research
+            institutions.*"
+      - name: CS Dept. Director’s Delegate for Internship Programs
+        highlights:
+          - "*Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs,
+            coordinating with industry partners, mentoring students, ensuring compliance with academic
+            standards, and evaluating the effectiveness of the internship experiences.*"
+      - name: Associate Editor
+        highlights:
+          - "*Elsevier `Journal of Systems and Software' (JSS), rank: SJR Q1*"
+          - "*Springer `Automated Software Engineering' (ASE)*"
+      - name: Guest Editor
+        highlights:
+          - "*2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
+            Special Issue on ``Software Maintenance and Evolution.''
+            Co-editor: Sarah Nadi (New York University, Abu Dhabi)*"
+          - "*2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
+            Special Issue on [``Cooperative and Human Aspects of Software Engineering''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html).
+            Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and
+            Igor Steinmacher (NAU, USA)*"
+          - "*2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1.
+            Special Issue on [``Global Software Engineering: Challenges and Solutions.''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT)
+            Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India),
+            Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)*"
+      - name: Review Board Member
+        highlights:
+          - "*2023 – present: Replicated Computational Results Distinguished Reviewers Board for
+            ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1*"
+          - "*2020 – 2022: ACM `Transactions on Software Engineering and Methodology’ (TOSEM),
+            rank: SJR Q1*"
+          - "*2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE, SJR Q1),
+            rank: SJR Q1*"
+      - name: Peer Reviews (partial list)
+        location: "**verified record on [Clarivate](https://www.webofscience.com/wos/author/record/H-4177-2014)**"
+        highlights:
+          - "*(23) Springer `Journal of Empirical Software Engineering' (EMSE), rank: SJR Q1*"
+          - "*(19) IEEE `Transactions on Software Engineering' (TSE), rank: SJR Q1*"
+          - "*(16) ACM `Transactions on Software Engineering and Methodology' (TOSEM), rank: SJR Q1*"
+          - "*(12) Elsevier `Journal of System and Software' (JSS), rank: SJR Q1*"
+          - "*(8) Elsevier `Information and Software Technology' (INFSOF), rank: SJR Q1*"
+          - "*(7) Wiley `Journal of Software: Evolution and Process' (JSEP), rank: SJR Q2*"
+          - "*(5) IEEE `Software,' rank: SJR Q2*"
+          - "*(2) IEEE `Transactions on Affective Computing,' rank: SJR Q1*"
+          - "*(1) ACM `Transactions on Internet Technologies' (TOIT), rank: SJR Q1*"
 
     events_organization:
       - name: Program Co-Chair
@@ -247,57 +440,6 @@ cv:
             28-29 May 2018, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*"
           - "*8th Int’l Conf. on Global Software Engineering (ICGSE'13), Bari, Italy,
             26-29 Aug 2013, [ICORE rank: C](https://portal.core.edu.au/conf-ranks/650/)*"
-
-    editorial_services:
-      - name: Associate Editor
-        highlights:
-          - "*Elsevier `Journal of Systems and Software' (JSS), rank: SJR Q1*"
-          - "*Springer `Automated Software Engineering' (ASE)*"
-      - name: Guest Editor
-        highlights:
-          - "*2024 Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
-            Special Issue on ``Software Maintenance and Evolution.''
-            Co-editor: Sarah Nadi (New York University, Abu Dhabi)*"
-          - "*2023: Springer `Empirical Software Engineering’ (EMSE), rank: SJR Q1.
-            Special Issue on [``Cooperative and Human Aspects of Software Engineering''](https://emsejournal.github.io/special_issues/2023_SI_CHASE.html).
-            Co-editors: Hourieh Khalajzadeh (Deakin University, Australia) and
-            Igor Steinmacher (NAU, USA)*"
-          - "*2021: Elsevier `Journal of System and Software’ (JSS), rank: SJR Q1.
-            Special Issue on [``Global Software Engineering: Challenges and Solutions.''](https://www.sciencedirect.com/journal/journal-of-systems-and-software/special-issue/10V2WHQCGWT)
-            Vol. 174, Apr. 2021. Co-editors: Alpana Dubey (Accenture Labs, India),
-            Christof Ebert (Vector Consulting, Germany), Paolo Tell (IT University of Copenhagen, Denmark)*"
-      - name: Review Board Member
-        highlights:
-          - "*2023 – present: Replicated Computational Results Distinguished Reviewers Board for
-            ACM `Transactions on Software Engineering and Methodology’ (TOSEM), rank: SJR Q1*"
-          - "*2020 – 2022: ACM `Transactions on Software Engineering and Methodology’ (TOSEM),
-            rank: SJR Q1*"
-          - "*2015 – 2019: Springer ‘Journal of Empirical Software Engineering’ (EMSE, SJR Q1),
-            rank: SJR Q1*"
-      - name: Peer Reviews (partial list)
-        location: "**verified record on [Clarivate](https://www.webofscience.com/wos/author/record/H-4177-2014)**"
-        highlights:
-          - "*(23) Springer `Journal of Empirical Software Engineering' (EMSE), rank: SJR Q1*"
-          - "*(19) IEEE `Transactions on Software Engineering' (TSE), rank: SJR Q1*"
-          - "*(16) ACM `Transactions on Software Engineering and Methodology' (TOSEM), rank: SJR Q1*"
-          - "*(12) Elsevier `Journal of System and Software' (JSS), rank: SJR Q1*"
-          - "*(8) Elsevier `Information and Software Technology' (INFSOF), rank: SJR Q1*"
-          - "*(7) Wiley `Journal of Software: Evolution and Process' (JSEP), rank: SJR Q2*"
-          - "*(5) IEEE `Software,' rank: SJR Q2*"
-          - "*(2) IEEE `Transactions on Affective Computing,' rank: SJR Q1*"
-          - "*(1) ACM `Transactions on Internet Technologies' (TOIT), rank: SJR Q1*"
-
-    institutional_services:
-      - name: Rector’s Delegate for the GARR Network
-        highlights:
-          - "*May 2023 - present: The GARR Consortium is the Italian national research and education network,
-            providing high-speed Internet connectivity and advanced services to universities and research
-            institutions.*"
-      - name: CS Dept. Director’s Delegate for Internship Programs
-        highlights:
-          - "*Mar 2023 - present: Responsibilities include overseeing the development and implementation of internship programs,
-            coordinating with industry partners, mentoring students, ensuring compliance with academic
-            standards, and evaluating the effectiveness of the internship experiences.*"
 
     keynote_presentations:
       - name: "The Potential and Challenges of Personality Detection in Software Engineering Research"
@@ -565,151 +707,6 @@ cv:
         area: ""
         location: University of Victoria, Canada
         date: 2016-11-24
-
-    teaching:
-      - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
-        area: ""
-        degree: BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2022
-        end_date: 2025
-        highlights:
-          - "*Teaching evaluation scores:  2023-25: N/A;
-            2022-23: 95.52%*"
-      - institution: Social Computing [6 ECTS]
-        area: ""
-        degree: MSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2021
-        end_date: 2024
-        highlights:
-          - "*Teaching evaluation scores: 2023-24: N/A;
-            2022-23: 100%;
-            2021-22: 100%*"
-      - institution: Software Solutions for Reproducible Experiments [2 ECTS]
-        area: ""
-        degree: Ph.D. program in Computer Science and Mathematics (XXXVIII cycle), University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2022
-        end_date: 2023
-      - institution: Social Computing [5 ECTS]
-        area: ""
-        degree: MSc in Computer Science and Engineering, University of Oulu
-        location: Oulu, Finland
-        start_date: 2022
-        end_date: 2023
-        highlights:
-          - "*Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call
-            Mobility for teaching staff' (2022-23), for university professors and researchers mobility*"
-      - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
-        area: University of Bari, Dept. of Computer Science
-        degree: BSc in Computer Science, 3rd year
-        location: Bari, Italy
-        start_date: 2021
-        end_date: 2022
-        highlights:
-          - "*Teaching evaluation scores: 97.07%*"
-      - institution: Reti di Calcolatori (Computer Networks) [6 ECTS]
-        area: ""
-        degree: BSc in Computer Science and Software Production Technologies (ITPS), 2nd year, University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2019
-        end_date: 2021
-        highlights:
-          - "*Teaching evaluation scores: 2020-21: 94.59%;
-            2019-20: 89.74%*"
-      - institution: Reti di Calcolatori (Computer Networks) [9 ECTS]
-        area: University of Bari, Dept. of Computer Science
-        degree: BSc in Computer Science, 3rd year
-        location: Bari, Italy
-        start_date: 2018
-        end_date: 2019
-        highlights:
-          - "*Teaching evaluation scores: 93.4%*"
-      - institution: Mining Socio-technical Repositories [3 ECTS]
-        area: ""
-        degree: Ph.D. program in Computer Science and Mathematics (XXXIII cycle), University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2017
-        end_date: 2018
-      - institution: "IT Tools Supporting Legal and Economic Research: Blockchain for Tracking Production and Transportation Chains [2 ECTS]"
-        area: ""
-        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXIII cycle), University of Bari, Jonian Dept. (Law and Business School)
-        location: Taranto, Italy
-        start_date: 2017
-        end_date: 2018
-      - institution: Classification Models in Software Engineering [2 ECTS]
-        area: ""
-        degree: Ph.D. program in Computer Science, University of Oulu
-        location: Oulu, Finland
-        start_date: 2016
-        end_date: 2017
-        highlights:
-          - "*Course taught as the winner of an EU-funded grant `Erasmus+ TUCEP Selection Call
-            Mobility for teaching staff' (2015-16), for university professors and researchers mobility*"
-      - institution: Emotion Awareness in Social Computing [2 ECTS]
-        area: ""
-        degree: Ph.D. program in Computer Science and Mathematics (XXXII cycle), University of Bari, Dept. of Computer Science
-        location: Oulu, Finland
-        start_date: 2016
-        end_date: 2017
-        highlights:
-          - Co-taught with Prof. Nicole Novielli
-      - institution: IT Tools Supporting Legal and Economic Research [2 ECTS]
-        area: ""
-        degree: Ph.D. program in Rights, Economies, and Cultures of the Mediterranean (XXXII cycle), University of Bari, Jonian Dept. (Law and Business School)
-        location: Taranto, Italy
-        start_date: 2016
-        end_date: 2017
-      - institution: Informatica (Computer Science) [9 ECTS]
-        area: ""
-        degree: BSc in Maritime Sciences and Management (SGAM), 2nd year
-        location: Italian Navy Petty Officers School (Mariscuola), Taranto, Italy, University of Bari, Dept. of Computer Science
-        start_date: 2015
-        end_date: 2020
-        highlights:
-          - "*Teaching evaluation scores: 2019-20: 95.2%;
-            2018-19: 95.9%;
-            2017-18: 97.4%;
-            2016-17: 91.9%;
-            2015-16: 83.5%*"
-      - institution: Abilità Informatica (Computer Skills) [4 ECTS]
-        area: ""
-        degree: Bachelor of Law, 1st year, University of Bari, Jonian Dept. (Law and Business School)
-        location: Taranto, Italy
-        start_date: 2015
-        end_date: 2020
-        highlights:
-          - "*Teaching evaluation scores: 2019-20: 93.1%;
-            2018-19: 95.9%;
-            2017-18: 93.8%;
-            2016-17: 89.8%;
-            2015-16: 87.8%*"
-      - institution: Laboratorio di Informatica (C Programming Lab) [9 ECTS]
-        area: ""
-        degree: BSc in Computer Science and Software Production Technologies (ITPS), 1st year, University of Bari, Dept. of Computer Science
-        location: Bari, Italy
-        start_date: 2013
-        end_date: 2015
-        highlights:
-          - "*Teaching evaluation scores: 2014-15: 88.3%;
-            2013-14: 93.1%*"
-      - institution: Linguaggi di Programmazione + Laboratorio (Programming Languages + Lab) [12 ECTS]
-        area: ""
-        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
-        location: Brindisi, Italy
-        start_date: 2013
-        end_date: 2014
-        highlights:
-          - "*Teaching evaluation scores: 95.7%*"
-      - institution: Laboratorio di Informatica (C Programming Lab) [5/6 ECTS]
-        area: ""
-        degree: BSc in Computer Science, 1st year, University of Bari, Dept. of Computer Science
-        location: Brindisi, Italy
-        start_date: 2008
-        end_date: 2013
-        highlights:
-          - "*Teaching evaluation scores: N/A*"
 
     software:
         - name: BehaViz™
