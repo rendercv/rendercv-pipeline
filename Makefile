@@ -155,7 +155,7 @@ project/update: virtualenv requirements.txt  ## Update the project
 project/clean:  ## Clean untracked output files
 	@echo -e "$(YELLOW)\nCleaning...$(RESET)"
 	@rm -rf $(STAMP_FILES) $(LATEX_TEMP_FILES) || true
-	@rm -rf `biber --cache` || true
+	@rm -rf `$(BIBER) --cache` || true
 	@echo -e "$(GREEN)Directory cleaned.$(RESET)"
 
 project/import_biblio: python  ## Import bibliography
