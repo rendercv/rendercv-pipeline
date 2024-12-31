@@ -185,7 +185,7 @@ project/build_pubs: | project/import_biblio  ## Build pdf files of CV and public
 project/build_application:  ## Build application letter
 	@echo -e "$(CYAN)\nBuilding application letter...$(RESET)"
 	cd $(APP_LETTER_DIR) && \
-	$(LATEX) $(APP_LETTER_SRC).tex && \
+	$(LATEX) -output-directory=. -job-name=$(APP_LETTER_SRC) $(APP_LETTER_SRC).tex && \
 	$(POPPLER) $(APP_LETTER_SRC).pdf ../$(CV_FILE).pdf ../$(PUB_FILE).pdf $(PHD_CERT_FILE) $(MSC_CERT_FILE) $(APP_LETTER_FILE)_$(APP_LETTER_SRC).pdf && \
 	cd .. && \
 	echo -e "$(GREEN)Application letter built.$(RESET)"
