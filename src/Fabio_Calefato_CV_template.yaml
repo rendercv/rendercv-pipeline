@@ -662,6 +662,13 @@ cv:
         end_date: 2021
 
     research_visits:
+      - institution: M-Group, Northern Arizona Univ. (NAU)
+        area: ""
+        location: Flagstaff, AZ, USA
+        start_date: 2024-10
+        end_date: 2024-10
+        highlights:
+          - "*Hosts: Prof. Marco Aurelio Gerosa, Prof. Igor Steinmacher*"
       - institution: M-Group, University of Oulu
         area: ""
         location: Oulu, Finland
