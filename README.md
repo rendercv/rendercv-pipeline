@@ -678,6 +678,13 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 ## 
 
+- M-Group, Northern Arizona Univ. (NAU)
+- Oct 2024 – Oct 2024
+- Flagstaff, AZ, USA
+- *Hosts: Prof. Marco Aurelio Gerosa, Prof. Igor Steinmacher*
+
+## 
+
 - M-Group, University of Oulu
 - Sept 2023 – Sept 2023
 - Oulu, Finland
