@@ -154,8 +154,8 @@ project/update: virtualenv requirements.txt  ## Update the project
 .PHONY: project/clean
 project/clean:  ## Clean untracked output files
 	@echo -e "$(YELLOW)\nCleaning...$(RESET)"
-	@find . -type d -name "__pycache__" | xargs rm -rf {};
-	@rm -rf $(STAMP_FILES) $(CACHE_DIRS) $(DOCS_SITE) $(LATEX_TEMP_FILES) $(RENDERCV_DIR) || true
+	@rm -rf $(STAMP_FILES) $(LATEX_TEMP_FILES) || true
+	@rm -rf `biber --cache` || true
 	@echo -e "$(GREEN)Directory cleaned.$(RESET)"
 
 project/import_biblio: python  ## Import bibliography
