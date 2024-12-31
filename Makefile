@@ -134,7 +134,7 @@ virtualenv: | python  ## Check if virtualenv exists and activate it - create it 
 #-- Project
 
 .PHONY: project/install
-project/install: virtualenv requirements.txt  ## Install the project for development
+project/install: virtualenv requirements.txt  ## Install the project
 	@if [ ! -f .python-version ]; then \
 		echo -e "$(RED)\nVirtual environment missing. Please run 'make virtualenv' first.$(RESET)"; \
 	else \
