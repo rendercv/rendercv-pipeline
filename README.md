@@ -411,14 +411,23 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 # Funded Research Projects
 
-## PRONEM - Natural Language Processing for Global Software Development
+## [DARE - Digital Lifelong Prevention](https://www.fondazionedare.it/en/)
 
-- Mar 2012 – Mar 2014
-- *Funded by:* Brazilian Ministry of Education (PRONEM/FAPERGS/CNPQ 03/2011)
-- *Unit funding: R$ 249,600.00*
-- *Partners:* Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS, project coordinator), Federal University of Rio Grande do Sul (UFRGS), University of Bari
-- *Description:* International project that aimed at investigating machine translation's impact on Brazil's global software development capabilities, addressing the critical challenge that only 10% of professional developers were proficient in English. Project coordination was led by Prof. Renata Vieira and Prof. Rafael Prikladnicki (PUCRS).
-- *Role:* Scientific coordinator for the University of Bari unit. Designed and implemented an open-source real-time translation system for synchronous communication in distributed software requirements meetings. Developed comprehensive experimental methodology to evaluate machine translation effectiveness compared to native language usage during requirements elicitation and negotiation meetings.
+- Jan 2024 – Dec 2027
+- *Funded by:* MUR - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza
+- *Project funding:* € 130.456.001,02
+- *Partners:* University of Bologna (coordinator), Università Cattolica del Sacro Cuore, University of Bari, University of Palermo, University of Padova, University of Rome Tor Vergata, INFN, multiple research hospitals and healthcare companies
+- *Description:* National initiative aimed at creating and developing a connected and distributed knowledge community for digital preventive healthcare through research, innovation, and participation of multiple stakeholders. The project produces, collects, and systematizes multidisciplinary knowledge and solutions (technical, ethical-legal, and organizational) necessary to ensure digital prevention in Italy.
+- *Role:* Lead researcher in Spoke 1 focusing on MLOps and AI Engineering. Responsible for designing and developing technological solutions for secure deployment and monitoring of AI models in healthcare settings. Key contributions include defining MLOps practices for healthcare and conducting systematic reviews of security risks and best practices.
+
+## [SERICS - SEcurity and RIghts In the CyberSpace / Spoke 9: SuReCare](https://serics.eu/en/)
+
+- Jan 2023 – Dec 2025
+- *Funded by:* MUR - Piano nazionale di ripresa e resilienza
+- *Project funding:* € 
+- *Partners:* Sapienza University of Rome (coordinator), University of Bari, University of Cagliari
+- *Description:* Research initiative investigating cybersecurity challenges in remote healthcare systems through novel methodological approaches and technical innovations. The project advances the state-of-the-art in three key areas: ecosystem security for remote medical devices, end-to-end data security for sensitive health information, and automated detection-response-prevention mechanisms for decentralized healthcare infrastructures.
+- *Role:* Work package leader for WP3 (Detection-Response-Prevention). Led research on integrating ML models in healthcare cybersecurity systems, focusing on developing effective approaches to control the transitioning of ML models into production. Defined quality assurance functions for both data and models after deployment in remote healthcare domain.
 
 ## C3 - Creative Cultural Collaboration
 
@@ -446,6 +455,15 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - *Partners:* Engineering Computer Engineering, Exprivia SpA, ST Microelectronics, San Raffaele Hospital,  AVIO, Alenia, Tozzi Renewable Energy, CNR, University of Salento, University of Bari, Politecnico di Bari, DHITECH
 - *Description:* National project aimed at strengthening research cooperation networks between academia and industry to enhance competitiveness and economic growth, while promoting the adoption of advanced technologies and services.
 - *Role:* Work package leader. Led the work unit on 'Innovative Models and Components for Social Networking' (OR6), focusing on developing interaction frameworks for collaborative environments.Specifically designed computer-mediated communication frameworks and selected appropriate communication tools for the VINCENTE virtual environment. The University of Bari unit was coordinated by Prof. Donato Malerba.
+
+## PRONEM - Natural Language Processing for Global Software Development
+
+- Mar 2012 – Mar 2014
+- *Funded by:* Brazilian Ministry of Education (PRONEM/FAPERGS/CNPQ 03/2011)
+- *Unit funding: R$ 249,600.00*
+- *Partners:* Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS, project coordinator), Federal University of Rio Grande do Sul (UFRGS), University of Bari
+- *Description:* International project that aimed at investigating machine translation's impact on Brazil's global software development capabilities, addressing the critical challenge that only 10% of professional developers were proficient in English. Project coordination was led by Prof. Renata Vieira and Prof. Rafael Prikladnicki (PUCRS).
+- *Role:* Scientific coordinator for the University of Bari unit. Designed and implemented an open-source real-time translation system for synchronous communication in distributed software requirements meetings. Developed comprehensive experimental methodology to evaluate machine translation effectiveness compared to native language usage during requirements elicitation and negotiation meetings.
 
 ## INTERSOCIAL - Unleashing the Power of Social Networking for Enhancing Regional Systems
 
