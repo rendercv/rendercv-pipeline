@@ -712,9 +712,28 @@ cv:
           - "*Teaching evaluation scores: N/A*"
 
     software:
-      - name: EMTk (Emotion-Mining Toolkit)
-        date: "[EMTk on GitHub](https://github.com/collab-uniba/EMTk)"
-        highlights:
+        - name: BehaViz™
+          date: ""
+          highlights:
+            - Flagship product of PeoplewareAI focused on behavioral data analysis and emotion 
+              recognition from written text
+            - Features customizable emotion recognition through both custom annotated datasets 
+              and classification models for improved accuracy and flexibility
+            - Deployed as a cloud-based SaaS solution with secure integrations to customer 
+              data sources, ensuring data privacy by processing without data movement
+        - name: MLOps Pipeline
+          date: "" 
+          highlights:
+            - End-to-end ML workflow solution handling project documentation, version control,
+              experiment tracking, and data quality assurance
+            - Built-in CI/CD capabilities for seamless ML model deployment and iteration
+            - REST API integration for ML components with containerization and orchestration
+            - Production monitoring capabilities for ML components performance tracking
+            - Comprehensive solution for ML model development and deployment at scale
+            - Domain-specific MLOps solutions for healthcare, implementing regulation-compliant data pipelines and ensuring patient data privacy
+        - name: EMTk (Emotion-Mining Toolkit)
+          date: "[EMTk on GitHub](https://github.com/collab-uniba/EMTk)"
+          highlights:
           - EmoTxt is the module for training custom emotion classifiers from text. It provides
             out of the box an emotion classifier specifically tuned for mining emotion from developers'
             communication channels, such as Stack Overflow.
