@@ -21,6 +21,7 @@
 \usepackage[
     pdftitle={Fabio Calefato - Publications},
     pdfauthor={Fabio Calefato},
+    pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
     urlcolor=primaryColor
 ]{hyperref} % for links, metadata and bookmarks
@@ -33,14 +34,6 @@
 \usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-\usepackage{charter} % for font
-\usepackage{datetime2} % for date formatting
-
-% Redefine \today to print as "Month Year"
-\renewcommand{\today}{\ifcase\month\or
-  January\or February\or March\or April\or May\or June\or
-  July\or August\or September\or October\or November\or December\fi\space \number\year}
-
 
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
@@ -51,20 +44,24 @@
     \usepackage{lmodern}
 \fi
 
+\usepackage{charter} % for font
+\usepackage{datetime2} % for date formatting
+% Redefine \today to print as "Month Year"
+\renewcommand{\today}{\ifcase\month\or
+  January\or February\or March\or April\or May\or June\or
+  July\or August\or September\or October\or November\or December\fi\space \number\year}
+
 % References settings
 \usepackage[style=ieee,sorting=ydnt,defernumbers=true,maxnames=99]{biblatex}
 \addbibresource{src/bibliography/publications.bib}
-
 % Define filters for publication types
 \defbibfilter{journals}{
   type=article
 }
-
 \defbibfilter{conferences}{
   type=inproceedings or
   type=conference
 }
-
 \defbibfilter{books}{
   type=book or
   type=inbook or
@@ -72,6 +69,8 @@
 }
 
 % Some settings:
+\usepackage[none]{hyphenat} % no hyphenation
+\sloppy
 \raggedright
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
 \pagestyle{empty} % no header or footer
