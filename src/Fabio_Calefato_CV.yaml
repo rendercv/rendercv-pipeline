@@ -75,7 +75,7 @@ cv:
       - '*Thesis listed among the [ACM SIGSOFT selected Ph.D. Dissertations in the
         Area of Software Engineering](https://www.sigsoft.org/dissertations.html)*'
       - '*Supervisor: Prof. Filippo Lanubile (Uniba)*'
-      - '*Co-supersor: Prof. Daniela Damian (UVic)*'
+      - '*Co-supervisor: Prof. Daniela Damian (UVic)*'
     - institution: University of Bari, Italy
       area: '**Computer Science**'
       degree: '**MSc**'
@@ -90,7 +90,7 @@ cv:
       AI/ML, while also encompassing human factors in software development and globally
       distributed software engineering. Throughout my career, I have maintained a
       strong focus on empirical validation of research findings, conducting controlled
-      experiments, case studies, and mining open source software repositories. My
+      experiments, case studies, and mining open-source software repositories. My
       work has consistently appeared in top-tier venues and has influenced both academic
       research and industry practices in software engineering. Below is a detailed
       description of some of my research activities, organized by recency and impact.
@@ -99,12 +99,12 @@ cv:
       that emerged from my participation in the 2023 and 2024 editions of the [*Copenhagen
       Symposium on Human-Centered Software Engineering AI*](https://www.danielrusso.org/copenhagen-symposium-human-centered-ai-software-engineering).
       The first workstream comprises an observational study mining self-admitted mentions
-      of LLMs usage in open source projects. Together, we examined how developers
+      of LLMs usage in open-source projects. Together, we examined how developers
       integrate AI assistants into their workflows across development tasks, content
       types, and usage purposes. Our study analyzed over 250,000 open-source repositories,
       identifying patterns in AI tool adoption and their impact on project metrics.
       An article describing this collaborative work is currently under review at IEEE
-      TSE. The second workstream aims at establishing a comprehensive set of guidelines
+      TSE. The second workstream aims to establish a comprehensive set of guidelines
       for conducting experiments with LLMs in software engineering research. Our joint
       initiative addresses the challenges of achieving reproducible results with LLMs
       by tackling their unique characteristics that affect study validity and reproducibility,
@@ -115,24 +115,24 @@ cv:
       reviews, and human studies design. Our collaborative work explores both opportunities
       and risks of AI adoption in SE research, gathering perspectives from researchers
       about the changing landscape of empirical software engineering methods.'
-    - '**Software engineering for AI-Enabled systems**: One of my recent research
+    - '**Software engineering for AI-enabled systems**: One of my recent research
       interests has focused on improving the development workflows of AI/ML-based
       systems through empirical studies and tool development. I conducted a comprehensive
       review of industry-leading AutoML tools to analyze their benefits and limitations
       in software engineering contexts (IST 2025). I have contributed to understanding
       MLOps practices by analyzing adoption patterns in open-source projects on GitHub
       (ESEM 2022). This work revealed key challenges in transitioning ML models from
-      experimentation to production, leading to development of an MLOps solution framework
-      applied in healthcare contexts (CAIN 2022). Finallly, I have established best
-      practices for collaborative development of AI systems using computational notebooks
-      (CSCW 2021).'
+      experimentation to production, leading to the development of an MLOps solution
+      framework applied in healthcare contexts (CAIN 2022). Finally, I have established
+      best practices for collaborative development of AI systems using computational
+      notebooks (CSCW 2021).'
     - '**Industry-based research on the state of software engineering practices**:
-      I have participated and continue to contribute to several industry-based global
-      surveys to understand software engineering practices. The [*HELENA*](https://helenastudy.wordpress.com/helena-team)
+      I have participated in and continue to contribute to several industry-based
+      global surveys to understand software engineering practices. The [*HELENA*](https://helenastudy.wordpress.com/helena-team)
       (Hybrid dEveLopmENt Approaches in software systems development) project has
       identified key characteristics of hybrid development approaches through analysis
       of 1,000+ developers across 50 countries since 2016. Our findings on agile process
-      adoption patterns appeared in IEEE TSE (2021), significantly impacting understanding
+      adoption patterns appeared in IEEE TSE (2021), significantly impacting our understanding
       of modern development methodologies. The [*NaPiRE*](http://www.napire.org) project
       (Naming the Pain in Requirements Engineering) is a global survey initiative
       examining industrial practices and challenges in Requirements Engineering. Through
@@ -160,31 +160,30 @@ cv:
       personalities influence collaboration in large software ecosystems like Apache
       (ICGSE 2018, IST 2019), with particular attention to how traits like agreeableness
       impact code review activities and pull request acceptance (ICGSE 2017). My work
-      has shed the light on the need for developing specialized tools for automatic
-      personality detection from text in technical contexts (TOSEM 2021). With this
-      line of research I have demonstrated the critical importance of domain-specific
-      approaches when analyzing developer communications, showing the limitations
-      of general-purpose personality and sentiment analysis tools in software engineering
-      contexts. Finally, I have also studied retention and disengagement factors of
-      Open Source Software community participants, defining and validating a theoretical
-      model of the activity rhythm of open source project developers (SOHEAL 2019,
-      EMSE 2022).'
+      has shed light on the need for developing specialized tools for automatic personality
+      detection from text in technical contexts (TOSEM 2021). With this line of research,
+      I have demonstrated the critical importance of domain-specific approaches when
+      analyzing developer communications, showing the limitations of general-purpose
+      personality and sentiment analysis tools in software engineering contexts. Finally,
+      I have also studied retention and disengagement factors of Open Source Software
+      community participants, defining and validating a theoretical model of the activity
+      rhythm of open-source project developers (SOHEAL 2019, EMSE 2022).'
     - '**Global software engineering**: My research has addressed the challenges of
       software development distributed on a global scale. Key contributions include
       theoretical and empirical work on trust-building mechanisms and social awareness
       in virtual teams (CSCW 2013, CHASE 2012, IEEE Software 2013). I pioneered SocialCDE,
       a social awareness tool for fostering trust in distributed teams (ESEC/FSE 2013),
-      which was awared the *2011 Microsoft Software Engineering Innovation Award*;
+      which was awarded the *2011 Microsoft Software Engineering Innovation Award*;
       this work demonstrated how social awareness tools can increase trust and improve
       coordination in global teams. I also made significant advances in communication
       barriers, developing and evaluating eConference, a real-time ML-based translation
-      tools (ICGSE 2010-11, ESEM 2012, ESEM 2014, ESE 2016) that showed promising
-      efficiency gains while identifying important trade-offs in distributed development
-      activities; the tool was awarded the *2006 Eclipse Innovation Award* by IBM.
-      Additional contributions include an industrial action research study on communication
-      tools in distributed agile teams (ICGSE 2020). My expertise in this domain is
-      reflected in my service as General Chair for ICGSE 2019 and my role as Guest
-      Editor for JSS special issue on Global Software Engineering (JSS 2021).'
+      tool (ICGSE 2010-11, ESEM 2012, ESEM 2014, ESE 2016) that showed promising efficiency
+      gains while identifying important trade-offs in distributed development activities;
+      the tool was awarded the *2006 Eclipse Innovation Award* by IBM. Additional
+      contributions include an industrial action research study on communication tools
+      in distributed agile teams (ICGSE 2020). My expertise in this domain is reflected
+      in my service as General Chair for ICGSE 2019 and my role as Guest Editor for
+      JSS special issue on Global Software Engineering (JSS 2021).'
     awards:
     - label: Best Paper Award
       details: '*14th Int''l Conf. on Global Software Engineering (ICGSE''19), Montreal,
@@ -812,8 +811,8 @@ cv:
         Sacro Cuore, University of Bari, University of Palermo, University of Padova,
         University of Rome Tor Vergata, INFN, multiple research hospitals and healthcare
         companies'
-      - '*Description:* National initiative aimed at creating and developing a connected
-        and distributed knowledge community for digital preventive healthcare through
+      - '*Description:* National initiative creating and developing a connected and
+        distributed knowledge community for digital preventive healthcare through
         research, innovation, and participation of multiple stakeholders. The project
         produces, collects, and systematizes multidisciplinary knowledge and solutions
         (technical, ethical-legal, and organizational) necessary to ensure digital
@@ -841,7 +840,7 @@ cv:
         research on integrating ML models in healthcare cybersecurity systems, focusing
         on developing effective approaches to control the transitioning of ML models
         into production. Defined quality assurance functions for both data and models
-        after deployment in remote healthcare domain.'
+        after deployment in the remote healthcare domain.'
     - name: C3 - Creative Cultural Collaboration
       start_date: 2018-11
       end_date: 2020-07
@@ -851,14 +850,14 @@ cv:
       - '*Project funding:* € 383.852,47'
       - '*Partners:* AI2 srl (project coordinator), DABIMUS srl, Quorum Italia srl,
         Marshmallow Games srl, University of Bari'
-      - '*Description:* Regional project investigated methodological and technological
+      - '*Description:* Regional project that investigated methodological and technological
         frameworks for creating computational artifacts to enable scalable production
         processes and enhance collaboration in large, distributed multidisciplinary
         teams.'
       - '*Role:* Workpackage Leader for the University of Bari unit. Led the Operational
         Unit responsible for the collaborative platform workpackage (OR3), which included
-        conducting state-of-the-art analysis of open-source co-working solutions,
-        platform design, and ongoing maintenance and evolution activities.The University
+        conducting a state-of-the-art analysis of open-source co-working solutions,
+        platform design, and ongoing maintenance and evolution activities. The University
         of Bari unit was coordinated by Prof. Filippo Lanubile.'
     - name: OpEn - Open up Entrepreneurship
       start_date: 2015-09
@@ -870,12 +869,12 @@ cv:
         Professionals, Craftsmen, and Merchants (IME GSEVEE, project coordinator),
         The European Business and Innovation Centre of Burgos (CEEI-Burgos), University
         of Bari, University of Patras, Manchester Metropolitan University'
-      - '*Description:* International project aimed at addressing the critical gap
-        between entrepreneurs'' digital technology needs and their e-business capabilities
-        in global markets. The project developed multidisciplinary open educational
-        resources to foster entrepreneurial mindset and digital business competencies
-        for existing and prospective entrepreneurs Project coordination was led by
-        Vassilis Siomadis (IME GSEVEE).'
+      - '*Description:* International project that aimed at addressing the critical
+        gap between entrepreneurs'' digital technology needs and their e-business
+        capabilities in global markets. The project developed multidisciplinary open
+        educational resources to foster entrepreneurial mindset and digital business
+        competencies for existing and prospective entrepreneurs Project coordination
+        was led by Vassilis Siomadis (IME GSEVEE).'
       - '*Role:* Workpackage Leader for the University of Bari unit. Led operational
         teams in two key workpackages: designed thematic unit structure and e-class
         outline for the e-learning portal (WP2: E-module Service Design and Setup),
@@ -892,12 +891,12 @@ cv:
       - '*Partners:* Engineering Computer Engineering, Exprivia SpA, ST Microelectronics,
         San Raffaele Hospital,  AVIO, Alenia, Tozzi Renewable Energy, CNR, University
         of Salento, University of Bari, Politecnico di Bari, DHITECH'
-      - '*Description:* National project aimed at strengthening research cooperation
+      - '*Description:* National project that aimed at strengthening research cooperation
         networks between academia and industry to enhance competitiveness and economic
         growth, while promoting the adoption of advanced technologies and services.'
       - '*Role:* Work package leader. Led the work unit on ''Innovative Models and
         Components for Social Networking'' (OR6), focusing on developing interaction
-        frameworks for collaborative environments.Specifically designed computer-mediated
+        frameworks for collaborative environments. Specifically designed computer-mediated
         communication frameworks and selected appropriate communication tools for
         the VINCENTE virtual environment. The University of Bari unit was coordinated
         by Prof. Donato Malerba.'
@@ -929,14 +928,14 @@ cv:
         competitiveness and innovation'
       - '*Partners:* University of Ioannina (project coordination), University of
         Bari, University of Patras, Euro-Mediterranean Cultural Heritage Agency'
-      - '*Description:* European project aimed at fostering regional development through
-        the creation of a cross-border network of social innovation and entrepreneurship.
+      - '*Description:* European project that aimed at fostering regional development
+        through the creation of a cross-border network of social innovation and entrepreneurship.
         The project developed a social networking platform to facilitate knowledge
         sharing and collaboration among regional stakeholders, enhancing SME competitiveness
         through social networking technologies and business data analytics. Project
         coordination was led by Prof. Evaggelia Pitoura.'
       - '*Role:* Work package leader. Led operational teams across two work packages:
-        conducted state-of-the-art analysis of social networking tools and enterprise-level
+        conducted a state-of-the-art analysis of social networking tools and enterprise-level
         social web presence policies (WP3: Development of Innovation Devices), and
         managed requirements analysis, deployment, and experimental evaluation of
         ESA (Enterprise Social Aggregator), a custom social networking tool for SMEs
@@ -950,15 +949,15 @@ cv:
         Program 2012-2015 (MI01_00294)'
       - '*Partners:* DAISY-NET s.c.a.r.l (project coordination), University of Bari,
         Politecnico di Bari, University of Salento, University of Foggia, Cetma'
-      - '*Description:* National project developing an integrated logistics platform
+      - '*Description:* National project that developed an integrated logistics platform
         based on Service Oriented Architecture (SOA)for tracking goods movement and
         monitoring related information flows through web services.'
       - '*Role:* Work package leader. Led work packages focused on the CollabWeb component:
         defined specifications within the integrated LOGIN model (WP2) and designed
-        component architecture (WP3). Project coordination for University of Bari
+        component architecture (WP3). Project coordination for the University of Bari
         unit was led by Prof. Giuseppe Visaggio.'
     funding_acquisition_proposals:
-    - name: 'DisTrac: A tool for tracking disengagement in open source software projects'
+    - name: 'DisTrac: A tool for tracking disengagement in open-source software projects'
       highlights:
       - '*In response:* International call [`NSF-MUR Lead Agency Opportunity in Artificial
         Intelligence''](https://new.nsf.gov/funding/opportunities/dcl-nsf-italian-ministry-universities-research-lead-agency)'
@@ -966,7 +965,7 @@ cv:
       - '*Partners:* North Arizona University (Lead), Colorado State University, University
         of Bari'
       - '*Description:* Development of tools and methodologies to track and analyze
-        developer disengagement patterns in open source projects'
+        developer disengagement patterns in open-source projects'
       - '*Role:* PI for Italian unit'
       - '*Duration:* 36 months'
       - '*Status:* Under review at NSF'
@@ -1058,8 +1057,9 @@ cv:
         C](https://portal.core.edu.au/conf-ranks/650/)*'
     - name: Track Co-Chair
       highlights:
-      - '*43th Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software
-        Engineering (SCORE) track, Madrid, Spain, May 2021, [ICORE rank:](https://portal.core.edu.au/conf-ranks/1209/)A**'
+      - '*43rd Int’l Conf. on Software Engineering (ICSE’21), Student Contest on Software
+        Engineering (SCORE) track, Madrid, Spain, May 2021, [ICORE rank:](https://portal.core.edu.au/conf-ranks/1209/)
+        A**'
     - name: Workshops & Tutorials Co-Chair
       highlights:
       - '*23rd Int’l Conf. on Product-Focused Software Process Improvement (PROFES’23),
@@ -1150,10 +1150,10 @@ cv:
     - bullet: '17th IEEE/ACM Int''l Conf. on Mining Software Repositories (*MSR''20*)
         – Mining Challenge track, online, 29-30 June 2020, [ICORE rank: A](https://portal.core.edu.au/conf-ranks/711/)'
     - bullet: '15th ACM/IEEE Symposium on Empirical Software Engineering and Measurement
-        (*ESEM''20*) - Emerging Results and Vision Track , online, 5-7 Oct. 2020,
-        [ICORE rank: A](https://portal.core.edu.au/conf-ranks/1376/)'
+        (*ESEM''20*) - Emerging Results and Vision Track, online, 5-7 Oct. 2020, [ICORE
+        rank: A](https://portal.core.edu.au/conf-ranks/1376/)'
     - bullet: 'ACM Joint European Software Engineering Conference and Symposium on
-        the Foundations of Software Engineering (*ESEC/FSE''20*) - SRC track , online,
+        the Foundations of Software Engineering (*ESEC/FSE''20*) - SRC track, online,
         6-16 Nov. 2020, [ICORE rank: A*](https://portal.core.edu.au/conf-ranks/52/)'
     - bullet: '21st Int''l Conf. on Agile Software Development (*XP''20*), online,
         8-12 June 2020, [ICORE rank: B](https://portal.core.edu.au/conf-ranks/355/)'
@@ -1309,8 +1309,8 @@ cv:
     - name: BehaViz™
       date: ''
       highlights:
-      - Flagship product of PeoplewareAI focused on behavioral data analysis and emotion
-        recognition from written text
+      - The flagship product of PeoplewareAI focused on behavioral data analysis and
+        emotion recognition from written text
       - Features customizable emotion recognition through both custom annotated datasets
         and classification models for improved accuracy and flexibility
       - Deployed as a cloud-based SaaS solution with secure integrations to customer
@@ -1330,11 +1330,11 @@ cv:
       date: '[EMTk on GitHub](https://github.com/collab-uniba/EMTk)'
       highlights:
       - EmoTxt is the module for training custom emotion classifiers from text. It
-        provides out of the box an emotion classifier specifically tuned for mining
+        provides out-of-the-box an emotion classifier specifically tuned for mining
         emotion from developers' communication channels, such as Stack Overflow.
       - Senti4SD is the module for emotion-polarity classification (sentiment analysis)
         specifically trained on technical corpora from developers' communication channels,
-        such as GitHub and StackOveflow.
+        such as GitHub and Stack Oveflow.
     references:
     - bullet: Prof. Marco Aurelio Gerosa (Northern Arizona University) - [marco.gerosa@nau.edu](mailto:marco.gerosa@nau.edu)
     - bullet: Prof. Igor Steinmacher (Northern Arizona University) - [igor.steinmacher@nau.edu](mailto:igor.steinmacher@nau.edu)
