@@ -45,7 +45,7 @@ CACHE_DIRS := $(wildcard .*_cache)
 # Files
 CV_FILE := Fabio_Calefato_CV
 PUB_FILE := Fabio_Calefato_Publications
-APP_LETTER_SRC := HPI
+APP_LETTER_SRC := hpi
 APP_LETTER_FILE := Fabio_Calefato_Application
 PHD_CERT_FILE := $(CERT_DIR)/phd_certificate-ita.pdf
 MSC_CERT_FILE := $(CERT_DIR)/msc_certificate-ita.pdf
