@@ -91,7 +91,7 @@ def add_page_numbers(
             can.setFillColor(Color(134 / 255, 134 / 255, 134 / 255, 1))  # Light gray #868686
 
         # Set position for page number
-        page_text = f"{page_num} / {total_pages}"
+        page_text = f"Page {page_num} of {total_pages}"
         if position == "left":
             x = 50
         elif position == "center":
@@ -141,8 +141,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--bottom-margin",
         type=int,
-        default=30,
-        help="Distance from bottom of the page (default: 30)",
+        default=25,
+        help="Distance from bottom of the page (default: 25)",
     )
     parser.add_argument(
         "--italic",
