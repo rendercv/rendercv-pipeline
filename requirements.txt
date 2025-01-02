@@ -3,3 +3,5 @@ pybtex>=0.24.0
 setuptools>=68.0.0
 requests>=2.32.3
 ruff>=0.8.4
+PyPDF2>=3.0.1
+reportlab>=4.2.5
