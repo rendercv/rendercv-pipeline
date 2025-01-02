@@ -22,7 +22,7 @@ JEKYLL := $(shell command -v jekyll 2> /dev/null || echo -e "\033[31mnot install
 BUNDLE := $(shell command -v bundle 2> /dev/null)
 LATEX := $(shell command -v pdflatex 2> /dev/null)
 BIBER := $(shell command -v biber 2> /dev/null)
-POPPLER := $(shell command -v pdfunite 2> /dev/null)
+PDFTK := $(shell command -v pdftk 2> /dev/null)
 
 # Variables
 GITHUB_REPO ?= $(shell url=$$($(GIT) config --get remote.origin.url); echo $${url%.git})
@@ -84,7 +84,7 @@ info:  ## Show development environment info
 	@echo -e "  $(CYAN)RenderCV:$(RESET) $(shell $(RENDERCV) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)LaTeX:$(RESET) $(shell $(LATEX) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)biber:$(RESET) $(shell $(BIBER) --version || echo "$(RED)not installed $(RESET)")"
-	@echo -e "  $(CYAN)poppler:$(RESET) $(shell $(POPPLER) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
+	@echo -e "  $(CYAN)PDFtk:$(RESET) $(shell $(PDFTK) --version | head -n 1 || echo "$(RED)not installed $(RESET)")"
 	@echo -e "  $(CYAN)Jekyll:$(RESET) $(JEKYLL)"
 	@echo -e "  $(CYAN)Bundler:$(RESET) $(shell $(BUNDLE) --version || echo "$(RED)not installed $(RESET)")"
 	@echo -e "$(MAGENTA)Project:$(RESET)"
@@ -186,7 +186,9 @@ project/build_application:  ## Build application letter
 	@echo -e "$(CYAN)\nBuilding application letter...$(RESET)"
 	cd $(APP_LETTER_DIR) && \
 	$(LATEX) -output-directory=. -job-name=$(APP_LETTER_SRC) $(APP_LETTER_SRC).tex && \
-	$(POPPLER) $(APP_LETTER_SRC).pdf ../$(CV_FILE).pdf ../$(PUB_FILE).pdf $(PHD_CERT_FILE) $(MSC_CERT_FILE) $(APP_LETTER_FILE)_$(APP_LETTER_SRC).pdf && \
+	$(PDFTK) $(APP_LETTER_SRC).pdf ../$(CV_FILE).pdf ../$(PUB_FILE).pdf $(PHD_CERT_FILE) $(MSC_CERT_FILE) cat output temp.pdf && \
+	$(PYTHON) ../$(SRC)/pdfnumbering.py temp.pdf $(APP_LETTER_FILE)_$(APP_LETTER_SRC).pdf && \
+	rm temp.pdf && \
 	cd .. && \
 	echo -e "$(GREEN)Application letter built.$(RESET)"
 
