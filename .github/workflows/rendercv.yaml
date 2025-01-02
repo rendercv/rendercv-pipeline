@@ -24,9 +24,9 @@ jobs:
       - name: Install pdflatex with biber
         run: |
           sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
-      - name: Install poppler
+      - name: Install PDFtk
         run: |
-          sudo apt-get install poppler-utils -y
+          sudo apt-get install pdftk -y
       - name: Create docs folder
         run: mkdir -p docs      
       - name: Build CV
@@ -47,8 +47,10 @@ jobs:
           pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
           cd application_letters
-          pdflatex HPI.tex 
-          pdfunite HPI.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf Fabio_Calefato_Application_HPI.pdf 
+          pdflatex -job-name=HPI HPI.tex 
+          pdftk HPI.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
+          python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_HPI.pdf 
+          rm temp.pdf
           cd ..
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
