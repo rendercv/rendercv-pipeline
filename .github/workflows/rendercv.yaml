@@ -47,9 +47,9 @@ jobs:
           pdflatex Fabio_Calefato_Publications
           pdflatex Fabio_Calefato_Publications
           cd application_letters
-          pdflatex -job-name=HPI HPI.tex 
-          pdftk HPI.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
-          python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_HPI.pdf 
+          pdflatex -job-name=hpi hpi.tex 
+          pdftk hpi.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
+          python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_hpi.pdf 
           rm temp.pdf
           cd ..
       - name: Upload rendercv_output as an artifact
