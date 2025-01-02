@@ -33,7 +33,14 @@
 \usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-\usepackage{charter}
+\usepackage{charter} % for font
+\usepackage{datetime2} % for date formatting
+
+% Redefine \today to print as "Month Year"
+\renewcommand{\today}{\ifcase\month\or
+  January\or February\or March\or April\or May\or June\or
+  July\or August\or September\or October\or November\or December\fi\space \number\year}
+
 
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
