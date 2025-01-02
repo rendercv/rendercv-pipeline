@@ -75,7 +75,7 @@
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
 \patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Page \thepage{} of \pageref*{LastPage}}
+    %color{gray}\textit{\small Page \thepage{} of \pageref*{LastPage}}
 }{}{} % replace number by desired string
 \makeatother
 \pagestyle{customFooterStyle}
@@ -164,7 +164,7 @@
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Updated$:$ December 2024}\hspace{\widthof{Updated$:$ December 2024}}
+        \small\color{gray}\textit{Updated$:$ \today}\hspace{\widthof{Updated$:$ \today}}
     }}}%
   }%
 }%
