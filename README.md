@@ -272,7 +272,7 @@ My research primarily focuses on the intersection of Software Engineering and AI
 
 - Kelly Azevedo Borges Leal
 - July 2023 – present
-- Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil
+- Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Brazil
 - *Topic: AutoML for Software Engineering in Practice*
 - *Co-supervised with prof. Co-supervised with prof. Marcos Kalinowski*
 
@@ -773,3 +773,10 @@ My research primarily focuses on the intersection of Software Engineering and AI
 - EmoTxt is the module for training custom emotion classifiers from text. It provides out of the box an emotion classifier specifically tuned for mining emotion from developers' communication channels, such as Stack Overflow.
 - Senti4SD is the module for emotion-polarity classification (sentiment analysis) specifically trained on technical corpora from developers' communication channels, such as GitHub and StackOveflow.
 
+# References
+
+- Prof. Marco Aurelio Gerosa (Northern Arizona University) - [marco.gerosa@nau.edu](mailto:marco.gerosa@nau.edu)
+- Prof. Igor Steinmacher (Northern Arizona University) - [igor.steinmacher@nau.edu](mailto:igor.steinmacher@nau.edu)
+- Prof. Bogdan Vasilescu (Carnegie Mellon University) - [bogdanv@andrew.cmu.edu](mailto:bogdanv@andrew.cmu.edu)
+- Prof. Marcos Kalinowski (PUC-Rio) - [kalinowski@inf.puc-rio.br](mailto:kalinowski@inf.puc-rio.br)
+- Prof. Christoph Treude (Singapore Management University) - [ctreude@smu.edu.sg](mailto:ctreude@smu.edu.sg)

@@ -55,13 +55,7 @@
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
 \setlength{\columnsep}{0.15cm} % set column seperation
-\makeatletter
-\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
-\patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Page \thepage{} of \pageref*{LastPage}}
-}{}{} % replace number by desired string
-\makeatother
-\pagestyle{customFooterStyle}
+\pagenumbering{gobble} % no page numbering
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
@@ -147,7 +141,7 @@
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Updated$:$ December 2024}\hspace{\widthof{Updated$:$ December 2024}}
+        \small\color{gray}\textit{Updated$:$ January 2025}\hspace{\widthof{Updated$:$ January 2025}}
     }}}%
   }%
 }%
@@ -1106,7 +1100,7 @@
         \begin{twocolentry}{
             July 2023 – present
         }
-            \textbf{Kelly Azevedo Borges Leal} -- Pontifical Catholic University of Rio de Janeiro (PUR-Rio), Brazil\end{twocolentry}
+            \textbf{Kelly Azevedo Borges Leal} -- Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Brazil\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
@@ -2177,5 +2171,25 @@
 
 
     
+    \section{References}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+
+
+        \item Prof. Marco Aurelio Gerosa (Northern Arizona University) - \href{mailto:marco.gerosa@nau.edu}{marco.gerosa@nau.edu}
+
+        \item Prof. Igor Steinmacher (Northern Arizona University) - \href{mailto:igor.steinmacher@nau.edu}{igor.steinmacher@nau.edu}
+
+        \item Prof. Bogdan Vasilescu (Carnegie Mellon University) - \href{mailto:bogdanv@andrew.cmu.edu}{bogdanv@andrew.cmu.edu}
+
+        \item Prof. Marcos Kalinowski (PUC-Rio) - \href{mailto:kalinowski@inf.puc-rio.br}{kalinowski@inf.puc-rio.br}
+
+        \item Prof. Christoph Treude (Singapore Management University) - \href{mailto:ctreude@smu.edu.sg}{ctreude@smu.edu.sg}
+
+
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+
 
 \end{document}
