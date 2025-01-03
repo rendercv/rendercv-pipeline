@@ -24,3 +24,8 @@ h2 { font-size: 1.5em; margin-top: 20px; margin-bottom: -10px; }
 
 a { color: #CE9E01; text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+.site-footer { color: #ffffff; border-top: 1px solid #e8e8e8; background-color: #333333; }
+.site-footer .footer-cols { display: flex; justify-content: left; margin: 0 auto; margin-left: 20px; }
+.site-footer .footer-col { flex: 1; }
+.site-footer .footer-col:last-child { text-align: left; }
