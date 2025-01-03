@@ -8,6 +8,8 @@ destination: _site
 baseurl: "/rendercv-pipeline"     # Replace with your repository name
 sass:
   sass_dir: _sass
+favicon: assets/images/favicon.ico
+manifest: site.webmanifest
 
 plugins:
   - jekyll-feed
