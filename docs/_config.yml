@@ -12,6 +12,5 @@ favicon: assets/images/favicon.ico
 manifest: site.webmanifest
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
