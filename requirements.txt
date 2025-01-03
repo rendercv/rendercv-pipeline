@@ -1,7 +1,7 @@
-rendercv==1.16
+rendercv==1.18
 pybtex>=0.24.0
 setuptools>=68.0.0
 requests>=2.32.3
-ruff>=0.8.4
+ruff>=0.8.5
 PyPDF2>=3.0.1
 reportlab>=4.2.5
