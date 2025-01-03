@@ -1,10 +1,10 @@
 .site-header { background-color: #f8f9fa; padding: 20px 0; border-bottom: 1px solid #e0e0e0; }
 
-.site-header .wrapper { display: flex; justify-content: space-between; align-items: center; }
+.site-header .wrapper { display: flex; justify-content: center; align-items: center; }
 
-.site-title { font-size: 34px; font-weight: bold; color: #333; padding-left: 20%; text-decoration: none; }
+.site-title { font-size: 34px; font-weight: bold; color: #333; text-decoration: none; }
 
-.site-title:hover { color: #CE9E01; }
+.site-title:hover { color: #CE9E01; text-decoration: none; }
 
 .site-header nav { display: flex; gap: 15px; }
 
