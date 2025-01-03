@@ -1,0 +1,35 @@
+% custom footers and headers
+\setcounter{secnumdepth}{0}
+\setlength{\parskip}{0.6\baselineskip plus1pt}
+\setlength{\parindent}{1pt}
+\setlist[itemize]{itemsep=0.pt,topsep=0.5pt}
+\pagestyle{empty}
+
+\cfoot{Side \thepage\ av\ \pageref*{LastPage}}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+\makeatletter
+\let \Author\@author
+\let \Title \@title
+
+\renewcommand{\maketitle}{
+\noindent
+\vspace{1ex}
+\begin{minipage}{\textwidth}
+ \@author \\ \AdressI \\ \Email \\ \PhoneI
+ 
+ \vspace{2\baselineskip}
+ \NameI \\ \AdressII 
+\begin{flushright}
+\vspace{-1.7\baselineskip}
+\DateI
+\end{flushright}
+\end{minipage} \hfill
+
+\vspace{2ex}
+}
+\makeatother
+
+\usepackage{lipsum}

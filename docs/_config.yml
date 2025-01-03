@@ -1,0 +1,20 @@
+author:
+  name: "Fabio Calefato"
+  bio: "Associate Professor"
+  location: "University of Bari"
+title: "Fabio Calefato curriculum vitae"
+description: "Academic curriculum vitae of Associate Prof. Fabio Calefato"
+remote_theme: jekyll/minima
+source: .
+destination: _site
+# Add URL configuration
+#url: "https://bateman.github.io"  # Replace with your GitHub username
+baseurl: "/rendercv-pipeline"     # Replace with your repository name
+sass:
+  sass_dir: _sass
+favicon: assets/images/favicon.ico
+manifest: site.webmanifest
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme

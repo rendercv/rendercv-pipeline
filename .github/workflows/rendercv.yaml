@@ -17,11 +17,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
-      - name: RenderCV
+      - name: Install pdflatex with biber
+        run: |
+          sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-bibtex-extra texlive-fonts-extra biber -y
+      - name: Install PDFtk
+        run: |
+          sudo apt-get install pdftk -y
+      - name: Create docs folder
+        run: mkdir -p docs      
+      - name: Build CV
         run: |
           cd src
           cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
@@ -30,7 +38,20 @@ jobs:
             exit 1
           fi
           cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex
+          python src/parsebib.py
+          python src/pubmerger.py
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path ${cv_file%.yaml}.html --dont-generate-png
+          python src/genmd.py
+          pdflatex Fabio_Calefato_Publications
+          biber Fabio_Calefato_Publications
+          pdflatex Fabio_Calefato_Publications
+          pdflatex Fabio_Calefato_Publications
+          cd application_letters
+          pdflatex -job-name=hpi hpi.tex 
+          pdftk hpi.pdf ../${cv_file%.yaml}.pdf ../Fabio_Calefato_Publications.pdf Certificates/phd_certificate-ita.pdf Certificates/msc_certificate-ita.pdf cat output temp.pdf
+          python ../src/pdfnumbering.py temp.pdf Fabio_Calefato_Application_hpi.pdf 
+          rm temp.pdf
+          cd ..
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,8 +63,12 @@ jobs:
           base: HEAD
           filters: |
             cv:
-              - '*_CV.tex'
-              - 'README.md'
+              - '*.tex'
+              - '*.html'
+              - '*.pdf'
+              - '*.md'
+              - 'docs/*.md'
+              - 'application_letters/*.pdf'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |
@@ -51,4 +76,4 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
           git commit -m "render the latest CV"
-          git push
+          git push origin HEAD:main
