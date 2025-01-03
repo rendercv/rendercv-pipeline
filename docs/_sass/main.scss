@@ -6,7 +6,7 @@
 
 .site-header .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -14,12 +14,12 @@
     font-size: 34px;
     font-weight: bold;
     color: #333;
-    padding-left: 20%;
     text-decoration: none;
 }
 
 .site-title:hover {
     color: #CE9E01;
+    text-decoration: none;
 }
 
 .site-header nav {
