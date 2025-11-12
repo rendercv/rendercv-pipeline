@@ -1,11 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-  "name": "Python 3",
+  "name": "Python w/ UV",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "image": "ghcr.io/astral-sh/uv:python3.12-bookworm-slim",
   // Use 'onCreateCommand' to run commands after the container is created inside the container:
-  "onCreateCommand": "pip install --user -r requirements.txt",
+  "onCreateCommand": "uv sync",
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {

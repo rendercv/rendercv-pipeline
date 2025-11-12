@@ -15,12 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install RenderCV
-        run: |
-          pip install -r requirements.txt
+      - uses: astral-sh/setup-uv@v7
       - name: RenderCV
         run: |
           cd src
@@ -30,7 +25,7 @@ jobs:
             exit 1
           fi
           cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
+          uv run rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --typst-path ${cv_file%.yaml}.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
