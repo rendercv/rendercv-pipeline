@@ -1,0 +1,11 @@
+[project]
+name = "resume"
+version = "0.1.0"
+description = "John Does's resume as rendered w/ RenderCV"
+requires-python = ">=3.14"
+dependencies = [
+    "rendercv[full]>=2.3",
+]
+
+[tool.uv]
+required-version = ">= 0.9.8"
