@@ -10,18 +10,18 @@
 } *))
 #import "@preview/fontawesome:0.5.0": fa-icon
 
-#let name = "<<cv.name>>"
+#let name = "<<cv.name|remove_typst_commands>>"
 #let locale-catalog-page-numbering-style = context { "<<locale.page_numbering_template|replace_placeholders_with_actual_values(page_numbering_template_placeholders)>>" }
 #let locale-catalog-last-updated-date-style = "<<locale.last_updated_date_template|replace_placeholders_with_actual_values(last_updated_date_template_placeholders)>>"
 #let locale-catalog-language = "<<locale.language>>"
 #let design-page-size = "<<design.page.size>>"
-#let design-section-titles-font-size = <<design.section_titles.font_size>>
 #let design-colors-text = <<design.colors.text.as_rgb()>>
 #let design-colors-section-titles = <<design.colors.section_titles.as_rgb()>>
 #let design-colors-last-updated-date-and-page-numbering = <<design.colors.last_updated_date_and_page_numbering.as_rgb()>>
 #let design-colors-name = <<design.colors.name.as_rgb()>>
 #let design-colors-connections = <<design.colors.connections.as_rgb()>>
 #let design-colors-links = <<design.colors.links.as_rgb()>>
+#let design-section-titles-font-family = "<<design.section_titles.font_family>>"
 #let design-section-titles-bold = <<design.section_titles.bold|lower>>
 #let design-section-titles-line-thickness = <<design.section_titles.line_thickness>>
 #let design-section-titles-font-size = <<design.section_titles.font_size>>
@@ -37,8 +37,11 @@
 #let design-text-date-and-location-column-alignment = <<design.text.date_and_location_column_alignment>>
 #let design-header-photo-width = <<design.header.photo_width>>
 #let design-header-use-icons-for-connections = <<design.header.use_icons_for_connections|lower>>
+#let design-header-name-font-family = "<<design.header.name_font_family>>"
 #let design-header-name-font-size = <<design.header.name_font_size>>
 #let design-header-name-bold = <<design.header.name_bold|lower>>
+#let design-header-small-caps-for-name = <<design.header.small_caps_for_name|lower>>
+#let design-header-connections-font-family = "<<design.header.connections_font_family>>"
 #let design-header-vertical-space-between-name-and-connections = <<design.header.vertical_space_between_name_and_connections>>
 #let design-header-vertical-space-between-connections-and-first-section = <<design.header.vertical_space_between_connections_and_first_section>>
 #let design-header-use-icons-for-connections = <<design.header.use_icons_for_connections|lower>>
@@ -47,6 +50,7 @@
 #let design-header-alignment = <<design.header.alignment>>
 #let design-highlights-summary-left-margin = <<design.highlights.summary_left_margin>>
 #let design-highlights-bullet = "<<design.highlights.bullet>>"
+#let design-highlights-nested-bullet = "<<design.highlights.nested_bullet>>"
 #let design-highlights-top-margin = <<design.highlights.top_margin>>
 #let design-highlights-left-margin = <<design.highlights.left_margin>>
 #let design-highlights-vertical-space-between-highlights = <<design.highlights.vertical_space_between_highlights>>
@@ -116,6 +120,9 @@
   leading: design-text-leading,
   justify: justify,
 )
+#set enum(
+  spacing: design-entries-vertical-space-between-entries,
+)
 
 // Highlights settings:
 #let highlights(..content) = {
@@ -128,13 +135,22 @@
   )
 }
 #show list: set list(
-  marker: design-highlights-bullet,
-  spacing: 0pt,
+  marker: design-highlights-nested-bullet,
+  spacing: design-highlights-vertical-space-between-highlights,
   indent: 0pt,
   body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
 )
 
 // Entry utilities:
+#let bullet-entry(..content) = {
+  list(
+    ..content,
+    marker: design-highlights-bullet,
+    spacing: 0pt,
+    indent: 0pt,
+    body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
+  )
+}
 #let three-col(
   left-column-width: 1fr,
   middle-column-width: 1fr,
@@ -190,11 +206,16 @@
   #set par(spacing: 0pt)
   #set align(design-header-alignment)
   #set text(
+    font: design-header-name-font-family,
     weight: header-font-weight,
     size: design-header-name-font-size,
     fill: design-colors-name,
   )
-  #it.body
+  #if design-header-small-caps-for-name [
+    #smallcaps(it.body)
+  ] else [
+    #it.body
+  ]
   // Vertical space after the name
   #v(design-header-vertical-space-between-name-and-connections)
 ]
@@ -210,6 +231,7 @@
   #set align(left)
   #set text(size: (1em / 1.2)) // reset
   #set text(
+    font: design-section-titles-font-family,
     size: (design-section-titles-font-size),
     weight: section-title-font-weight,
     fill: design-colors-section-titles,
@@ -244,7 +266,7 @@
         #box(
           [
             #section-title
-            #if design-section-titles-type == "with-parial-line" [
+            #if design-section-titles-type == "with-partial-line" [
               #box(width: 1fr, height: design-section-titles-line-thickness, fill: design-colors-section-titles)
             ] else if design-section-titles-type == "with-full-line" [
 
@@ -294,6 +316,8 @@
 }
 
 #let connections(connections-list) = context {
+  set text(fill: design-colors-connections, font: design-header-connections-font-family)
+  set par(leading: design-text-leading*1.7, justify: false)
   let list-of-connections = ()
   let separator = (
     h(design-header-horizontal-space-between-connections / 2, weak: true)
@@ -329,8 +353,6 @@
     list-of-connections.push(connections-list.slice(starting-index, ending-index).join(separator))
     starting-index = ending-index
   }
-  set text(fill: design-colors-connections)
-  set par(leading: design-text-leading*1.7, justify: false)
   align(list-of-connections.join(linebreak()), design-header-alignment)
   v(design-header-vertical-space-between-connections-and-first-section - design-section-titles-vertical-space-above)
 }
